@@ -1,0 +1,14 @@
+,Component,SMILES,Count
+0,methyl alcohol,CCCO,105
+1,2-methyl-1-propanol,CC(C)O,105
+2,n-propyl alcohol,CO,105
+3,1-butanol,CCCCO,105
+4,2-propanol,CC(C)CO,105
+5,tert-butanol,CC(C)(C)O,95
+6,dibutyl ether,CCCCOCCCC,90
+7,"ethanol, 2-propoxy-",CCCOCCO,78
+8,"2,5,8-trioxanonane",CCCCCCCCC,66
+9,nonane,COCCOCCOC,66
+10,heptane,CCCCCCC,64
+11,octane,CCCCCCCC,45
+12,water,O,34

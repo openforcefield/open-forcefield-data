@@ -1,0 +1,181 @@
+,Mixture,Count
+0,tert-pentyl alcohol__heptane,450
+1,"1,3-dimethylbenzene__methyl tert-butyl ether",195
+2,"1,4-dimethylbenzene__tert-butyl ethyl ether",195
+3,"1,4-dimethylbenzene__methyl tert-butyl ether",195
+4,"1,3-dimethylbenzene__tert-butyl ethyl ether",195
+5,"1,4-butanediol__water",142
+6,.beta.-butylene glycol__water,138
+7,"1-heptanol__1,4-dioxane",126
+8,1-butanol__toluene,88
+9,"1-butanol__2,2,4-trimethylpentane",80
+10,2-propanol__cyclohexane,78
+11,"toluene__2,2,4-trimethylpentane",77
+12,ethanol__toluene,71
+13,2-butoxyethanol__1-octanol,70
+14,1-propanol__2-butoxyethanol,70
+15,2-propanol__2-butoxyethanol,70
+16,1-butanol__2-butoxyethanol,70
+17,1-hexanol__2-butoxyethanol,70
+18,2-butanol__2-butoxyethanol,70
+19,"2-propanol__1,3-propanediol",66
+20,1-butanol__methyl tert-butyl ether,66
+21,"1,3-butanediol__1,2-butanediol",66
+22,"1-propanol__1,3-propanediol",66
+23,"(RS)-2-butanol__1,2-butanediol",66
+24,"benzenemethanol__1,2-butanediol",66
+25,2-phenylethanol__1-propanol,66
+26,"2-phenylethanol__1,2-butanediol",66
+27,2-phenylethanol__2-propanol,66
+28,octane__methyl tert-butyl ether,65
+29,1-butanol__hexane,60
+30,2-methoxyethanol__2-butoxyethanol,57
+31,1-octanol__dibutyl ether,56
+32,1-pentanol__dibutyl ether,56
+33,"1,2-ethanediol__1-nonanol",55
+34,"2,2,4-trimethylpentane__methyl tert-butyl ether",55
+35,1-butanol__dibutyl ether,55
+36,1-heptanol__dibutyl ether,55
+37,1-hexanol__dibutyl ether,54
+38,"butan-1-ol__butane, 1,4-dihydroxy-",54
+39,1-butanol__cyclohexane,51
+40,toluene__tetrahydropyran,50
+41,methylcyclohexane__toluene,50
+42,benzene__tetrahydropyran,50
+43,benzene__methylcyclohexane,50
+44,"1,4-dimethylbenzene__1-nonanol",48
+45,1-butanol__octane,48
+46,ethylbenzene__1-nonanol,48
+47,tetrahydrofuran__octyl alcohol,48
+48,octane__1-octanol,48
+49,2-methoxyethanol__1-octanol,48
+50,1-butanol__decane,48
+51,"1,3-dimethylbenzene__1-nonanol",48
+52,hexane__1-octanol,48
+53,1-octanol__decane,48
+54,benzene__2-ethyl-1-hexanol,48
+55,toluene__methyl tert-butyl ether,46
+56,2-butoxyethan-1-ol__water,45
+57,benzene__cyclohexane,44
+58,"2-methoxyethanol__ethanol, 2-ethoxy-",44
+59,ethanol__heptane,39
+60,ethanol__cyclopentane,39
+61,toluene__tert-butyl ethyl ether,39
+62,ethanol__cyclohexane,39
+63,ethylbenzene__tert-butyl ethyl ether,39
+64,benzene__tert-butyl ethyl ether,39
+65,2-propanol__cyclopentane,39
+66,1-butanol__cyclopentane,39
+67,ethylbenzene__methylcyclohexane,39
+68,toluene__cyclohexane,39
+69,"2,2,4-trimethylpentane__tert-butyl ethyl ether",39
+70,ethylbenzene__cyclohexane,39
+71,2-methyl-2-propanol__tert-butyl ethyl ether,39
+72,ethanol__tert-butyl ethyl ether,39
+73,ethanol__hexane,39
+74,1-propanol__cyclohexane,39
+75,1-propanol__cyclopentane,39
+76,cyclopentane__2-pentanol,39
+77,"1,3,5-trimethylbenzene__methylcyclohexane",37
+78,"1,4-dimethylbenzene__methylcyclohexane",37
+79,1-butanol__tetrahydropyran,35
+80,"1,4-dimethylbenzene__decane",33
+81,"1,4-dioxane__cyclopentane",33
+82,"cyclohexane__1,4-dioxane",33
+83,"benzene__1,4-dioxane",33
+84,methyl phenyl ether__1-nonanol,32
+85,benzyl alcohol__1-octanol,30
+86,benzyl alcohol__1-heptanol,30
+87,benzyl alcohol__1-nonanol,30
+88,"1,3-dimethylbenzene__cyclooctane",27
+89,"cyclopentane__1,3-dioxolane",27
+90,1-propanol__water,27
+91,"benzene__1,3-dioxolane",27
+92,"cyclohexane__1,3-dioxolane",27
+93,"1,3-dimethylbenzene__methylcyclohexane",26
+94,"1,4-dimethylbenzene__cyclohexane",26
+95,"1,4-dimethylbenzene__cyclooctane",26
+96,"1,3,5-trimethylbenzene__cyclohexane",26
+97,"1,3-dimethylbenzene__cyclopentane",26
+98,"1,3,5-trimethylbenzene__cyclopentane",26
+99,"1,3-dimethylbenzene__cyclohexane",26
+100,"1,4-dimethylbenzene__cyclopentane",26
+101,"1,3,5-trimethylbenzene__cyclooctane",26
+102,1-propanol__isopropyl ether,21
+103,ethylene glycol methyl ether__water,21
+104,1-propanol__methyl tert-butyl ether,21
+105,ethanol__water,20
+106,tetrahydrofuran__water,20
+107,1-propanol__3-methyl-1-butanol,19
+108,methanol__2-methyl-1-butanol,19
+109,1-propanol__2-methyl-1-butanol,19
+110,benzene__heptane,18
+111,"1,4-dioxane__water",18
+112,ethanol__2-methyl-1-butanol,18
+113,2-butoxyethanol__water,18
+114,"2,5,8-trioxanonane__water",18
+115,2-methyl-1-propanol__decane,16
+116,"ethanol, 2-ethoxy-__water",16
+117,2-methyl-1-propanol__octane,16
+118,2-methoxyethanol__water,16
+119,2-methyl-1-propanol__hexane,16
+120,cyclohexanol__water,15
+121,"1,4-dimethylbenzene__tetrahydropyran",14
+122,"1,2-dimethylbenzene__tetrahydropyran",14
+123,n-hexane__tetrahydropyran,14
+124,tetrahydropyran__heptane,14
+125,"1,3-dimethylbenzene__tetrahydropyran",14
+126,benzene__nonane,13
+127,ethylbenzene__cyclooctane,13
+128,ethylbenzene__nonane,13
+129,ethylbenzene__octane,13
+130,benzene__octane,13
+131,benzene__cyclopentane,13
+132,toluene__cyclooctane,13
+133,"1-butanol__1,2-butanediol",13
+134,cyclohexane__tetrahydropyran,13
+135,toluene__octane,13
+136,toluene__cyclopentane,13
+137,ethylbenzene__cyclopentane,13
+138,benzene__cyclooctane,13
+139,ethylbenzene__hexane,13
+140,isobutanol__water,12
+141,methylcyclohexane__1-heptanol,12
+142,toluene__heptane,12
+143,benzene__hexane,12
+144,ethylene glycol__1-heptanol,12
+145,methanol__water,12
+146,ethylbenzene__heptane,12
+147,toluene__nonane,12
+148,"ethane, 1,1'-oxybis-__1,3-dioxolane",12
+149,toluene__hexane,11
+150,1-butanol__methylcyclohexane,11
+151,1-propanol__methoxybenzene,11
+152,methoxybenzene__methylcyclohexane,11
+153,"pentan-1-ol__1,3-dioxolane",11
+154,1-butanol__water,11
+155,"2-butoxyethanol__1,3-dioxolane",11
+156,2-methyl-1-propanol__methylcyclohexane,11
+157,ethanol__methoxybenzene,11
+158,"2-propanol__1,3-dioxolane",11
+159,"2-butoxyethanol__1-butanol, 3-methyl-",11
+160,2-propanol__methylcyclohexane,11
+161,"ethanol, 2-ethoxy-__1,3-dioxolane",11
+162,1-pentanol__methoxybenzene,11
+163,methoxybenzene__3-methyl-1-butanol,11
+164,methylcyclohexane__3-methyl-1-butanol,11
+165,1-propanol__methylcyclohexane,11
+166,1-butanol__methoxybenzene,11
+167,"ethane, 1,1'-oxybis-__pentan-1-ol",11
+168,ethanol__methylcyclohexane,11
+169,2-propanol__methoxybenzene,11
+170,"2-methoxyethanol__1,3-dioxolane",11
+171,isopropyl ether__heptane,10
+172,"isopropyl ether__2,2,4-trimethylpentane",10
+173,isopropyl ether__hexane,10
+174,ethanol__ethylene glycol,10
+175,2-ethyl-1-hexanol__ethylene glycol,10
+176,isopropyl ether__octane,10
+177,isopropyl ether__cyclohexane,9
+178,benzene__isopropyl ether,9
+179,2-methyl-2-propanol__water,6

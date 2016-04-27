@@ -8,7 +8,7 @@ FILTER PROCEDURE:
 
 1. Pull full ThermoML archive
 
-2. Discard known erroneous data (see python files for specific paeper)
+2. Discard known erroneous data (j.fluid.2013.12.014 the only one I know of now)
 
 3. Define properties of interest to pass filter
 

@@ -1,0 +1,17 @@
+,Component,SMILES,Count
+0,water,O,68
+1,"3,6-dioxa-1,8-octanediol",OCCOCCOCCO,35
+2,methoxymethane,COC,18
+3,"1,3-propanediol",OCCCO,13
+4,toluene,Cc1cccc(C)c1,12
+5,"1,3-dimethylbenzene",Cc1ccccc1,12
+6,"1,4-dimethylbenzene",Cc1ccc(C)cc1,10
+7,butane,CCCC,9
+8,ethanol,CCO,5
+9,2-methylpropane,CC(C)C,4
+10,propane,CCC,4
+11,hexane,CCCCCC,3
+12,decane,CCCCCCC,3
+13,heptane,C1CCCCCCC1,3
+14,cyclopentane,CCCCCCCCCC,3
+15,cyclooctane,C1CCCC1,3

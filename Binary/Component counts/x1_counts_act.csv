@@ -1,0 +1,44 @@
+,Component,SMILES,Count
+0,benzene,c1ccccc1,23
+1,bis(2-hydroxyethyl) ether,OCCOCCO,18
+2,2-methylpropane,CC(C)C,17
+3,propane,CCC,17
+4,toluene,Cc1ccccc1,16
+5,2-methyl-2-butanol,CCC(C)(C)O,16
+6,3-methyl-1-butanol,CC(C)CCO,15
+7,2-methyl-1-butanol,CCC(C)CO,15
+8,2-pentanol,CCCC(C)O,13
+9,triethylene glycol,OCCOCCOCCO,12
+10,3-pentanol,Cc1ccc(C)cc1,11
+11,"1,4-dimethylbenzene",CCC(O)CC,11
+12,"1,2-propanediol",CC(C)C(C)O,10
+13,"1,2-dimethylbenzene",Cc1ccccc1C,10
+14,glycerol,OCC(O)CO,10
+15,3-methyl-2-butanol,CC(O)CO,10
+16,tetrole,o1cccc1,9
+17,hexane,CCCCCC,9
+18,1-butanol,CCCCO,8
+19,butane,CCCC,8
+20,octane,CCCCCCCC,8
+21,ethylbenzene,CCc1ccccc1,7
+22,2-methoxyethanol,COCCO,7
+23,ethanol,CCCO,6
+24,"1,2-ethanediol",CCO,6
+25,1-propanol,C1CCCCC1,6
+26,pentane,OCCO,6
+27,cyclohexane,CCCCC,6
+28,2-propanol,CC(C)O,6
+29,n-decane,CO,5
+30,methanol,CCCCCCCCCC,5
+31,"1,3-dimethylbenzene",Cc1cccc(C)c1,5
+32,tert-butyl ethyl ether,CCOC(C)(C)C,4
+33,"butane, 2-ethoxy-2-methyl-",COC(C)(C)C,4
+34,methyl tert-butyl ether,CCOC(C)(C)CC,4
+35,tert-amyl methyl ether,CCC(C)(C)OC,4
+36,3-methylphenol,Cc1ccccc1O,3
+37,nonane,Cc1cccc(O)c1,3
+38,2-methylphenol,CCCCCCCCC,3
+39,p-cymene,CC1CCCCC1,1
+40,methylcyclopentane,CC1CCCC1,1
+41,naphthalene,c1ccc2ccccc2c1,1
+42,methylcyclohexane,CC(C)c1ccc(C)cc1,1

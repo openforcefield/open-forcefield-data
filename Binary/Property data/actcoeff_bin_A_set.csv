@@ -1,0 +1,206 @@
+,filename,x1,x2,smiles1,smiles2,components,Mole fraction,Activity coefficient,Activity coefficient_std
+331682,j.jct.2013.05.011,pentane,"3,6-dioxa-1,8-octanediol",CCCCC,OCCOCCOCCO,n-pentane__triethylene glycol,0,33.71,2.0226
+331683,j.jct.2013.05.011,pentane,"3,6-dioxa-1,8-octanediol",CCCCC,OCCOCCOCCO,n-pentane__triethylene glycol,0,30.84,1.8504
+331684,j.jct.2013.05.011,pentane,"3,6-dioxa-1,8-octanediol",CCCCC,OCCOCCOCCO,n-pentane__triethylene glycol,0,23.18,1.3908
+331685,j.jct.2013.05.011,hexane,"3,6-dioxa-1,8-octanediol",CCCCCC,OCCOCCOCCO,n-hexane__triethylene glycol,0,45.84,1.3752
+331686,j.jct.2013.05.011,hexane,"3,6-dioxa-1,8-octanediol",CCCCCC,OCCOCCOCCO,n-hexane__triethylene glycol,0,40.27,1.2081
+331687,j.jct.2013.05.011,hexane,"3,6-dioxa-1,8-octanediol",CCCCCC,OCCOCCOCCO,n-hexane__triethylene glycol,0,35.15,1.0545
+331688,j.jct.2013.05.011,triethylene glycol,heptane,OCCOCCOCCO,CCCCCCC,triethylene glycol__n-heptane,0,62.31,1.8693
+331689,j.jct.2013.05.011,triethylene glycol,heptane,OCCOCCOCCO,CCCCCCC,triethylene glycol__n-heptane,0,52.28,1.5684
+331690,j.jct.2013.05.011,triethylene glycol,heptane,OCCOCCOCCO,CCCCCCC,triethylene glycol__n-heptane,0,43.67,1.3101
+331691,j.jct.2013.05.011,octane,"3,6-dioxa-1,8-octanediol",CCCCCCCC,OCCOCCOCCO,n-octane__triethylene glycol,0,103.2,3.096
+331692,j.jct.2013.05.011,octane,"3,6-dioxa-1,8-octanediol",CCCCCCCC,OCCOCCOCCO,n-octane__triethylene glycol,0,73.96,2.2188
+331693,j.jct.2013.05.011,octane,"3,6-dioxa-1,8-octanediol",CCCCCCCC,OCCOCCOCCO,n-octane__triethylene glycol,0,62.86,1.8858
+331694,j.jct.2013.05.011,nonane,"3,6-dioxa-1,8-octanediol",CCCCCCCCC,OCCOCCOCCO,n-nonane__triethylene glycol,0,137,4.11
+331695,j.jct.2013.05.011,nonane,"3,6-dioxa-1,8-octanediol",CCCCCCCCC,OCCOCCOCCO,n-nonane__triethylene glycol,0,98.9,2.967
+331696,j.jct.2013.05.011,nonane,"3,6-dioxa-1,8-octanediol",CCCCCCCCC,OCCOCCOCCO,n-nonane__triethylene glycol,0,83.12,2.4936
+331718,j.jct.2013.05.011,triethylene glycol,cyclopentane,OCCOCCOCCO,C1CCCC1,triethylene glycol__cyclopentane,0,15.19,0.4557
+331719,j.jct.2013.05.011,triethylene glycol,cyclopentane,OCCOCCOCCO,C1CCCC1,triethylene glycol__cyclopentane,0,13.98,0.4194
+331720,j.jct.2013.05.011,triethylene glycol,cyclopentane,OCCOCCOCCO,C1CCCC1,triethylene glycol__cyclopentane,0,12.69,0.3807
+331721,j.jct.2013.05.011,cyclohexane,"3,6-dioxa-1,8-octanediol",C1CCCCC1,OCCOCCOCCO,cyclohexane__triethylene glycol,0,21.12,0.6336
+331722,j.jct.2013.05.011,cyclohexane,"3,6-dioxa-1,8-octanediol",C1CCCCC1,OCCOCCOCCO,cyclohexane__triethylene glycol,0,18.64,0.5592
+331723,j.jct.2013.05.011,cyclohexane,"3,6-dioxa-1,8-octanediol",C1CCCCC1,OCCOCCOCCO,cyclohexane__triethylene glycol,0,16.8,0.504
+331727,j.jct.2013.05.011,triethylene glycol,cyclooctane,OCCOCCOCCO,C1CCCCCCC1,triethylene glycol__cyclooctane,0,35.31,1.0593
+331728,j.jct.2013.05.011,triethylene glycol,cyclooctane,OCCOCCOCCO,C1CCCCCCC1,triethylene glycol__cyclooctane,0,27.17,0.8151
+331729,j.jct.2013.05.011,triethylene glycol,cyclooctane,OCCOCCOCCO,C1CCCCCCC1,triethylene glycol__cyclooctane,0,23.89,0.7167
+331730,j.jct.2013.05.011,methanol,"3,6-dioxa-1,8-octanediol",CO,OCCOCCOCCO,methanol__triethylene glycol,0,0.788,0.02364
+331731,j.jct.2013.05.011,methanol,"3,6-dioxa-1,8-octanediol",CO,OCCOCCOCCO,methanol__triethylene glycol,0,0.787,0.02361
+331732,j.jct.2013.05.011,ethanol,"3,6-dioxa-1,8-octanediol",CCO,OCCOCCOCCO,ethanol__triethylene glycol,0,1.18,0.0354
+331733,j.jct.2013.05.011,ethanol,"3,6-dioxa-1,8-octanediol",CCO,OCCOCCOCCO,ethanol__triethylene glycol,0,1.15,0.0345
+331734,j.jct.2013.05.011,ethanol,"3,6-dioxa-1,8-octanediol",CCO,OCCOCCOCCO,ethanol__triethylene glycol,0,1.12,0.0336
+331735,j.jct.2013.05.011,1-propanol,"3,6-dioxa-1,8-octanediol",CCCO,OCCOCCOCCO,1-propanol__triethylene glycol,0,1.38,0.0414
+331736,j.jct.2013.05.011,1-propanol,"3,6-dioxa-1,8-octanediol",CCCO,OCCOCCOCCO,1-propanol__triethylene glycol,0,1.34,0.0402
+331737,j.jct.2013.05.011,1-propanol,"3,6-dioxa-1,8-octanediol",CCCO,OCCOCCOCCO,1-propanol__triethylene glycol,0,1.31,0.0393
+331738,j.jct.2013.05.011,2-propanol,"3,6-dioxa-1,8-octanediol",CC(C)O,OCCOCCOCCO,2-propanol__triethylene glycol,0,1.45,0.0435
+331739,j.jct.2013.05.011,2-propanol,"3,6-dioxa-1,8-octanediol",CC(C)O,OCCOCCOCCO,2-propanol__triethylene glycol,0,1.4,0.042
+331740,j.jct.2013.05.011,2-propanol,"3,6-dioxa-1,8-octanediol",CC(C)O,OCCOCCOCCO,2-propanol__triethylene glycol,0,1.38,0.0414
+331741,j.jct.2013.05.011,benzene,"3,6-dioxa-1,8-octanediol",c1ccccc1,OCCOCCOCCO,benzene__triethylene glycol,0,3.91,0.1173
+331742,j.jct.2013.05.011,benzene,"3,6-dioxa-1,8-octanediol",c1ccccc1,OCCOCCOCCO,benzene__triethylene glycol,0,3.86,0.1158
+331743,j.jct.2013.05.011,benzene,"3,6-dioxa-1,8-octanediol",c1ccccc1,OCCOCCOCCO,benzene__triethylene glycol,0,3.36,0.1008
+331744,j.jct.2013.05.011,toluene,"3,6-dioxa-1,8-octanediol",Cc1ccccc1,OCCOCCOCCO,toluene__triethylene glycol,0,5.88,0.1764
+331745,j.jct.2013.05.011,toluene,"3,6-dioxa-1,8-octanediol",Cc1ccccc1,OCCOCCOCCO,toluene__triethylene glycol,0,5.73,0.1719
+331746,j.jct.2013.05.011,toluene,"3,6-dioxa-1,8-octanediol",Cc1ccccc1,OCCOCCOCCO,toluene__triethylene glycol,0,5.55,0.1665
+331747,j.jct.2013.05.011,ethylbenzene,"3,6-dioxa-1,8-octanediol",CCc1ccccc1,OCCOCCOCCO,ethylbenzene__triethylene glycol,0,8.63,0.2589
+331748,j.jct.2013.05.011,ethylbenzene,"3,6-dioxa-1,8-octanediol",CCc1ccccc1,OCCOCCOCCO,ethylbenzene__triethylene glycol,0,8.21,0.2463
+331749,j.jct.2013.05.011,ethylbenzene,"3,6-dioxa-1,8-octanediol",CCc1ccccc1,OCCOCCOCCO,ethylbenzene__triethylene glycol,0,7.86,0.2358
+504864,j.fluid.2006.02.022,toluene,water,Cc1ccccc1,O,toluene__water,0,8976,448.8
+504865,j.fluid.2006.02.022,toluene,water,Cc1ccccc1,O,toluene__water,0,8954,447.7
+504866,j.fluid.2006.02.022,toluene,water,Cc1ccccc1,O,toluene__water,0,8775,438.75
+504867,j.fluid.2006.02.022,toluene,water,Cc1ccccc1,O,toluene__water,0,8290,414.5
+504868,j.fluid.2006.02.022,tert-butyl ethyl ether,water,CCOC(C)(C)C,O,tert-butyl ethyl ether__water,0,325,9
+504869,j.fluid.2006.02.022,tert-butyl ethyl ether,water,CCOC(C)(C)C,O,tert-butyl ethyl ether__water,0,514,15
+504870,j.fluid.2006.02.022,tert-butyl ethyl ether,water,CCOC(C)(C)C,O,tert-butyl ethyl ether__water,0,659,20
+504871,j.fluid.2006.02.022,tert-butyl ethyl ether,water,CCOC(C)(C)C,O,tert-butyl ethyl ether__water,0,873,38
+504872,j.fluid.2006.02.022,methyl tert-butyl ether,water,COC(C)(C)C,O,methyl tert-butyl ether__water,0,127,6
+504873,j.fluid.2006.02.022,methyl tert-butyl ether,water,COC(C)(C)C,O,methyl tert-butyl ether__water,0,139,5
+504874,j.fluid.2006.02.022,methyl tert-butyl ether,water,COC(C)(C)C,O,methyl tert-butyl ether__water,0,180,6
+504875,j.fluid.2006.02.022,methyl tert-butyl ether,water,COC(C)(C)C,O,methyl tert-butyl ether__water,0,234,8
+636867,j.fluid.2013.02.008,"1,2-ethanediol",hexane,OCCO,CCCCCC,"1,2-ethanediol__hexane",0,97.8,2.934
+636868,j.fluid.2013.02.008,"1,2-ethanediol",hexane,OCCO,CCCCCC,"1,2-ethanediol__hexane",0,88.1,2.643
+636869,j.fluid.2013.02.008,"1,2-ethanediol",hexane,OCCO,CCCCCC,"1,2-ethanediol__hexane",0,80.6,2.418
+636874,j.fluid.2013.02.008,"1,2-ethanediol",decane,OCCO,CCCCCCCCCC,"1,2-ethanediol__decane",0,1680,50.4
+636875,j.fluid.2013.02.008,"1,2-ethanediol",decane,OCCO,CCCCCCCCCC,"1,2-ethanediol__decane",0,1210,36.3
+636876,j.fluid.2013.02.008,"1,2-ethanediol",decane,OCCO,CCCCCCCCCC,"1,2-ethanediol__decane",0,804,24.12
+636879,j.fluid.2013.02.008,hexane,"1,3-propanediol",CCCCCC,OCCCO,"hexane__1,3-propanediol",0,77.2,2.316
+636880,j.fluid.2013.02.008,hexane,"1,3-propanediol",CCCCCC,OCCCO,"hexane__1,3-propanediol",0,72.9,2.187
+636881,j.fluid.2013.02.008,hexane,"1,3-propanediol",CCCCCC,OCCCO,"hexane__1,3-propanediol",0,52.4,1.572
+636882,j.fluid.2013.02.008,octane,"1,3-propanediol",CCCCCCCC,OCCCO,"octane__1,3-propanediol",0,314,9.42
+636883,j.fluid.2013.02.008,octane,"1,3-propanediol",CCCCCCCC,OCCCO,"octane__1,3-propanediol",0,283,8.49
+636884,j.fluid.2013.02.008,octane,"1,3-propanediol",CCCCCCCC,OCCCO,"octane__1,3-propanediol",0,224,6.72
+636885,j.fluid.2013.02.008,octane,"1,3-propanediol",CCCCCCCC,OCCCO,"octane__1,3-propanediol",0,187,5.61
+636886,j.fluid.2013.02.008,octane,"1,3-propanediol",CCCCCCCC,OCCCO,"octane__1,3-propanediol",0,148,4.44
+636887,j.fluid.2013.02.008,n-decane,"1,3-propanediol",CCCCCCCCCC,OCCCO,"decane__1,3-propanediol",0,793,23.79
+636888,j.fluid.2013.02.008,n-decane,"1,3-propanediol",CCCCCCCCCC,OCCCO,"decane__1,3-propanediol",0,589,17.67
+636889,j.fluid.2013.02.008,n-decane,"1,3-propanediol",CCCCCCCCCC,OCCCO,"decane__1,3-propanediol",0,501,15.03
+636890,j.fluid.2013.02.008,n-decane,"1,3-propanediol",CCCCCCCCCC,OCCCO,"decane__1,3-propanediol",0,464,13.92
+636891,j.fluid.2013.02.008,n-decane,"1,3-propanediol",CCCCCCCCCC,OCCCO,"decane__1,3-propanediol",0,338,10.14
+700369,j.fluid.2015.01.010,1-butanol,water,CCCCO,O,1-butanol__water,0,52,1
+700370,j.fluid.2015.01.010,1-butanol,water,CCCCO,O,1-butanol__water,0,57,0.1
+700371,j.fluid.2015.01.010,1-butanol,water,CCCCO,O,1-butanol__water,0,58,1
+700372,j.fluid.2015.01.010,1-butanol,water,CCCCO,O,1-butanol__water,0,64,0.8
+700373,j.fluid.2015.01.010,1-butanol,water,CCCCO,O,1-butanol__water,0,69,0.7
+700374,j.fluid.2015.01.010,1-butanol,water,CCCCO,O,1-butanol__water,0,72,0.7
+700375,j.fluid.2015.01.010,1-butanol,water,CCCCO,O,1-butanol__water,0,80,0.8
+700376,j.fluid.2015.01.010,1-butanol,water,CCCCO,O,1-butanol__water,0,78,0.9
+994139,je060395n,benzene,propane,c1ccccc1,CCC,benzene__propane,0,2.52,0.0756
+994140,je060395n,benzene,propane,c1ccccc1,CCC,benzene__propane,0,2.42,0.0726
+994141,je060395n,benzene,propane,c1ccccc1,CCC,benzene__propane,0,2.23,0.0669
+994142,je060395n,benzene,propane,c1ccccc1,CCC,benzene__propane,0,2.11,0.0633
+994149,je060395n,propane,toluene,CCC,Cc1ccccc1,propane__toluene,0,2.05,0.0615
+994150,je060395n,propane,toluene,CCC,Cc1ccccc1,propane__toluene,0,1.95,0.0585
+994151,je060395n,propane,toluene,CCC,Cc1ccccc1,propane__toluene,0,1.86,0.0558
+994152,je060395n,propane,toluene,CCC,Cc1ccccc1,propane__toluene,0,1.81,0.0543
+994169,je060395n,propane,"1,3-dimethylbenzene",CCC,Cc1cccc(C)c1,"propane__1,3-dimethylbenzene",0,1.86,0.0558
+994170,je060395n,propane,"1,3-dimethylbenzene",CCC,Cc1cccc(C)c1,"propane__1,3-dimethylbenzene",0,1.83,0.0549
+994171,je060395n,propane,"1,3-dimethylbenzene",CCC,Cc1cccc(C)c1,"propane__1,3-dimethylbenzene",0,1.77,0.0531
+994172,je060395n,propane,"1,3-dimethylbenzene",CCC,Cc1cccc(C)c1,"propane__1,3-dimethylbenzene",0,1.72,0.0516
+994178,je060395n,propane,"1,4-dimethylbenzene",CCC,Cc1ccc(C)cc1,"propane__1,4-dimethylbenzene",0,1.73,0.0519
+994179,je060395n,propane,"1,4-dimethylbenzene",CCC,Cc1ccc(C)cc1,"propane__1,4-dimethylbenzene",0,1.7,0.051
+994180,je060395n,propane,"1,4-dimethylbenzene",CCC,Cc1ccc(C)cc1,"propane__1,4-dimethylbenzene",0,1.67,0.0501
+994181,je060395n,propane,"1,4-dimethylbenzene",CCC,Cc1ccc(C)cc1,"propane__1,4-dimethylbenzene",0,1.68,0.0504
+994182,je060395n,propane,"1,4-dimethylbenzene",CCC,Cc1ccc(C)cc1,"propane__1,4-dimethylbenzene",0,1.66,0.0498
+994251,je060395n,benzene,butane,c1ccccc1,CCCC,benzene__butane,0,2.51,0.0753
+994252,je060395n,benzene,butane,c1ccccc1,CCCC,benzene__butane,0,2.36,0.0708
+994253,je060395n,benzene,butane,c1ccccc1,CCCC,benzene__butane,0,2.22,0.0666
+994254,je060395n,benzene,butane,c1ccccc1,CCCC,benzene__butane,0,1.96,0.0588
+994261,je060395n,butane,toluene,CCCC,Cc1ccccc1,butane__toluene,0,1.97,0.0591
+994262,je060395n,butane,toluene,CCCC,Cc1ccccc1,butane__toluene,0,1.88,0.0564
+994263,je060395n,butane,toluene,CCCC,Cc1ccccc1,butane__toluene,0,1.79,0.0537
+994264,je060395n,butane,toluene,CCCC,Cc1ccccc1,butane__toluene,0,1.71,0.0513
+994281,je060395n,butane,"1,3-dimethylbenzene",CCCC,Cc1cccc(C)c1,"butane__1,3-dimethylbenzene",0,1.77,0.0531
+994282,je060395n,butane,"1,3-dimethylbenzene",CCCC,Cc1cccc(C)c1,"butane__1,3-dimethylbenzene",0,1.73,0.0519
+994283,je060395n,butane,"1,3-dimethylbenzene",CCCC,Cc1cccc(C)c1,"butane__1,3-dimethylbenzene",0,1.7,0.051
+994284,je060395n,butane,"1,3-dimethylbenzene",CCCC,Cc1cccc(C)c1,"butane__1,3-dimethylbenzene",0,1.61,0.0483
+994290,je060395n,"1,4-dimethylbenzene",butane,Cc1ccc(C)cc1,CCCC,"1,4-dimethylbenzene__butane",0,1.68,0.0504
+994291,je060395n,"1,4-dimethylbenzene",butane,Cc1ccc(C)cc1,CCCC,"1,4-dimethylbenzene__butane",0,1.64,0.0492
+994292,je060395n,"1,4-dimethylbenzene",butane,Cc1ccc(C)cc1,CCCC,"1,4-dimethylbenzene__butane",0,1.61,0.0483
+994293,je060395n,"1,4-dimethylbenzene",butane,Cc1ccc(C)cc1,CCCC,"1,4-dimethylbenzene__butane",0,1.58,0.0474
+994294,je060395n,"1,4-dimethylbenzene",butane,Cc1ccc(C)cc1,CCCC,"1,4-dimethylbenzene__butane",0,1.56,0.0468
+994307,je060395n,benzene,2-methylpropane,c1ccccc1,CC(C)C,benzene__2-methylpropane,0,2.81,0.0843
+994308,je060395n,benzene,2-methylpropane,c1ccccc1,CC(C)C,benzene__2-methylpropane,0,2.64,0.0792
+994309,je060395n,benzene,2-methylpropane,c1ccccc1,CC(C)C,benzene__2-methylpropane,0,2.43,0.0729
+994310,je060395n,benzene,2-methylpropane,c1ccccc1,CC(C)C,benzene__2-methylpropane,0,2.19,0.0657
+994317,je060395n,2-methylpropane,toluene,CC(C)C,Cc1ccccc1,2-methylpropane__toluene,0,2.25,0.0675
+994318,je060395n,2-methylpropane,toluene,CC(C)C,Cc1ccccc1,2-methylpropane__toluene,0,2.12,0.0636
+994319,je060395n,2-methylpropane,toluene,CC(C)C,Cc1ccccc1,2-methylpropane__toluene,0,2.01,0.0603
+994320,je060395n,2-methylpropane,toluene,CC(C)C,Cc1ccccc1,2-methylpropane__toluene,0,1.91,0.0573
+994337,je060395n,2-methylpropane,"1,3-dimethylbenzene",CC(C)C,Cc1cccc(C)c1,"2-methylpropane__1,3-dimethylbenzene",0,2.04,0.0612
+994338,je060395n,2-methylpropane,"1,3-dimethylbenzene",CC(C)C,Cc1cccc(C)c1,"2-methylpropane__1,3-dimethylbenzene",0,1.97,0.0591
+994339,je060395n,2-methylpropane,"1,3-dimethylbenzene",CC(C)C,Cc1cccc(C)c1,"2-methylpropane__1,3-dimethylbenzene",0,1.89,0.0567
+994340,je060395n,2-methylpropane,"1,3-dimethylbenzene",CC(C)C,Cc1cccc(C)c1,"2-methylpropane__1,3-dimethylbenzene",0,1.8,0.054
+994346,je060395n,2-methylpropane,"1,4-dimethylbenzene",CC(C)C,Cc1ccc(C)cc1,"2-methylpropane__1,4-dimethylbenzene",0,1.91,0.0573
+994347,je060395n,2-methylpropane,"1,4-dimethylbenzene",CC(C)C,Cc1ccc(C)cc1,"2-methylpropane__1,4-dimethylbenzene",0,1.86,0.0558
+994348,je060395n,2-methylpropane,"1,4-dimethylbenzene",CC(C)C,Cc1ccc(C)cc1,"2-methylpropane__1,4-dimethylbenzene",0,1.83,0.0549
+994349,je060395n,2-methylpropane,"1,4-dimethylbenzene",CC(C)C,Cc1ccc(C)cc1,"2-methylpropane__1,4-dimethylbenzene",0,1.79,0.0537
+994350,je060395n,2-methylpropane,"1,4-dimethylbenzene",CC(C)C,Cc1ccc(C)cc1,"2-methylpropane__1,4-dimethylbenzene",0,1.74,0.0522
+994643,je060395n,benzene,methoxymethane,c1ccccc1,COC,benzene__methoxymethane,0,1.13,0.0339
+994644,je060395n,benzene,methoxymethane,c1ccccc1,COC,benzene__methoxymethane,0,1.15,0.0345
+994645,je060395n,benzene,methoxymethane,c1ccccc1,COC,benzene__methoxymethane,0,1.18,0.0354
+994646,je060395n,benzene,methoxymethane,c1ccccc1,COC,benzene__methoxymethane,0,1.26,0.0378
+994652,je060395n,toluene,methoxymethane,Cc1ccccc1,COC,toluene__methoxymethane,0,1.07,0.0321
+994653,je060395n,toluene,methoxymethane,Cc1ccccc1,COC,toluene__methoxymethane,0,1.1,0.033
+994654,je060395n,toluene,methoxymethane,Cc1ccccc1,COC,toluene__methoxymethane,0,1.13,0.0339
+994655,je060395n,toluene,methoxymethane,Cc1ccccc1,COC,toluene__methoxymethane,0,1.16,0.0348
+994656,je060395n,toluene,methoxymethane,Cc1ccccc1,COC,toluene__methoxymethane,0,1.17,0.0351
+994673,je060395n,"1,3-dimethylbenzene",methoxymethane,Cc1cccc(C)c1,COC,"1,3-dimethylbenzene__methoxymethane",0,1.22,0.0366
+994674,je060395n,"1,3-dimethylbenzene",methoxymethane,Cc1cccc(C)c1,COC,"1,3-dimethylbenzene__methoxymethane",0,1.21,0.0363
+994675,je060395n,"1,3-dimethylbenzene",methoxymethane,Cc1cccc(C)c1,COC,"1,3-dimethylbenzene__methoxymethane",0,1.21,0.0363
+994676,je060395n,"1,3-dimethylbenzene",methoxymethane,Cc1cccc(C)c1,COC,"1,3-dimethylbenzene__methoxymethane",0,1.21,0.0363
+994682,je060395n,"1,4-dimethylbenzene",methoxymethane,Cc1ccc(C)cc1,COC,"1,4-dimethylbenzene__methoxymethane",0,1.17,0.0351
+994683,je060395n,"1,4-dimethylbenzene",methoxymethane,Cc1ccc(C)cc1,COC,"1,4-dimethylbenzene__methoxymethane",0,1.18,0.0354
+994684,je060395n,"1,4-dimethylbenzene",methoxymethane,Cc1ccc(C)cc1,COC,"1,4-dimethylbenzene__methoxymethane",0,1.18,0.0354
+994685,je060395n,"1,4-dimethylbenzene",methoxymethane,Cc1ccc(C)cc1,COC,"1,4-dimethylbenzene__methoxymethane",0,1.2,0.036
+994686,je060395n,"1,4-dimethylbenzene",methoxymethane,Cc1ccc(C)cc1,COC,"1,4-dimethylbenzene__methoxymethane",0,1.2,0.036
+1632196,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,58.8,1.764
+1632197,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,73.9,2.217
+1632198,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,89.2,2.676
+1632199,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,86.1,2.583
+1632200,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,104,3.12
+1632201,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,103,3.09
+1632202,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,119,3.57
+1632203,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,129,3.87
+1632204,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,134,4.02
+1632205,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,134,4.02
+1632206,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,124,3.72
+1632207,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,130,3.9
+1632208,je901063s,2-pentanol,water,CCCC(C)O,O,pentan-2-ol__water,0,118,3.54
+1632220,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,86.3,2.589
+1632221,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,117,3.51
+1632222,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,138,4.14
+1632223,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,134,4.02
+1632224,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,158,4.74
+1632225,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,151,4.53
+1632226,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,163,4.89
+1632227,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,173,5.19
+1632228,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,180,5.4
+1632229,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,173,5.19
+1632230,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,170,5.1
+1632231,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,179,5.37
+1632232,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,169,5.07
+1632233,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,160,4.8
+1632234,je901063s,2-methyl-1-butanol,water,CCC(C)CO,O,2-methyl-1-butanol__water,0,162,4.86
+1632238,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,94.9,2.847
+1632239,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,126,3.78
+1632240,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,148,4.44
+1632241,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,146,4.38
+1632242,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,161,4.83
+1632243,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,164,4.92
+1632244,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,173,5.19
+1632245,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,175,5.25
+1632246,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,179,5.37
+1632247,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,184,5.52
+1632248,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,182,5.46
+1632249,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,178,5.34
+1632250,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,179,5.37
+1632251,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,164,4.92
+1632252,je901063s,3-methyl-1-butanol,water,CC(C)CCO,O,"1-butanol, 3-methyl-__water",0,149,4.47
+1642028,cs.jced.5b00116,glycerol,water,OCC(O)CO,O,glycerol__water,,0.73,0.0365
+1642029,cs.jced.5b00116,glycerol,water,OCC(O)CO,O,glycerol__water,,0.75,0.0375
+1642030,cs.jced.5b00116,glycerol,water,OCC(O)CO,O,glycerol__water,,0.78,0.039
+1642031,cs.jced.5b00116,glycerol,water,OCC(O)CO,O,glycerol__water,,0.79,0.0395
+1642032,cs.jced.5b00116,glycerol,water,OCC(O)CO,O,glycerol__water,,0.8,0.04
+1642033,cs.jced.5b00116,glycerol,ethanol,OCC(O)CO,CCO,glycerol__ethanol,,4.76,0.238
+1642034,cs.jced.5b00116,glycerol,ethanol,OCC(O)CO,CCO,glycerol__ethanol,,3.98,0.199
+1642035,cs.jced.5b00116,glycerol,ethanol,OCC(O)CO,CCO,glycerol__ethanol,,3.73,0.1865
+1642036,cs.jced.5b00116,glycerol,ethanol,OCC(O)CO,CCO,glycerol__ethanol,,3.52,0.176
+1642037,cs.jced.5b00116,glycerol,ethanol,OCC(O)CO,CCO,glycerol__ethanol,,3.25,0.1625

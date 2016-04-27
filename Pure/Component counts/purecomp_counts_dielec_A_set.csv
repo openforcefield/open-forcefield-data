@@ -1,0 +1,27 @@
+,Component,SMILES,Count
+0,methoxymethane,COC,145
+1,toluene,Cc1ccccc1,51
+2,water,O,31
+3,1-butanol,CCCCO,11
+4,1-pentanol,CCCCCO,10
+5,"1,2-dimethoxyethane",COCCOCCOC,9
+6,"2,5,8-trioxanonane",COCCOC,9
+7,octane,CCO,8
+8,ethanol,CCCCCCCC,8
+9,1-propanol,CO,7
+10,methanol,CCCO,7
+11,"1,2-propanediol",CCCCCCCCC,6
+12,nonane,CC(O)CO,6
+13,2-propanol,CC(C)O,5
+14,dibutyl ether,CC(C)CO,5
+15,2-methyl-1-propanol,CCCCOCCCC,5
+16,heptane,C1COCCO1,3
+17,triethylene glycol,CCCCCCC,3
+18,bis(2-hydroxyethyl) ether,CCCCC(CC)CO,3
+19,"1,4-dioxane",OCCOCCO,3
+20,2-ethyl-1-hexanol,OCCOCCOCCO,3
+21,1-octanol,CCCCCCCCO,2
+22,1-heptanol,CCCCCCO,2
+23,glycerol,CCCCCCCO,2
+24,1-hexanol,OCC(O)CO,2
+25,"1,2-ethanediol",OCCO,1

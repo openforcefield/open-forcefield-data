@@ -1,0 +1,70 @@
+,Component,SMILES,Count
+0,toluene,Cc1ccccc1,235
+1,water,O,178
+2,methanol,CO,142
+3,heptane,CCCCCCC,132
+4,hexane,CCCCCC,93
+5,ethanol,CCO,90
+6,1-butanol,CCCCO,85
+7,nonane,CCCCCCCCC,81
+8,1-propanol,CCCCCCCCO,78
+9,1-octanol,CCCCCO,78
+10,1-pentanol,CCCO,78
+11,1-heptanol,CCCCCCCO,77
+12,"2,5,8-trioxanonane",COCCOCCOC,71
+13,"1,2-dimethoxyethane",COCCOC,70
+14,1-hexanol,CCCCCCO,64
+15,"1,3-butanediol",CC(O)CCO,63
+16,1-nonanol,CCCCCCCCCO,62
+17,"1,2-butanediol",CCC(O)CO,60
+18,"1,3-propanediol",OCCCO,56
+19,cyclohexane,C1CCCCC1,55
+20,2-propanol,CC(C)O,53
+21,hexylene glycol,OCCCCCCO,49
+22,2-ethyl-1-butanol,CCC(CC)CO,48
+23,"1,4-butanediol",c1ccccc1,45
+24,benzene,OCCCCO,45
+25,tetrahydrofuran,Cc1ccc(C)cc1,43
+26,2-methyl-2-butanol,CCC(C)CO,43
+27,"1,4-dimethylbenzene",CCC(C)(C)O,43
+28,2-methyl-1-butanol,C1CCOC1,43
+29,"1,2-propanediol",CC(O)CO,40
+30,methyl tert-butyl ether,COC(C)(C)C,33
+31,"1,4-dioxane",C1COCCO1,32
+32,xylene,Cc1ccccc1C,31
+33,"1,2-ethanediol",OCCO,26
+34,tert-butyl ethyl ether,CCOC(C)(C)C,24
+35,"1,3-dimethylbenzene",CC(C)OC(C)C,22
+36,isopropyl ether,Cc1cccc(C)c1,22
+37,decane,CCCCCCCCCC,21
+38,tetrahydropyran,C1CCOCC1,19
+39,octane,CCCCCCCC,16
+40,2-methyl-2-propanol,CC(C)(C)O,16
+41,cyclopentane,C1CCCC1,15
+42,2-methyl-1-propanol,CC(C)CO,15
+43,ethylbenzene,CCc1ccccc1,14
+44,butan-2-ol,CCC(C)O,13
+45,2-phenylethanol,CC(C)CC(C)(C)C,12
+46,"2,2,4-trimethylpentane",OCCOCCOCCO,12
+47,bis(2-hydroxyethyl) ether,OCCc1ccccc1,12
+48,triethylene glycol,OCCOCCO,12
+49,"ethanol, 2-ethoxy-",C1COCO1,11
+50,"1,3-dioxolane",CCOCCO,11
+51,benzyl alcohol,COCCO,10
+52,2-methoxyethanol,OCc1ccccc1,10
+53,methylcyclohexane,CC1CCCCC1,8
+54,methoxybenzene,CCCCOCCCC,6
+55,2-pentanol,COc1ccccc1,6
+56,dibutyl ether,CCCC(C)O,6
+57,2-butoxyethanol,CCCCOCCO,5
+58,1-propoxy-2-propanol,CCCOCC(C)O,5
+59,3-methyl-1-butanol,CC(C)CCO,4
+60,cyclooctane,CCCCC(CC)CO,4
+61,2-ethyl-1-hexanol,C1CCCCCCC1,4
+62,"1,3,5-trimethylbenzene",Cc1cc(C)cc(C)c1,3
+63,2-heptanol,CCCCCC(C)O,2
+64,2-hexanol,CCCCCCC(C)O,2
+65,2-octanol,CCCCC(C)O,2
+66,diethyl ether,CC(O)C(C)O,1
+67,2-isopropoxyethanol,CC(C)OCCO,1
+68,"2,3-butanediol",CCOCC,1

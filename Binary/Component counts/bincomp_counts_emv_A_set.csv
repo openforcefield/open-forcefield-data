@@ -1,0 +1,20 @@
+,Component,Component Count,SMILES,SMILES Count
+0,water,504,O,504
+1,"1,4-butanediol",163,OCCCCO,163
+2,"1,2-ethanediol",135,OCCO,135
+3,"1,2-propanediol",114,CC(O)CO,114
+4,"1,3-propanediol",104,OCCCO,104
+5,tetrahydropyran,98,C1CCOCC1,98
+6,1-butanol,71,CCCCO,71
+7,hexane,68,CCCCCC,68
+8,2-methyl-2-butanol,39,C1CCOC1,39
+9,tetrahydrofuran,39,CCC(C)(C)O,39
+10,ethanol,23,CCO,23
+11,"1,4-dimethylbenzene",14,CCCCCCC,14
+12,heptane,14,Cc1cccc(C)c1,14
+13,"1,3-dimethylbenzene",14,CCC(O)CO,14
+14,toluene,14,C1CCCCC1,14
+15,"1,3-butanediol",14,c1ccccc1,14
+16,"1,2-butanediol",14,CC(O)CCO,14
+17,cyclohexane,14,Cc1ccccc1,14
+18,benzene,14,Cc1ccc(C)cc1,14

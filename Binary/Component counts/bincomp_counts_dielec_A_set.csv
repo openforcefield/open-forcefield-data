@@ -1,0 +1,21 @@
+,Component,Component Count,SMILES,SMILES Count
+0,methanol,515,CO,620.0
+1,nonane,132,CCCCCCCCC,132.0
+2,methyl alcohol,105,CC(C)CO,105.0
+3,n-propyl alcohol,105,CCCCO,105.0
+4,2-methyl-1-propanol,105,CCO,105.0
+5,1-butanol,105,CC(C)O,105.0
+6,ethanol,105,CCCO,105.0
+7,2-propanol,105,COCCOCCOC,99.0
+8,"2,5,8-trioxanonane",99,COCCOC,97.0
+9,"1,2-dimethoxyethane",97,CC(C)(C)O,95.0
+10,tert-butanol,95,CCCCOCCCC,90.0
+11,dibutyl ether,90,CCCCCCCC,90.0
+12,octane,90,CCCCCO,90.0
+13,1-pentanol,90,CCCCCCC,64.0
+14,heptane,64,O,34.0
+15,water,34,OCCO,10.0
+16,"1,2-ethanediol",10,OCC(O)CO,8.0
+17,glycerol,8,OCCCO,8.0
+18,"1,2-propanediol",8,CC(O)CO,8.0
+19,"1,3-propanediol",8,,

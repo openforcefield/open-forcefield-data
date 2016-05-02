@@ -1,7 +1,7 @@
 # open-forcefield-data
 Datasets for open forcefield parameterization and development
 
-# General protocol for filtering data
+# General protocol for filtering ThermoML data for pure solvent data
 ThermoML data compiled and filtered using ThermoPyL tool developed by Chodera Lab @ MSKCC (https://github.com/choderalab/thermopyl)
 
 FILTER PROCEDURE:
@@ -30,4 +30,11 @@ FILTER PROCEDURE:
 11. Generate counts by component and journal article for all dataframes
 
 12. Save everything as separate text .csv
+
+
+# Energetic data for model systems
+
+## Toy dataset for alkanes, alcohols, and ethers
+
+Christopher I. Bayly developed a toy dataset of potential molecules of interest which is deposited in the "Model Systems" directory in the "AlkEthOH_distrib" subdirectory. Construction of this set is described in the README.txt there, which should be converted to md.
   

@@ -1,0 +1,76 @@
+# SMARFF (SMARTS Force Field) mockup1.0 for alkanes, ethers, and alcohols
+# Date: Tue May  3 2016
+# Author: C. I. Bayly, OpenEye Scientific Software
+# This mockup is based on frcmod.Frosst_AlkEthOH, the minimal subset of parm99/parm@Frosst
+# required for alkanes, ethers, and alcohols (excluding ketals and 3-memb-rings)
+#
+# masses
+[#1]     parMass  (  1.008 )   parNum m01 {from parm99}
+[#6]     parMass  ( 12.01  )   parNum m02 {from parm99}
+[#8]     parMass  ( 16.00  )   parNum m03 {from parm99}
+
+# bonds
+[#6X4]-[#6X4]    parBond  (1.526, 310.0) parNum b001 {CT-CT from frcmod.Frosst_AlkEthOH}
+[#6X4]-[#1]      parBond  (1.090, 340.0) parNum b002 {CT-H_ from frcmod.Frosst_AlkEthOH}
+[#6X4]-[O&X2&H1] parBond  (1.410, 320.0) parNum b003 {CT-OH from frcmod.Frosst_AlkEthOH}
+[#6X4]-[O&X2&H0] parBond  (1.370, 320.0) parNum b004 {CT-OS from frcmod.Frosst_AlkEthOH}
+[#8X2]-[#1]      parBond  (0.960, 553.0) parNum b005 {OH-HO from frcmod.Frosst_AlkEthOH}
+
+# angles
+[a,A]-[#6X4]-[a,A]   parAng (109.50, 50.0) parNum a001 {consensus matches all X-Csp3-X}
+[#1]-[#6X4]-[#1]     parAng (109.50, 35.0) parNum a002 {H1-CT-H1 from frcmod.Frosst_AlkEthOH}
+[#6X4]-[#6X4]-[#6X4] parAng (109.50, 40.0) parNum a003 {CT-CT-CT from frcmod.Frosst_AlkEthOH}
+[#8X2]-[#6X4]-[#8X2] parAng (109.50, 70.0) parNum a004 {O_-CT-O_ from frcmod.Frosst_AlkEthOH}
+[#6X4]-[#8X2]-[#1]   parAng (108.50, 55.0) parNum a005 {CT-OH-HO from frcmod.Frosst_AlkEthOH}
+[#6X4]-[#8X2]-[#6X4] parAng (109.50, 60.0) parNum a006 {CT-OS-CT from frcmod.Frosst_AlkEthOH}
+
+# torsions
+[a,A]-[#6X4]-[#6X4]-[a,A]   parTor ( (9, 1.40, 0.0, 3) ) parNum t0001 {X -CT-CT-X from frcmod.Frosst_AlkEthOH}
+[a,A]-[#6X4]-[#8X2]-[#1]    parTor ( (3, 0.50, 0.0, 3) ) parNum t0002 {X -CT-OH-X from frcmod.Frosst_AlkEthOH}
+[a,A]-[#6X4]-[#8X2]-[!#1]   parTor ( (3, 1.15, 0.0, 3) ) parNum t0003 {X -CT-OS-X from frcmod.Frosst_AlkEthOH}
+[#1]-[#6X4]-[#6X4]-[#1]     parTor ( (1, 0.15, 0.0, 3) ) parNum t0004 {HC-CT-CT-HC from frcmod.Frosst_AlkEthOH}
+[#1]-[#6X4]-[#6X4]-[#6X4]   parTor ( (1, 0.16, 0.0, 3) ) parNum t0005 {HC-CT-CT-CT from frcmod.Frosst_AlkEthOH}
+
+[#6X4]-[#6X4]-[#8X2]-[#1]   parTor ( (1, 0.16, 0.0, 3),
+                                     (1, 0.25, 0.0, 1) ) parNum t0006 {HO-OH-CT-CT from frcmod.Frosst_AlkEthOH}
+
+[#6X4]-[#6X4]-[#6X4]-[#6X4] parTor ( (1, 0.18,   0., 3),
+                                     (1, 0.25, 180., 2),
+                                     (1, 0.20, 180., 1) ) parNum t0007 {CT-CT-CT-CT from frcmod.Frosst_AlkEthOH}
+
+[#6X4]-[#6X4]-[#8X2]-[#6X4] parTor ( (1, 0.383,  0., 3),
+                                     (1, 0.1,  180., 2) ) parNum t0008 {CT-CT-OS-CT from frcmod.Frosst_AlkEthOH}
+
+[#6X4]-[#8X2]-[#6X4]-[O&X2&H0] parTor ( (1, 0.10,   0., 3),
+                                     (1, 0.85, 180., 2),
+                                     (1, 1.35, 180., 1) ) parNum t0009 {CT-OS-CT-OS from frcmod.Frosst_AlkEthOH}
+
+[#8X2]-[#6X4]-[#6X4]-[#8X2] parTor ( (1, 0.144,  0., 3),
+                                     (1, 0.175,  0., 2) ) parNum t0010 {O_-CT-CT-O_ from frcmod.Frosst_AlkEthOH}
+
+[#8X2]-[#6X4]-[#6X4]-[#1]   parTor ( (1, 0.00, 0.0, 3),
+                                     (1, 0.25, 0.0, 1) ) parNum t0011 {H_-CT-CT-O_ from frcmod.Frosst_AlkEthOH, note parm@Frosst discrepancy with H2,H3-CT-CT-O_ }
+
+# improper torsions
+# right now none so placeholder for unrelated chemistry is provided to show form
+[a,A]~[#6X3]([a,A])~[OX1]       parImpr (10.5, 180., 2 )  parNum i001 {X -X -C -O  from frcmod.Frosst_AlkEthOH}
+[a,A]~[#6X3]([a,A])~[#6X3]      parImpr ( 1.1, 180., 2 )  parNum i002 {CA-CA-CA-CT from frcmod.Frosst_AlkEthOH}
+[a,A]~[#6X3]([a,A])~[#1}        parImpr ( 1.1, 180., 2 )  parNum i003 {X -X -C_-H_ from frcmod.Frosst_AlkEthOH}
+
+# vdW
+[#1]                            parVdw ( 1.4870, 0.0157 ) parNum v001 {making HC the generic hydrogen}
+[$([#1]-C)]                     parVdw ( 1.4870, 0.0157 ) parNum v002 {HC from frcmod.Frosst_AlkEthOH}
+[$([#1]-C-[#7,#8,F,#16,Cl,Br])] parVdw ( 1.3870, 0.0157 ) parNum v003 {H1 from frcmod.Frosst_AlkEthOH}
+[$([#1]-C(-[#7,#8,F,#16,Cl,Br])-[#7,#8,F,#16,Cl,Br])]
+                                parVdw ( 1.2870, 0.0157 ) parNum v004 {H2 from frcmod.Frosst_AlkEthOH}
+[$([#1]-C(-[#7,#8,F,#16,Cl,Br])(-[#7,#8,F,#16,Cl,Br])-[#7,#8,F,#16,Cl,Br])]
+                                parVdw ( 1.1870, 0.0157 ) parNum v005 {H3 from frcmod.Frosst_AlkEthOH}
+[#1$(*-[#8])]                   parVdw ( 0.0000, 0.0000 ) parNum v006 {HO from frcmod.Frosst_AlkEthOH}
+
+[#6]                            parVdw ( 1.9080, 0.1094 ) parNum v007 {making CT the generic carbon}
+[#6X4]                          parVdw ( 1.9080, 0.1094 ) parNum v008 {CT from frcmod.Frosst_AlkEthOH}
+
+[#8]                            parVdw ( 1.6837, 0.1700 ) parNum v009 {making OS the generic oxygen}
+[#8X2]                          parVdw ( 1.6837, 0.1700 ) parNum v010 {OS from frcmod.Frosst_AlkEthOH}
+[OX2+0$(*-[#1])]                parVdw ( 1.7210, 0.2104 ) parNum v011 {OH from frcmod.Frosst_AlkEthOH}
+

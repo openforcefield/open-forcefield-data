@@ -1,0 +1,188 @@
+Tue May  3 13:57:29 MDT 2016
+
+This text file accompanies the smarff (smarts force field) file
+smarff_mockup1.Frosst_AlkEthOH. It represents my best initial
+efforts to put into some kind of smarff format a force field that
+embodies frcmod.Frosst_AlkEthOH, all of frcmod.Frosst_AlkEthOH, and
+nothing but frcmod.Frosst_AlkEthOH. That smarff file is both thus
+both real and a mockup. 
+
+How it is real: all the correct SMARTS string are paired with 
+all the correct parameters in order to mimic the behaviour of
+frcmod.Frosst_AlkEthOH with parmaFrosst_atyper_v1.2.xpat atom typing.
+Note that no SMIRKS format is used, only SMARTS for this initial
+iteration... SMIRKS will come soon as a minor variant.
+
+How it is a mockup: the format of the file is entirely a straw-man
+proposal for how we might implement a smarff or smirff. It is
+a starting-point for John Chodera and his group to turn into
+something practical. I tried to embody all I could remember of
+our UCSD summit meeting but I expect it to change. It is also a
+mockup in that, without the infrastructure to read this format
+and turn it into input files for amber/parmed/openmm I cannot
+verify my claim that this is a faithful representation of
+frcmod.Frosst_AlkEthOH.
+
+Let me point out a few features:
+0. Most important: the smarff makes no use whatsoever of atom types.
+That is the whole point... it turns the chemical perception of the
+molecule directly into force field parameters. Because of this, a
+smarff or smirff can be much more concise as we shall see. Ultimately
+it can also be more accurate because its chemical perception and
+discrimination is freed from the constraints of atom typing. Note
+in particular that the chemical perception here (SMARTS) explicitly
+or implicitly specifies bond order (although for alkanes, ethers,
+and alcohols all bonds are single bonds).
+
+1. '#' in column 1 begins a comment line, blank lines are ignored,
+and there are no formal sections... just informal ones for readability.
+
+2. I intend this smarff file to be compared with frcmod.Frosst_AlkEthOH
+so you can see the concept behind it. I will do this a little more
+below.
+
+3. The organization is intending 1-line-per-record, but line splitting
+only within the tuple of parameters is allowed.
+
+4. The structure of a record is an ordered list of 6 fields:
+field type
+----- ---------------------------------------
+  1   smarts string (or smirks string)
+  2   type of parameter: parXxxx where Xxxx is Bond, Angle, Torsion, Improper, or Vdw
+  3   tuple of parameters.
+  4   string "parNum" to cue the following string is a unique parameter label
+  5   a unique parameter label
+  6   a comment, which I delineate with curly braces.
+
+5. The ordering of the records is absolutely critical: all successive
+records of a given parameter type are intended to modify previous
+parameters if they apply. For example, look at the first two angle
+parameters ("parAng"):
+
+[a,A]-[#6X4]-[a,A]   parAng (109.50, 50.0) parNum a001 {consensus matches all X-Csp3-X}
+[#1]-[#6X4]-[#1]     parAng (109.50, 35.0) parNum a002 {H1-CT-H1 from frcmod.Frosst_AlkEthOH}
+
+The first smarts string has "any atom" (denoted [a,A]) bonded to
+a tetracoordinate (ie sp3) carbon on either side... a completely
+general bond angle around an sp3 carbon. Thus an H-Csp3-H bond angle
+would get those parameters. The following parAng record specifies
+a hydrogen (denoted [#1]) bonded on either side of an sp3 carbon.
+Thus this record will also apply to the same H-Csp3-H bond angle.
+The parameters from this record will therefore replace those of
+the previous record. This allows a principle of giving more
+general and generic "catch-all" parameters first, replaced by
+more specific ones afterwards for the chemistry you know about.
+
+
+Comparing smarff_mockup1.Frosst_AlkEthOH and frcmod.Frosst_AlkEthOH
+-------------------------------------------------------------------
+Bonds:
+For the atomic masses, compare frcmod.Frosst_AlkEthOH:
+HC 1.008         0.135               H aliph. bond. to C without electrwd.group
+H1 1.008         0.135               H aliph. bond. to C with 1 electrwd. group
+H2 1.008         0.135               H aliph. bond. to C with 2 electrwd.groups
+H3 1.008         0.135               H aliph. bond. to C with 3 eletrwd.groups
+with the corresponding parMass in smarff_mockup1.Frosst_AlkEthOH:
+[#1]     parMass  (  1.008 )   parNum m01 {from parm99}
+
+One parameter replaces four because amber uses four different
+atom types to denote different H chemical environments for
+purposes of the vdw parameter. With smarff_mockup1.Frosst_AlkEthOH,
+this discrimination is only needed with the vdw parameter so
+for the mass, it is a single parameter. Note the second float
+(0.135) is the polarizability which is not part of our force field.
+
+
+Angles:
+For the bond angles, compare frcmod.Frosst_AlkEthOH:
+OS-CT-OS     70.000 109.500 guess april 11 2000
+OS-CT-OH     70.000 109.500 guess Bayly 2016apr30 analogy with OS-CT-OS
+with the corresponding parAng in smarff_mockup1.Frosst_AlkEthOH:
+[#8X2]-[#6X4]-[#8X2] parAng (109.50, 70.0) parNum a004 {O_-CT-O_ from frcmod.Frosst_AlkEthOH}
+
+The parameters are identical, but smarts allows for a more general
+specification of two divalent oxygens bound to an sp3 carbon.
+
+
+Torsions:
+For the torsions, compare frcmod.Frosst_AlkEthOH:
+CT-CT-CT-CT   1    0.18          0.0            -3.         Junmei et al, 1999
+CT-CT-CT-CT   1    0.25        180.0            -2.         Junmei et al, 1999
+CT-CT-CT-CT   1    0.20        180.0             1.         Junmei et al, 1999
+with the corresponding parTor in smarff_mockup1.Frosst_AlkEthOH:
+[#6X4]-[#6X4]-[#6X4]-[#6X4] parTor ( (1, 0.18,   0., 3),
+                                     (1, 0.25, 180., 2),
+                                     (1, 0.20, 180., 1) ) parNum t0007 {CT-CT-CT-CT from frcmod.Frosst_AlkEthOH}
+
+The parameters specified are identical in both cases: three separate
+torsions, a three-fold, a two-fold, and a one-fold, are all to be
+applied to torsions with atom types CT-CT-CT-CT (all Csp3).  Where amber
+uses an articial negative sign on the number in the 5th field to
+signal a continuation, smarff_mockup1.Frosst_AlkEthOH simply has
+a parameter tuple of three tuples, one for each torsion sub-term.
+
+
+Impropers:
+For the improper torsions (the means for enforcing planarity),
+there were none needed in the all-sp3 AlkEthOH set, so I threw
+in a couple from parm99 to show the structure. Compare:
+X -X -C -O          10.5         180.          2.           JCC,7,(1986),230
+with the corresponding parImpr in smarff_mockup1.Frosst_AlkEthOH:
+[a,A]~[#6X3]([a,A])~[OX1]       parImpr (10.5, 180., 2 )  parNum i001 {X -X -C -O  from frcmod.Frosst_AlkEthOH}
+
+The smarts string doesn't map atom-for-atom onto the amber X -X -C -O
+but they are both rather bond-order-agnostically defining a carbonyl or
+carboxylate type sp2 carbon bonded to at least one monovalent oxygen,
+which is what the amber atom-typing is specifying. The parameters
+specified are again the same in both cases.
+
+
+Vdw:
+For the vdw parameters, compare frcmod.Frosst_AlkEthOH:
+  HC          1.4870  0.0157             OPLS
+  H1          1.3870  0.0157             Veenstra et al JCC,8,(1992),963 
+  H2          1.2870  0.0157             Veenstra et al JCC,8,(1992),963 
+  H3          1.1870  0.0157             Veenstra et al JCC,8,(1992),963
+with the corresponding parVdw in smarff_mockup1.Frosst_AlkEthOH:
+[$([#1]-C)]                     parVdw ( 1.4870, 0.0157 ) parNum v002 {HC from frcmod.Frosst_AlkEthOH}
+[$([#1]-C-[#7,#8,F,#16,Cl,Br])] parVdw ( 1.3870, 0.0157 ) parNum v003 {H1 from frcmod.Frosst_AlkEthOH}
+[$([#1]-C(-[#7,#8,F,#16,Cl,Br])-[#7,#8,F,#16,Cl,Br])]
+                                parVdw ( 1.2870, 0.0157 ) parNum v004 {H2 from frcmod.Frosst_AlkEthOH}
+[$([#1]-C(-[#7,#8,F,#16,Cl,Br])(-[#7,#8,F,#16,Cl,Br])-[#7,#8,F,#16,Cl,Br])]
+                                parVdw ( 1.1870, 0.0157 ) parNum v005 {H3 from frcmod.Frosst_AlkEthOH}
+
+Here is where the specialized chemical perception needed for amber
+types H1, H2, and H3 make the corresponding smarts verbose. The
+H1, H2, and H3 types are for H attached to sp3 carbon with one,
+two, or three electronegative substituents, respectively. Within
+the smarts, the sequence "(-[#7,#8,F,#16,Cl,Br])" defines one
+electronegative subsitiuent, hence the progression of one, two,
+or three of these to define the different vdw parameters. While
+this is ugly, note the following:
+
+a) This ugly chemical perception has to be done anyway; for the
+frcmod.Frosst_AlkEthOH it was just as ugly in the
+parmaFrosst_atyper_v1.2.xpat atom typing.
+
+b) Since this ugliness is only needed for the vdw parameters,
+the smarff confines it to that term. Amber forces the three
+atom types H1, H2, and H3 on all the other terms as well.
+
+c) In future, a clever use of smarts/smirks macros should allow
+the definition of ewg=(-[#7,#8,F,#16,Cl,Br]), since electronegative
+substitutions often come up in atom typing. Then the worst case
+above, H3, becomes:
+[$([#1]-C(-[ewg])(-[ewg])-[ewg])] parVdw ( 1.1870, 0.0157 ) parNum v005 {H3 from frcmod.Frosst_AlkEthOH}
+This is both much more compact and much more readable.
+
+
+Conclusion
+----------
+This has mostly been a brain dump of my frantic efforts over the
+last day; it is meant as a starting point for the format. However,
+if it could be parsed into input files for amber/parmed/openmm,
+I believe it would closely follow frcmod.Frosst_AlkEthOH results.
+The exception would be for the discrepancy with amber H2,H3-CT-CT-O_
+where amber and parm@Frosst would mistakenly apply the generic
+X -CT-OH-X or X -CT-OS-X... a common mistake with atom types!
+

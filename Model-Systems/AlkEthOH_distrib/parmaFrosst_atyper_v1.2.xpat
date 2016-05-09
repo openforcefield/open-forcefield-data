@@ -1,0 +1,145 @@
+# **********************************************************************
+# Copyright (C) 2012 
+# OpenEye Scientific Software, Inc.
+# **********************************************************************
+#
+# parm@Frosst atom-typer version 1.1
+
+# Begin by defining additional "aromaticity" beyond default MMFF aromaticity
+# 5-membered heteroaryl cases (note: only a single conj hypervalent S allowed)
+[#6X3,#7X2,#7X3,#8,#16$(*-*=,:*)]1~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]1 MakeAro Aro,Aro,Aro,Aro,Aro
+# het-5-aryls with Phosphorous
+[#15]1=[#6X3,#7X2]~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]1 MakeAro Aro,Aro,Aro,Aro,Aro
+# 6-membered heteroaryl corner cases (note: only a single conj hypervalent S allowed)
+[#6X3,#7X2,#7X3,#8,#16$(*-*=,:*)]1~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]1 MakeAro Aro,Aro,Aro,Aro,Aro,Aro
+
+# Begin atom-typing
+# all atoms initially start out as unknown gg type
+[*] AtomType gg
+
+#  Carbon atom types
+[#6] AtomType Cu
+[#6X4] AtomType CT
+[#6X4$(*1-[#6X4]-*1)] AtomType CJ
+[#6X2,X1] AtomType C2
+[#6X3] AtomType CM
+[c] AtomType CA
+[c$(*1aaaa1)] AtomType C*
+[c$(*(:a)(:a):c(:a)(:a))] AtomType CB
+[$(c1(aaaaa1)-c2(aaaaa2))] AtomType CP
+[$([CX3]=N)] AtomType C
+[$([#6X3]=[O,NX3+1])] AtomType C
+[C$(*#*)] AtomType C2
+
+#  Nitrogen atom types
+[#7] AtomType Nu
+# aliphatic nitrogen
+[NX2-1,NX3+0,NX4+1] AtomType N3
+# conjugated nitrogen
+[nX3,nX2-1] AtomType N*
+[NX3$(*(-[#1])-[#6X3,#7X2])] AtomType N
+[NX3$(*-[c,n])] AtomType N2
+[NX3$(*(-;!@a)(-[!#1])-[!#1])] AtomType N3
+[#7X3$(*(a)-;!@a)] AtomType N2
+# sulfonamide nitrogen is pyramidal
+[NX3+0,NX2-1;$(*-[S,P](~[OX1])~[OX1])] AtomType N3
+# aromatic nitrogen
+[nX3+0$(*-[#1])] AtomType NA
+# amide nitrogen
+[$([#7X3+0,#7X2-1]~[#6X3]=[O,S])] AtomType N
+# non-aromatic unsat nitrogen
+[#7X2+0,#7X3+1] AtomType NB
+# conjugated or delocalized trivalent N
+[#7X3]-[CX3]=[#7X3] AtomType N2,C,N2
+[#7X3$(*([#1])=;!@*)] AtomType N2
+[#7X2-1$(*([#1])[#6X3])] AtomType N2
+[#7X2-1$(*-[#6X3])] AtomType N2
+[NX3$((*-[#1])*=[#6X3,#7X2])] AtomType N2
+# miscellaneous unusual N
+[NX1,NX2$(*#*),NX2$(*(=*)=*)] AtomType NL
+[NX1-1] AtomType N2
+[nX2+0r6,nX3+1r6] AtomType NC
+[#7]1=[#7]-C1 AtomType NJ,NJ,*
+[$([#7]1[#7][#7]1)] AtomType N3
+
+#  Oxygen atom types
+[#8] AtomType Ou
+[$(O=[#6X3,#15,#16])] AtomType O
+[oX2+1] AtomType O
+[$([OX1]~[#16]~[OX1])] AtomType O2
+[#8X2+0] AtomType OS
+[OX2+0$(*-[#1])] AtomType OH
+[OX1]-n AtomType OS,*
+[OX1]-N AtomType OS,*
+[OX1-1] AtomType O2
+[$([OX1-1][CX4])] AtomType OS
+O=C-[OX1] AtomType O2,C,O2
+[OX1]~P~[OX1] AtomType O2,*,O2
+
+# Phosphorus
+[#15] AtomType P
+
+# Sulfur
+[#16] AtomType Su
+[#16X1$(*=*)] AtomType SD
+[#16X2] AtomType S
+[#16]-[#1] AtomType SH,HS
+[#16X3,#16X4] AtomType SO
+
+# Halogens
+F AtomType F
+Cl AtomType CL
+Br AtomType BR
+I AtomType I
+
+#  Hydrogen atom type
+[#1] AtomType HC
+[$([#1]-C-[#7,#8,F,#16,Cl,Br])] AtomType H1
+[$([#1]-C(-[#7,#8,F,#16,Cl,Br])-[#7,#8,F,#16,Cl,Br])] AtomType H2
+[$([#1]-C(-[#7,#8,F,#16,Cl,Br])(-[#7,#8,F,#16,Cl,Br])-[#7,#8,F,#16,Cl,Br])] AtomType H3
+[$([#1]-C-[*+1])] AtomType HP
+[$([#1]-[#6X3])] AtomType HA
+[$([#1]-[#6X3]~[#7,#8,F,#16,Cl,Br])] AtomType H4
+[$([#1]-[#6X3](~[#7,#8,F,#16,Cl,Br])~[#7,#8,F,#16,Cl,Br])] AtomType H5
+[$([#1]-O-[#6]-,:[#7])] AtomType HX
+[#1$(*-[#7])] AtomType H
+[#1$(*-[#8])] AtomType HO
+[#1$(*-[#16])] AtomType HS
+[#1$(*-[OX2]-[CX4]-[OX2$(*-[#1]),NX3+0])] AtomType HX
+
+# Miscellaneous
+[#1]-[OX2]-[#1] AtomType HW,OW,HW
+[OX1-1]-[#1] AtomType OW,HW
+[#8X1]~[#7X3]~[#8X1] AtomType O2,N2,O2
+[ClX0] AtomType IM
+[#3] AtomType Li
+[#11] AtomType IP
+[#19] AtomType K
+[#37] AtomType Rb
+[#55] AtomType Cs
+[#20] AtomType C0
+[#12] AtomType MG
+[#26] AtomType FE
+[#29] AtomType CU
+
+# 5-membered heteroaryls: setting CW, CC, and CR (then resetting bridgehead CB)
+# de-aromatize
+[#6X3,#7X2,#7X3,#8,#15,#16]1~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]1 MakeAro Nar,Nar,Nar,Nar,Nar
+# 5-membered heteroaryl corner case must precede usual case
+[CX3]1=[CX3][#6X3,#7X3,NX2-1,#8,#16][#6X3,#7X3,NX2-1,#8,#16][#6X3,#7X3,#8,#16]1 AtomType CW,CC,*,*,*
+# 5-membered heteroaryl usual case
+[C$(*1=[CX3][C,N,OX2+1,PX2+0,SX2+1]=[C,N,OX2+1,PX2+0,SX2+1][NX3,NX2-1,O,S,#6X3$(*=,:*)]1)] AtomType CW
+[C$(*1[C,N,OX2+1,PX2+0,SX2+1]=[C,N,OX2+1,PX2+0,SX2+1][NX3,NX2-1,O,S,CX3$(*=,:*)][#6X3]=1)] AtomType CC
+[$([CX3]1=[NX2+0,NX3+1,OX2+1,PX2+0,SX2+1][#6X3,#7X2,#7X3,#8,#16]~[#6X3,#7X2,#7X3,#8,#16]~[#6X3,#7X2,#7X3,#8,#16]1)] AtomType CR
+# fused 5,6 unsat het-5-aryls must allow for a formal single bond across the bridgehead
+[CX3]12aaaa[CX3]~1C=C[#7X2,#7X3,#8,#16]2 AtomType *,*,*,*,*,*,CC,CW,*
+# re-aromatize
+[#6X3,#7X2,#7X3,#8,#15,#16]1~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]~[#6X3,#7X2,#7X3,#8,#16X2]1 MakeAro Aro,Aro,Aro,Aro,Aro
+
+# better more general fused 5,6 unsat het-5-aryls but inconsistent with Merck parm@Frosst atomtyping
+# [$(c12aaaac1a[c,nX2]a2)] AtomType CB more Merck-parm@Frosst-like but why only [c,nX2] in 5-ring?
+[$(c12aaaac1aaa2)] AtomType CB
+
+# Amber pathological: partially unsat 5-memb hetcyc. Why do it this way instead of just "C"?
+[c,C&X3;$(*1=N-*~*~*-,:1)] AtomType CR
+

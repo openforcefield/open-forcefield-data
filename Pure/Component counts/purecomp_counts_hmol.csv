@@ -1,5 +1,5 @@
-,Component,SMILES,Count
-0,heptane,CCCCCCC,12
-1,3-pentanol,CCC(O)CC,6
-2,ribitol,CC(C)(C)CO,5
-3,neopentyl alcohol,OC[C@@H](O)[C@@H](O)[C@@H](O)CO,5
+,Component,Component Count
+0,heptane,12
+1,3-pentanol,6
+2,ribitol,5
+3,neopentyl alcohol,5

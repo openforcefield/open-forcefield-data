@@ -1,28 +1,28 @@
-,Component,SMILES,Count
-0,methoxymethane,COC,145
-1,toluene,Cc1ccccc1,51
-2,water,O,31
-3,1-butanol,CCCCO,11
-4,1-pentanol,CCCCCO,10
-5,"2,5,8-trioxanonane",COCCOC,9
-6,"1,2-dimethoxyethane",COCCOCCOC,9
-7,ethanol,CCCCCCCC,8
-8,octane,CCO,8
-9,1-propanol,CCCO,7
-10,methanol,CO,7
-11,nonane,CCCCCCCCC,6
-12,"1,2-propanediol",CC(O)CO,6
-13,2-propanol,CCCCOCCCC,5
-14,2-methyl-1-propanol,CC(C)CO,5
-15,dibutyl ether,CC(C)O,5
-16,triethylene glycol,C1COCCO1,3
-17,heptane,CCCCCCC,3
-18,bis(2-hydroxyethyl) ether,CCCOCCO,3
-19,"1,4-dioxane",CCCCC(CC)CO,3
-20,2-ethyl-1-hexanol,OCCOCCO,3
-21,"ethanol, 2-propoxy-",OCCOCCOCCO,3
-22,1-octanol,CCCCCCO,2
-23,glycerol,CCCCCCCCO,2
-24,1-heptanol,CCCCCCCO,2
-25,1-hexanol,OCC(O)CO,2
-26,"1,2-ethanediol",OCCO,1
+,Component,Component Count
+0,methoxymethane,145
+1,toluene,51
+2,water,31
+3,1-butanol,11
+4,1-pentanol,10
+5,"2,5,8-trioxanonane",9
+6,"1,2-dimethoxyethane",9
+7,ethanol,8
+8,octane,8
+9,1-propanol,7
+10,methanol,7
+11,nonane,6
+12,"1,2-propanediol",6
+13,2-propanol,5
+14,2-methyl-1-propanol,5
+15,dibutyl ether,5
+16,triethylene glycol,3
+17,heptane,3
+18,bis(2-hydroxyethyl) ether,3
+19,"1,4-dioxane",3
+20,2-ethyl-1-hexanol,3
+21,"ethanol, 2-propoxy-",3
+22,1-octanol,2
+23,glycerol,2
+24,1-heptanol,2
+25,1-hexanol,2
+26,"1,2-ethanediol",1

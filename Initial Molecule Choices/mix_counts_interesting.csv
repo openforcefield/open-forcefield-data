@@ -1,0 +1,181 @@
+,Unnamed: 0,Mixture,Mixture Count dens binary,Mixture Count actcoeff binary,Mixture Count sos binary,Mixture Count dielec binary,Mixture Count eme binary,Mixture Count emcp binary,Mixture Count emv binary,Mixture Count all,x1,x2,SMILES1,SMILES2
+2,2,2-propanol__water,1012,0,0,0,45,0,0,1057,2-propanol,water,CC(C)O,O
+9,9,ethanol__water,712,0,20,0,83,0,0,815,ethanol,water,CCO,O
+5,5,ethanol__methylcyclohexane,753,0,11,0,0,0,0,764,ethanol,methylcyclohexane,CCO,CC1CCCCC1
+10,10,ethanol__heptane,708,0,39,0,0,0,0,747,ethanol,heptane,CCO,CCCCCCC
+11,11,2-methyl-2-propanol__water,636,0,6,0,0,0,0,642,2-methyl-2-propanol,water,CC(C)(C)O,O
+12,12,1-butanol__cyclohexane,501,0,51,0,38,0,0,590,1-butanol,cyclohexane,CCCCO,C1CCCCC1
+89,89,tert-pentyl alcohol__heptane,102,0,450,0,0,0,0,552,tert-pentyl alcohol,heptane,CCC(C)(C)O,CCCCCCC
+17,17,1-propoxy-2-propanol__water,318,0,145,0,0,0,0,463,1-propoxy-2-propanol,water,CCCOCC(C)O,O
+33,33,methanol__water,212,0,12,0,140,0,0,364,methanol,water,CO,O
+14,14,tert-butanol__water,360,0,0,0,0,0,0,360,tert-butanol,water,CC(C)(C)O,O
+16,16,n-butyl alcohol__2-methylheptane,324,0,0,0,0,0,0,324,n-butyl alcohol,2-methylheptane,CCCCO,CCCCCC(C)C
+184,184,ethanol__methanol,63,0,0,105,76,0,0,244,ethanol,methanol,CCO,CO
+31,31,tetrahydrofuran__water,220,0,20,0,0,0,0,240,tetrahydrofuran,water,C1CCOC1,O
+32,32,neopentyl alcohol__water,213,0,0,0,0,0,0,213,neopentyl alcohol,water,CC(C)(C)CO,O
+96,96,"1-butanol__2,2,4-trimethylpentane",93,0,80,0,38,0,0,211,1-butanol,"2,2,4-trimethylpentane",CCCCO,CC(C)CC(C)(C)C
+34,34,"2-methyl-1,3-propanediol__water",209,0,0,0,0,0,0,209,"2-methyl-1,3-propanediol",water,CC(CO)CO,O
+51,51,1-propanol__water,172,0,27,0,0,0,0,199,1-propanol,water,CCCO,O
+186,186,1-butanol__hexane,60,0,60,0,23,0,31,174,1-butanol,hexane,CCCCO,CCCCCC
+59,59,"ethanol__2,2,4-trimethylpentane",150,0,0,0,19,0,0,169,ethanol,"2,2,4-trimethylpentane",CCO,CC(C)CC(C)(C)C
+127,127,2-propanol__cyclohexane,78,0,78,0,9,0,0,165,2-propanol,cyclohexane,CC(C)O,C1CCCCC1
+56,56,"2,2-dimethyl-1,3-propanediol__water",156,0,0,0,0,0,0,156,"2,2-dimethyl-1,3-propanediol",water,CC(C)(CO)CO,O
+80,80,ethanol__cyclohexane,111,0,39,0,0,0,0,150,ethanol,cyclohexane,CCO,C1CCCCC1
+143,143,ethanol__isooctane,72,0,72,0,0,0,0,144,ethanol,isooctane,CCO,CCCCCC(C)C
+69,69,"3-methylpentane-1,5-diol__water",138,0,0,0,0,0,0,138,"3-methylpentane-1,5-diol",water,CC(CCO)CCO,O
+77,77,ethanol__2-methyl-1-butanol,116,0,18,0,0,0,0,134,ethanol,2-methyl-1-butanol,CCO,CCC(C)CO
+157,157,1-propanol__tert-butanol,66,0,66,0,0,0,0,132,1-propanol,tert-butanol,CCCO,CC(C)(C)O
+160,160,2-propanol__tert-butanol,66,0,66,0,0,0,0,132,2-propanol,tert-butanol,CC(C)O,CC(C)(C)O
+266,266,ethanol__hexane,39,0,39,0,17,0,23,118,ethanol,hexane,CCO,CCCCCC
+81,81,"1-propanol__2,2,4-trimethylpentane",108,0,0,0,0,0,0,108,1-propanol,"2,2,4-trimethylpentane",CCCO,CC(C)CC(C)(C)C
+87,87,2-methoxyethanol__tert-butyl ethyl ether,105,0,0,0,0,0,0,105,2-methoxyethanol,tert-butyl ethyl ether,COCCO,CCOC(C)(C)C
+592,592,methanol__2-propanol,0,0,0,105,0,0,0,105,methanol,2-propanol,CO,CC(C)O
+593,593,methanol__2-methyl-1-propanol,0,0,0,105,0,0,0,105,methanol,2-methyl-1-propanol,CO,CC(C)CO
+594,594,methanol__1-butanol,0,0,0,105,0,0,0,105,methanol,1-butanol,CO,CCCCO
+595,595,methanol__1-propanol,0,0,0,105,0,0,0,105,methanol,1-propanol,CO,CCCO
+177,177,1-propanol__cyclopentane,63,0,39,0,0,0,0,102,1-propanol,cyclopentane,CCCO,C1CCCC1
+93,93,ethanol__3-methyl-1-butanol,98,0,0,0,0,0,0,98,ethanol,3-methyl-1-butanol,CCO,CC(C)CCO
+94,94,ethanol__2-methyl-2-butanol,98,0,0,0,0,0,0,98,ethanol,2-methyl-2-butanol,CCO,CCC(C)(C)O
+223,223,2-methoxyethanol__1-hexanol,48,0,48,0,0,0,0,96,2-methoxyethanol,1-hexanol,COCCO,CCCCCCO
+225,225,tetrahydrofuran__n-hexyl alcohol,48,0,48,0,0,0,0,96,tetrahydrofuran,n-hexyl alcohol,C1CCOC1,CCCCCCO
+596,596,methanol__2-methyl-2-propanol,0,0,0,95,0,0,0,95,methanol,2-methyl-2-propanol,CO,CC(C)(C)O
+138,138,1-butanol__water,75,8,11,0,0,0,0,94,1-butanol,water,CCCCO,O
+320,320,1-butanol__2-methyltetrahydrofuran,27,0,34,0,33,0,0,94,1-butanol,2-methyltetrahydrofuran,CCCCO,CC1CCCO1
+203,203,1-butanol__heptane,55,0,0,0,38,0,0,93,1-butanol,heptane,CCCCO,CCCCCCC
+101,101,oxacyclopentane__water,90,0,0,0,0,0,0,90,oxacyclopentane,water,C1CCOC1,O
+245,245,2-(2-methylpropoxy)ethanol__water,45,0,45,0,0,0,0,90,2-(2-methylpropoxy)ethanol,water,CC(C)COCCO,O
+213,213,1-propanol__cyclohexane,50,0,39,0,0,0,0,89,1-propanol,cyclohexane,CCCO,C1CCCCC1
+269,269,1-butanol__cyclopentane,39,0,39,0,11,0,0,89,1-butanol,cyclopentane,CCCCO,C1CCCC1
+102,102,ethyl alcohol__n-butyl alcohol,88,0,0,0,0,0,0,88,ethyl alcohol,n-butyl alcohol,CCO,CCCCO
+107,107,ethyl alcohol__pentan-1-ol,88,0,0,0,0,0,0,88,ethyl alcohol,pentan-1-ol,CCO,CCCCCO
+109,109,ethyl alcohol__propan-1-ol,88,0,0,0,0,0,0,88,ethyl alcohol,propan-1-ol,CCO,CCCO
+246,246,"2-methoxyethanol__ethanol, 2-ethoxy-",44,0,44,0,0,0,0,88,2-methoxyethanol,"ethanol, 2-ethoxy-",COCCO,CCOCCO
+140,140,"2-propanol__1,3-dioxolane",74,0,11,0,0,0,0,85,2-propanol,"1,3-dioxolane",CC(C)O,C1COCO1
+114,114,"2-propanol__pentane, 2,2,4-trimethyl-",84,0,0,0,0,0,0,84,2-propanol,"pentane, 2,2,4-trimethyl-",CC(C)O,CC(C)CC(C)(C)C
+115,115,"tetrahydropyran__pentane, 2,2,4-trimethyl-",84,0,0,0,0,0,0,84,tetrahydropyran,"pentane, 2,2,4-trimethyl-",C1CCOCC1,CC(C)CC(C)(C)C
+116,116,"1-hexanol__2,2,4-trimethylpentane",84,0,0,0,0,0,0,84,1-hexanol,"2,2,4-trimethylpentane",CCCCCCO,CC(C)CC(C)(C)C
+119,119,2-propanol__tetrahydropyran,84,0,0,0,0,0,0,84,2-propanol,tetrahydropyran,CC(C)O,C1CCOCC1
+305,305,1-butanol__methylcyclohexane,33,0,11,0,38,0,0,82,1-butanol,methylcyclohexane,CCCCO,CC1CCCCC1
+122,122,1-butanol__2-methyl-1-propanol,81,0,0,0,0,0,0,81,1-butanol,2-methyl-1-propanol,CCCCO,CC(C)CO
+125,125,2-methyl-1-propanol__water,79,0,0,0,0,0,0,79,2-methyl-1-propanol,water,CC(C)CO,O
+126,126,"1-pentanol__2,2,4-trimethylpentane",79,0,0,0,0,0,0,79,1-pentanol,"2,2,4-trimethylpentane",CCCCCO,CC(C)CC(C)(C)C
+263,263,2-propanol__cyclopentane,39,0,39,0,0,0,0,78,2-propanol,cyclopentane,CC(C)O,C1CCCC1
+264,264,ethanol__cyclopentane,39,0,39,0,0,0,0,78,ethanol,cyclopentane,CCO,C1CCCC1
+274,274,2-methyl-2-propanol__tert-butyl ethyl ether,39,0,39,0,0,0,0,78,2-methyl-2-propanol,tert-butyl ethyl ether,CC(C)(C)O,CCOC(C)(C)C
+275,275,"2,2,4-trimethylpentane__tert-butyl ethyl ether",39,0,39,0,0,0,0,78,"2,2,4-trimethylpentane",tert-butyl ethyl ether,CC(C)CC(C)(C)C,CCOC(C)(C)C
+276,276,cyclopentane__2-pentanol,39,0,39,0,0,0,0,78,cyclopentane,2-pentanol,C1CCCC1,CCCC(C)O
+277,277,2-methyl-2-butanol__tetrahydrofuran,39,0,0,0,0,0,39,78,2-methyl-2-butanol,tetrahydrofuran,CCC(C)(C)O,C1CCOC1
+279,279,ethanol__tert-butyl ethyl ether,39,0,39,0,0,0,0,78,ethanol,tert-butyl ethyl ether,CCO,CCOC(C)(C)C
+600,600,ethanol__2-propanol,0,0,0,0,76,0,0,76,ethanol,2-propanol,CCO,CC(C)O
+601,601,ethanol__1-propanol,0,0,0,0,74,0,0,74,ethanol,1-propanol,CCO,CCCO
+144,144,1-butanol__2-methyl-2-propanol,72,0,0,0,0,0,0,72,1-butanol,2-methyl-2-propanol,CCCCO,CC(C)(C)O
+151,151,tert-butanol__heptane,70,0,0,0,0,0,0,70,tert-butanol,heptane,CC(C)(C)O,CCCCCCC
+566,566,1-butanol__tetrahydropyran,0,0,35,0,33,0,0,68,1-butanol,tetrahydropyran,CCCCO,C1CCOCC1
+174,174,methanol__cyclohexane,64,0,0,0,0,0,0,64,methanol,cyclohexane,CO,C1CCCCC1
+178,178,ethanol__2-methyl-2-propanol,63,0,0,0,0,0,0,63,ethanol,2-methyl-2-propanol,CCO,CC(C)(C)O
+181,181,"2,2,4-trimethylpentane__1,3-dioxolane",63,0,0,0,0,0,0,63,"2,2,4-trimethylpentane","1,3-dioxolane",CC(C)CC(C)(C)C,C1COCO1
+183,183,"2-methyl-2-propanol__2,2,4-trimethylpentane",63,0,0,0,0,0,0,63,2-methyl-2-propanol,"2,2,4-trimethylpentane",CC(C)(C)O,CC(C)CC(C)(C)C
+583,583,cyclohexane__tetrahydropyran,0,0,13,0,32,0,14,59,cyclohexane,tetrahydropyran,C1CCCCC1,C1CCOCC1
+604,604,"ethanol, 2-ethoxy-__cyclohexane",0,0,0,0,58,0,0,58,"ethanol, 2-ethoxy-",cyclohexane,CCOCCO,C1CCCCC1
+194,194,n-propanol__water,56,0,0,0,0,0,0,56,n-propanol,water,CCCO,O
+196,196,"1-hexanol__1,4-dioxane",56,0,0,0,0,0,0,56,1-hexanol,"1,4-dioxane",CCCCCCO,C1COCCO1
+202,202,2-propanol__1-propanol,55,0,0,0,0,0,0,55,2-propanol,1-propanol,CC(C)O,CCCO
+310,310,1-propanol__isopropyl ether,32,0,21,0,0,0,0,53,1-propanol,isopropyl ether,CCCO,CC(C)OC(C)C
+568,568,"cyclohexane__1,4-dioxane",0,0,33,0,19,0,0,52,cyclohexane,"1,4-dioxane",C1CCCCC1,C1COCCO1
+606,606,"hexane__ethanol, 2-ethoxy-",0,0,0,0,51,0,0,51,hexane,"ethanol, 2-ethoxy-",CCCCCC,CCOCCO
+607,607,1-pentanol__cyclohexane,0,0,0,0,51,0,0,51,1-pentanol,cyclohexane,CCCCCO,C1CCCCC1
+227,227,"2,2,4-trimethylpentane__butane, 2-methoxy-2-methyl-",48,0,0,0,0,0,0,48,"2,2,4-trimethylpentane","butane, 2-methoxy-2-methyl-",CC(C)CC(C)(C)C,CCC(C)(C)OC
+240,240,1-hexanol__heptane,45,0,0,0,0,0,0,45,1-hexanol,heptane,CCCCCCO,CCCCCCC
+242,242,isopropanol__isobutyl alcohol,45,0,0,0,0,0,0,45,isopropanol,isobutyl alcohol,CC(C)O,CC(C)CO
+248,248,n-propyl alcohol__isobutyl alcohol,44,0,0,0,0,0,0,44,n-propyl alcohol,isobutyl alcohol,CCCO,CC(C)CO
+291,291,1-propanol__methylcyclohexane,33,0,11,0,0,0,0,44,1-propanol,methylcyclohexane,CCCO,CC1CCCCC1
+296,296,2-methyl-1-propanol__methylcyclohexane,33,0,11,0,0,0,0,44,2-methyl-1-propanol,methylcyclohexane,CC(C)CO,CC1CCCCC1
+297,297,methylcyclohexane__3-methyl-1-butanol,33,0,11,0,0,0,0,44,methylcyclohexane,3-methyl-1-butanol,CC1CCCCC1,CC(C)CCO
+299,299,2-propanol__methylcyclohexane,33,0,11,0,0,0,0,44,2-propanol,methylcyclohexane,CC(C)O,CC1CCCCC1
+346,346,ethanol__isopropyl ether,24,0,0,0,19,0,0,43,ethanol,isopropyl ether,CCO,CC(C)OC(C)C
+371,371,ethylene glycol methyl ether__water,21,0,21,0,0,0,0,42,ethylene glycol methyl ether,water,COCCO,O
+372,372,1-propanol__tert-amyl methyl ether,21,0,21,0,0,0,0,42,1-propanol,tert-amyl methyl ether,CCCO,CCC(C)(C)OC
+408,408,"isopropyl ether__2,2,4-trimethylpentane",13,0,10,0,19,0,0,42,isopropyl ether,"2,2,4-trimethylpentane",CC(C)OC(C)C,CC(C)CC(C)(C)C
+578,578,n-hexane__tetrahydropyran,0,0,14,0,14,0,14,42,n-hexane,tetrahydropyran,CCCCCC,C1CCOCC1
+580,580,tetrahydropyran__heptane,0,0,14,0,14,0,14,42,tetrahydropyran,heptane,C1CCOCC1,CCCCCCC
+608,608,n-heptane__2-pentanol,0,0,0,0,42,0,0,42,n-heptane,2-pentanol,CCCCCCC,CCCC(C)O
+609,609,pentan-1-ol__isooctane,0,0,0,0,42,0,0,42,pentan-1-ol,isooctane,CCCCCO,CCCCCC(C)C
+611,611,pentan-1-ol__heptane,0,0,0,0,42,0,0,42,pentan-1-ol,heptane,CCCCCO,CCCCCCC
+612,612,"2,2,4-trimethylpentane__2-pentanol",0,0,0,0,42,0,0,42,"2,2,4-trimethylpentane",2-pentanol,CC(C)CC(C)(C)C,CCCC(C)O
+270,270,cyclohexane__2-pentanol,39,0,0,0,0,0,0,39,cyclohexane,2-pentanol,C1CCCCC1,CCCC(C)O
+377,377,1-propanol__2-methyl-1-butanol,19,0,19,0,0,0,0,38,1-propanol,2-methyl-1-butanol,CCCO,CCC(C)CO
+378,378,1-propanol__3-methyl-1-butanol,19,0,19,0,0,0,0,38,1-propanol,3-methyl-1-butanol,CCCO,CC(C)CCO
+379,379,methanol__2-methyl-1-butanol,19,0,19,0,0,0,0,38,methanol,2-methyl-1-butanol,CO,CCC(C)CO
+383,383,"hexane__ether, methyl tert-pentyl",19,0,0,0,0,0,19,38,hexane,"ether, methyl tert-pentyl",CCCCCC,CCC(C)(C)OC
+335,335,1-pentanol__cyclopentane,26,0,0,0,10,0,0,36,1-pentanol,cyclopentane,CCCCCO,C1CCCC1
+387,387,2-isopropoxyethanol__water,18,0,18,0,0,0,0,36,2-isopropoxyethanol,water,CC(C)OCCO,O
+567,567,"1,4-dioxane__cyclopentane",0,0,33,0,0,0,0,33,"1,4-dioxane",cyclopentane,C1COCCO1,C1CCCC1
+389,389,2-methyl-1-propanol__hexane,16,0,16,0,0,0,0,32,2-methyl-1-propanol,hexane,CC(C)CO,CCCCCC
+317,317,propan-1-ol__water,30,0,0,0,0,0,0,30,propan-1-ol,water,CCCO,O
+418,418,"ethanol, 2-ethoxy-__water",12,0,16,0,0,0,0,28,"ethanol, 2-ethoxy-",water,CCOCCO,O
+440,440,"1,4-dioxane__water",10,0,18,0,0,0,0,28,"1,4-dioxane",water,C1COCCO1,O
+574,574,"cyclopentane__1,3-dioxolane",0,0,27,0,0,0,0,27,cyclopentane,"1,3-dioxolane",C1CCCC1,C1COCO1
+575,575,"cyclohexane__1,3-dioxolane",0,0,27,0,0,0,0,27,cyclohexane,"1,3-dioxolane",C1CCCCC1,C1COCO1
+339,339,n-propyl alcohol__water,25,0,0,0,0,0,0,25,n-propyl alcohol,water,CCCO,O
+345,345,2-ethoxyethanol__water,24,0,0,0,0,0,0,24,2-ethoxyethanol,water,CCOCCO,O
+413,413,isobutanol__water,12,0,12,0,0,0,0,24,isobutanol,water,CC(C)CO,O
+424,424,"ethane, 1,1'-oxybis-__1,3-dioxolane",11,0,12,0,0,0,0,23,"ethane, 1,1'-oxybis-","1,3-dioxolane",CCOCC,C1COCO1
+621,621,neohexane__tetrahydrofuran,0,0,0,0,23,0,0,23,neohexane,tetrahydrofuran,CCC(C)(C)C,C1CCOC1
+622,622,diisopropyl__tetrahydrofuran,0,0,0,0,23,0,0,23,diisopropyl,tetrahydrofuran,CC(C)C(C)C,C1CCOC1
+367,367,1-propanol__1-pentanol,22,0,0,0,0,0,0,22,1-propanol,1-pentanol,CCCO,CCCCCO
+425,425,"ethane, 1,1'-oxybis-__pentan-1-ol",11,0,11,0,0,0,0,22,"ethane, 1,1'-oxybis-",pentan-1-ol,CCOCC,CCCCCO
+426,426,"2-methoxyethanol__1,3-dioxolane",11,0,11,0,0,0,0,22,2-methoxyethanol,"1,3-dioxolane",COCCO,C1COCO1
+431,431,"pentan-1-ol__1,3-dioxolane",11,0,11,0,0,0,0,22,pentan-1-ol,"1,3-dioxolane",CCCCCO,C1COCO1
+432,432,"ethanol, 2-ethoxy-__1,3-dioxolane",11,0,11,0,0,0,0,22,"ethanol, 2-ethoxy-","1,3-dioxolane",CCOCCO,C1COCO1
+624,624,"2,3-dimethylbutane__ether, dipropyl",0,0,0,0,20,0,0,20,"2,3-dimethylbutane","ether, dipropyl",CC(C)C(C)C,CCCOCCC
+627,627,tetramethylene oxide__dipropyl ether,0,0,0,0,20,0,0,20,tetramethylene oxide,dipropyl ether,C1CCOC1,CCCOCCC
+376,376,2-methyl-1-propanol__2-methyl-1-butanol,19,0,0,0,0,0,0,19,2-methyl-1-propanol,2-methyl-1-butanol,CC(C)CO,CCC(C)CO
+380,380,2-methyl-1-propanol__3-methyl-1-butanol,19,0,0,0,0,0,0,19,2-methyl-1-propanol,3-methyl-1-butanol,CC(C)CO,CC(C)CCO
+381,381,1-propanol__tert-butyl ethyl ether,19,0,0,0,0,0,0,19,1-propanol,tert-butyl ethyl ether,CCCO,CCOC(C)(C)C
+382,382,1-pentanol__2-methyl-1-propanol,19,0,0,0,0,0,0,19,1-pentanol,2-methyl-1-propanol,CCCCCO,CC(C)CO
+631,631,"butane, 2,2-dimethyl-__ether, dipropyl",0,0,0,0,19,0,0,19,"butane, 2,2-dimethyl-","ether, dipropyl",CCC(C)(C)C,CCCOCCC
+634,634,methanol__methoxymethane,0,0,0,0,19,0,0,19,methanol,methoxymethane,CO,COC
+637,637,1-propanol__methoxymethane,0,0,0,0,19,0,0,19,1-propanol,methoxymethane,CCCO,COC
+639,639,ethanol__methoxymethane,0,0,0,0,19,0,0,19,ethanol,methoxymethane,CCO,COC
+640,640,1-butanol__methoxymethane,0,0,0,0,19,0,0,19,1-butanol,methoxymethane,CCCCO,COC
+644,644,ethanol__tetrahydropyran,0,0,0,0,19,0,0,19,ethanol,tetrahydropyran,CCO,C1CCOCC1
+647,647,1-pentanol__hexane,0,0,0,0,18,0,0,18,1-pentanol,hexane,CCCCCO,CCCCCC
+653,653,2-methyl-1-propanol__1-methyl-1-(1-methylethoxy)ethane,0,0,0,0,17,0,0,17,2-methyl-1-propanol,1-methyl-1-(1-methylethoxy)ethane,CC(C)CO,CC(C)OC(C)C
+388,388,methanol__dioxane,16,0,0,0,0,0,0,16,methanol,dioxane,CO,C1COCCO1
+466,466,tert-pentyl alcohol__water,0,16,0,0,0,0,0,16,tert-pentyl alcohol,water,CCC(C)(C)O,O
+576,576,2-methoxyethanol__water,0,0,16,0,0,0,0,16,2-methoxyethanol,water,COCCO,O
+655,655,1-propanol__heptane,0,0,0,0,16,0,0,16,1-propanol,heptane,CCCO,CCCCCCC
+467,467,"1-butanol, 3-methyl-__water",0,15,0,0,0,0,0,15,"1-butanol, 3-methyl-",water,CC(C)CCO,O
+468,468,2-methyl-1-butanol__water,0,15,0,0,0,0,0,15,2-methyl-1-butanol,water,CCC(C)CO,O
+401,401,ethanol__oxane,13,0,0,0,0,0,0,13,ethanol,oxane,CCO,C1CCOCC1
+469,469,pentan-2-ol__water,0,13,0,0,0,0,0,13,pentan-2-ol,water,CCCC(C)O,O
+662,662,1-butanol__1-methyl-1-(1-methylethoxy)ethane,0,0,0,0,13,0,0,13,1-butanol,1-methyl-1-(1-methylethoxy)ethane,CCCCO,CC(C)OC(C)C
+415,415,"1,3-dioxolane__water",12,0,0,0,0,0,0,12,"1,3-dioxolane",water,C1COCO1,O
+421,421,2-propanol__methane,12,0,0,0,0,0,0,12,2-propanol,methane,CC(C)O,C
+423,423,methanol__tetrahydrofuran,12,0,0,0,0,0,0,12,methanol,tetrahydrofuran,CO,C1CCOC1
+664,664,1-methyl-1-(1-methylethoxy)ethane__heptane,0,0,0,0,12,0,0,12,1-methyl-1-(1-methylethoxy)ethane,heptane,CC(C)OC(C)C,CCCCCCC
+669,669,1-hexanol__cyclopentane,0,0,0,0,11,0,0,11,1-hexanol,cyclopentane,CCCCCCO,C1CCCC1
+443,443,2-propanol__ethane,10,0,0,0,0,0,0,10,2-propanol,ethane,CC(C)O,CC
+471,471,3-methyl-2-butanol__water,0,10,0,0,0,0,0,10,3-methyl-2-butanol,water,CC(C)C(C)O,O
+585,585,isopropyl ether__hexane,0,0,10,0,0,0,0,10,isopropyl ether,hexane,CC(C)OC(C)C,CCCCCC
+586,586,isopropyl ether__heptane,0,0,10,0,0,0,0,10,isopropyl ether,heptane,CC(C)OC(C)C,CCCCCCC
+672,672,pentan-1-ol__tert-pentyl alcohol,0,0,0,0,10,0,0,10,pentan-1-ol,tert-pentyl alcohol,CCCCCO,CCC(C)(C)O
+676,676,ethanol__tert-pentyl alcohol,0,0,0,0,10,0,0,10,ethanol,tert-pentyl alcohol,CCO,CCC(C)(C)O
+677,677,butan-1-ol__tert-pentyl alcohol,0,0,0,0,10,0,0,10,butan-1-ol,tert-pentyl alcohol,CCCCO,CCC(C)(C)O
+683,683,propan-1-ol__tert-pentyl alcohol,0,0,0,0,10,0,0,10,propan-1-ol,tert-pentyl alcohol,CCCO,CCC(C)(C)O
+686,686,methanol__tert-pentyl alcohol,0,0,0,0,10,0,0,10,methanol,tert-pentyl alcohol,CO,CCC(C)(C)O
+445,445,(RS)-2-butanol__water,9,0,0,0,0,0,0,9,(RS)-2-butanol,water,CCC(C)O,O
+588,588,isopropyl ether__cyclohexane,0,0,9,0,0,0,0,9,isopropyl ether,cyclohexane,CC(C)OC(C)C,C1CCCCC1
+688,688,1-pentanol__tetrahydropyran,0,0,0,0,9,0,0,9,1-pentanol,tetrahydropyran,CCCCCO,C1CCOCC1
+691,691,"1,4-dioxane__tetrahydropyran",0,0,0,0,9,0,0,9,"1,4-dioxane",tetrahydropyran,C1COCCO1,C1CCOCC1
+453,453,isopropyl ether__isooctane,8,0,0,0,0,0,0,8,isopropyl ether,isooctane,CC(C)OC(C)C,CCCCCC(C)C
+460,460,methanol__2-methoxyethanol,5,0,0,0,0,0,0,5,methanol,2-methoxyethanol,CO,COCCO
+494,494,tert-amyl methyl ether__water,0,4,0,0,0,0,0,4,tert-amyl methyl ether,water,CCC(C)(C)OC,O
+496,496,tert-butyl ethyl ether__water,0,4,0,0,0,0,0,4,tert-butyl ethyl ether,water,CCOC(C)(C)C,O
+464,464,methanol__ethane,3,0,0,0,0,0,0,3,methanol,ethane,CO,CC
+538,538,methylcyclopentane__methyl cellosolve,0,1,0,0,0,0,0,1,methylcyclopentane,methyl cellosolve,CC1CCCC1,COCCO
+540,540,methyl cellosolve__cyclohexane,0,1,0,0,0,0,0,1,methyl cellosolve,cyclohexane,COCCO,C1CCCCC1
+541,541,methyl cellosolve__cyclooctane,0,1,0,0,0,0,0,1,methyl cellosolve,cyclooctane,COCCO,C1CCCCCCC1
+543,543,methylcyclohexane__methyl cellosolve,0,1,0,0,0,0,0,1,methylcyclohexane,methyl cellosolve,CC1CCCCC1,COCCO
+559,559,methyl cellosolve__n-heptane,0,1,0,0,0,0,0,1,methyl cellosolve,n-heptane,COCCO,CCCCCCC
+560,560,methyl cellosolve__n-hexane,0,1,0,0,0,0,0,1,methyl cellosolve,n-hexane,COCCO,CCCCCC

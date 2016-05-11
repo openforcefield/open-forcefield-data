@@ -1,4 +1,4 @@
-,Component,SMILES,Component Count dens pure,Component Count cpmol pure,Component Count sos pure,Component Count dielec pure,Component Count hmol pure,Component Count vmol pure,Component Count vspec pure,Component Count all pure
+,Component,SMILES,Component Count dens pure,Component Count cpmol pure,Component Count sos pure,Component Count dielec pure,Component Count hmol pure,Component Count vmol pure,Component Count vspec pure,Component Count all pure 
 0,decane,CCCCCCCCCC,9289,8,21,0,0,0,0,9318
 1,1-butanol,CCCCO,1327,49,85,11,0,0,0,1472
 2,heptane,CCCCCCC,1254,39,132,3,12,1,0,1441

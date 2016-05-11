@@ -1,4 +1,4 @@
-,Unnamed: 0,Component,SMILES,Component Count dens pure,Component Count cpmol pure,Component Count sos pure,Component Count dielec pure,Component Count hmol pure,Component Count vmol pure,Component Count vspec pure,Component Count dens binary,Component Count actcoeff binary,Component Count sos binary,Component Count dielec binary,Component Count eme binary,Component Count emcp binary,Component Count emv binary,Component Count all
+,Unnamed: 0,Component,SMILES,Component Count dens pure,Component Count cpmol pure,Component Count sos pure,Component Count dielec pure,Component Count hmol pure,Component Count vmol pure,Component Count vspec pure,Component Count dens binary,Component Count actcoeff binary,Component Count sos binary,Component Count dielec binary,Component Count eme binary,Component Count emcp binary,Component Count emv binary,Component Count all 
 8,8,water,O,634,54,183,31,0,0,39,10916,122,964,34,376,390,578,14321
 3,3,ethanol,CCO,1169,86,91,8,0,0,2,4585,11,408,105,507,0,23,6995
 1,1,1-butanol,CCCCO,1327,49,85,11,0,0,0,2773,8,897,105,581,130,71,6037

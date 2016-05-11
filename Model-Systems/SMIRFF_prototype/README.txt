@@ -1,4 +1,6 @@
-From e-mail from Christopher Bayly describing contents of this directory:
+Please see smarff_mockup1.Frosst_AlkEthOH.txt for more extensive documentation.
+
+This README is from an e-mail from Christopher Bayly describing contents of this directory:
 
 Please find attached the first SMIRFF ever (actually a SMARFF 'cuz I only use smarts not smirks yet) and some associated useful files. It is only a mockup because I have no infrastructure yet with which to even parse the file to see if it is well-formed.
 

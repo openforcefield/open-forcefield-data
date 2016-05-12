@@ -5,11 +5,13 @@ Organized csv files showing data point count statistics of molecules and mixture
 
 allcomp_counts_all.csv - counts of number of data points for all molecules appearing in the pure and binary mixture sets across all properties
 
-allcomp_counts_all_diverse.csv - analogous to allcomp_counts_all.csv, but only for molecules which appeared on Chris's diverse set
+allcomp_counts_diverse.csv - analogous to allcomp_counts_all.csv, but only for molecules which appeared on Chris's diverse set
 
 bincomp_counts_all.csv - Count of data points per unique molecule across all binary properties. It’s important to note that while this count was performed on individual components, it is for the binary property sets.
 
 mix_counts_all.csv - count of the number of data points per unique binary mixture across all mixture properties
+
+mix_counts_interesting.csv - analogous to mix_counts_all.csv, but eliminates all alkane-alkane mixtures (also prefiltered to eliminate mixtures containing molecules not on Chris's diverse list)
 
 purecomp_counts_all.csv - Count of data points per unique molecule across all pure properties
 

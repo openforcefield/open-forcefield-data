@@ -1,6 +1,10 @@
 # open-forcefield-data/Initial Molecule Choices
 Organized csv files showing data point count statistics of molecules and mixtures across all pure solvent and binary mixture properties
 
+All files with '_all' or lone '_interesting' title appendage were created using the thermomlcnts.py script in the 'Python' directory (https://github.com/open-forcefield-group/open-forcefield-data/tree/master/Python)
+
+Any files with the '_diverse' title appendage (or any combination of it) was created using the diversitychk.py script in the 'Python' directory (https://github.com/open-forcefield-group/open-forcefield-data/tree/master/Python)
+
 # MAIN csv contents ('_all' title appendage) 
 
 allcomp_counts_all.csv - counts of number of data points for all molecules appearing in the pure and binary mixture sets across all properties (no additional filters applied)

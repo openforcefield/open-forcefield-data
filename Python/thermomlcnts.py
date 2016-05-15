@@ -18,7 +18,10 @@ mem = Memory(cachedir="/home/bmanubay/.thermoml/")
 def resolve_cached(x, rtype):
    return cirpy.resolve(x, rtype)
 
-# Load in hand filtered property csv corresponding to A set
+# Define list of all alkane SMILES strings that appear in all of our data
+SMILES_alk = ['C', 'CC', 'CCC', 'CCCC', 'CCCCC', 'CCCCCC', 'CCCCCCC', 'CCCCCCCC', 'CCCCCCCCC', 'CCCCCCCCCC', 'CC(C)C', 'CCC(C)C', 'CCCC(C)C', 'C1CCCCC1', 'CC1CCCCC1', 'CCCCCC(C)C', 'CC(C)C(C)C', 'CCC(C)(C)C', 'CCC(C)CC', 'CCCC(C)C', 'CC(C)CC(C)(C)C', 'C1CCCC1', 'C1CCCCCCC1', 'CCC1CCCCC1', 'CC1CCC(C)C(C)C1', 'CCCCC1CCCCC1', 'CC1CCCC1', 'CCCCCCC(C)C', 'CCCCCCCC(C)C', 'CCCCC(C)CCC', 'CCC(C)CCC(C)CC', 'CCC(C)CC(C)CC', 'CCCCCC(C)C', 'C1CCCCCC1', 'CC(C)C(C)C', 'CCC(C)(C)C']
+
+S = pd.DataFrame({'SMILES': SMILES_alk}, columns = ['SMILES'])
 
 ## Pure compounds 
 a1 = pd.read_csv("/home/bmanubay/.thermoml/tables/Ken/Pure/Property data/cpmol_pure.csv")
@@ -155,6 +158,64 @@ count7c = count7c.reset_index()
 count7c.rename(columns={"index":"Component",0:"Count"},inplace=True)
 cc7 = pd.concat([count7c["Component"], count7c["Count"]], axis=1, keys=["Component", "Component Count"])
 
+## Binary Mixtures with alkane-alkane mixtures removed
+cc1c = pd.concat([aa1["x1"], aa1["x2"], aa1['smiles1'], aa1['smiles2']], axis=1, keys = ["x1", "x2", "SMILES1", "SMILES2"]) 
+ind = np.logical_not(cc1c.SMILES1.isin(S.SMILES) & cc1c.SMILES2.isin(S.SMILES))
+cc1c = cc1c[ind]
+cc1c = cc1c.drop(['SMILES1','SMILES2'], axis=1)
+count1c = pd.Series(cc1c.squeeze().values.ravel()).value_counts()
+count1c = count1c.reset_index()
+count1c.rename(columns={"index":"Component",0:"Count"},inplace=True)
+ccc1 = pd.concat([count1c["Component"], count1c["Count"]], axis=1, keys=["Component", "Component Count"])
+cc2c = pd.concat([aa2["x1"], aa2["x2"], aa2['smiles1'], aa2['smiles2']], axis=1, keys = ["x1", "x2", "SMILES1", "SMILES2"]) 
+ind = np.logical_not(cc2c.SMILES1.isin(S.SMILES) & cc2c.SMILES2.isin(S.SMILES))
+cc2c = cc2c[ind]
+cc2c = cc2c.drop(['SMILES1','SMILES2'], axis=1)
+count2c = pd.Series(cc2c.squeeze().values.ravel()).value_counts()
+count2c = count2c.reset_index()
+count2c.rename(columns={"index":"Component",0:"Count"},inplace=True)
+ccc2 = pd.concat([count2c["Component"], count2c["Count"]], axis=1, keys=["Component", "Component Count"])
+cc3c = pd.concat([aa3["x1"], aa3["x2"], aa3['smiles1'], aa3['smiles2']], axis=1, keys = ["x1", "x2", "SMILES1", "SMILES2"]) 
+ind = np.logical_not(cc3c.SMILES1.isin(S.SMILES) & cc3c.SMILES2.isin(S.SMILES))
+cc3c = cc3c[ind]
+cc3c = cc3c.drop(['SMILES1','SMILES2'], axis=1)
+count3c = pd.Series(cc3c.squeeze().values.ravel()).value_counts()
+count3c = count3c.reset_index()
+count3c.rename(columns={"index":"Component",0:"Count"},inplace=True)
+ccc3 = pd.concat([count3c["Component"], count3c["Count"]], axis=1, keys=["Component", "Component Count"])
+cc4c = pd.concat([aa4["x1"], aa4["x2"], aa4['smiles1'], aa4['smiles2']], axis=1, keys = ["x1", "x2", "SMILES1", "SMILES2"]) 
+ind = np.logical_not(cc4c.SMILES1.isin(S.SMILES) & cc4c.SMILES2.isin(S.SMILES))
+cc4c = cc4c[ind]
+cc4c = cc4c.drop(['SMILES1','SMILES2'], axis=1)
+count4c = pd.Series(cc4c.squeeze().values.ravel()).value_counts()
+count4c = count4c.reset_index()
+count4c.rename(columns={"index":"Component",0:"Count"},inplace=True)
+ccc4 = pd.concat([count4c["Component"], count4c["Count"]], axis=1, keys=["Component", "Component Count"])
+cc5c = pd.concat([aa5["x1"], aa5["x2"], aa5['smiles1'], aa5['smiles2']], axis=1, keys = ["x1", "x2", "SMILES1", "SMILES2"])
+ind = np.logical_not(cc5c.SMILES1.isin(S.SMILES) & cc5c.SMILES2.isin(S.SMILES))
+cc5c = cc5c[ind] 
+cc5c = cc5c.drop(['SMILES1','SMILES2'], axis=1)
+count5c = pd.Series(cc5c.squeeze().values.ravel()).value_counts()
+count5c = count5c.reset_index()
+count5c.rename(columns={"index":"Component",0:"Count"},inplace=True)
+ccc5 = pd.concat([count5c["Component"], count5c["Count"]], axis=1, keys=["Component", "Component Count"])
+cc6c = pd.concat([aa6["x1"], aa6["x2"], aa6['smiles1'], aa6['smiles2']], axis=1, keys = ["x1", "x2", "SMILES1", "SMILES2"]) 
+ind = np.logical_not(cc6c.SMILES1.isin(S.SMILES) & cc6c.SMILES2.isin(S.SMILES))
+cc6c = cc6c[ind]
+cc6c = cc6c.drop(['SMILES1','SMILES2'], axis=1)
+count6c = pd.Series(cc6c.squeeze().values.ravel()).value_counts()
+count6c = count6c.reset_index()
+count6c.rename(columns={"index":"Component",0:"Count"},inplace=True)
+ccc6 = pd.concat([count6c["Component"], count6c["Count"]], axis=1, keys=["Component", "Component Count"])
+cc7c = pd.concat([aa7["x1"], aa7["x2"], aa7['smiles1'], aa7['smiles2']], axis=1, keys = ["x1", "x2", "SMILES1", "SMILES2"]) 
+ind = np.logical_not(cc7c.SMILES1.isin(S.SMILES) & cc7c.SMILES2.isin(S.SMILES))
+cc7c = cc7c[ind]
+cc7c = cc7c.drop(['SMILES1','SMILES2'], axis=1)
+count7c = pd.Series(cc7c.squeeze().values.ravel()).value_counts()
+count7c = count7c.reset_index()
+count7c.rename(columns={"index":"Component",0:"Count"},inplace=True)
+ccc7 = pd.concat([count7c["Component"], count7c["Count"]], axis=1, keys=["Component", "Component Count"])
+
 # Get binary mixture counts
 gg1 = aa1["components"].value_counts()
 gg1 = gg1.reset_index()
@@ -236,19 +297,39 @@ b = cc2.merge(cc1,how='outer',on=['Component'],suffixes=(' dens binary', ' actco
 b.replace(np.nan,0,inplace=True)
 b.rename(columns={'Component Count':'Component Count emv binary'},inplace=True)
 
+bb = ccc2.merge(ccc1,how='outer',on=['Component'],suffixes=(' dens binary', ' actcoeff binary')).merge(ccc7,how='outer',on=['Component'],suffixes=(' actcoeff binary', ' sos binary')).merge(ccc3,how='outer',on=['Component'],suffixes=(' sos binary', ' dielec binary')).merge(ccc4,how='outer',on=['Component'],suffixes=(' dielec binary', ' eme binary')).merge(ccc5,how='outer',on=['Component'],suffixes=(' eme binary', ' emcp binary')).merge(ccc6,how='outer',on=['Component'],suffixes=(' emcp binary', ' emv binary'))
+bb.replace(np.nan,0,inplace=True)
+bb.rename(columns={'Component Count':'Component Count emv binary'},inplace=True)
 
 c = pd.merge(a,b,how='outer',on=['Component'])
 c.replace(np.nan,0,inplace=True)
 
+cc = pd.merge(a,bb,how='outer',on=['Component'])
+cc.replace(np.nan,0,inplace=True)
+
 a.insert(1,'SMILES',a.Component.apply(lambda x: resolve_cached(x, "smiles")))
 b.insert(1,'SMILES',b.Component.apply(lambda x: resolve_cached(x, "smiles")))
+bb.insert(1,'SMILES',bb.Component.apply(lambda x: resolve_cached(x, "smiles")))
 c.insert(1,'SMILES',c.Component.apply(lambda x: resolve_cached(x, "smiles")))
+cc.insert(1,'SMILES',cc.Component.apply(lambda x: resolve_cached(x, "smiles")))
 
 d = gg2.merge(gg1,how='outer',on=['Mixture'],suffixes=(' dens binary', ' actcoeff binary')).merge(gg7,how='outer',on=['Mixture'],suffixes=(' actcoeff binary', ' sos binary')).merge(gg3,how='outer',on=['Mixture'],suffixes=(' sos binary', ' dielec binary')).merge(gg4,how='outer',on=['Mixture'],suffixes=(' dielec binary', ' eme binary')).merge(gg5,how='outer',on=['Mixture'],suffixes=(' eme binary', ' emcp binary')).merge(gg6,how='outer',on=['Mixture'],suffixes=(' emcp binary', ' emv binary'))
 d.replace(np.nan,0,inplace=True)
 d.rename(columns={'Mixture Count':'Mixture Count emv binary'},inplace=True)
 
+d["x1"], d["x2"] =  zip(*d["Mixture"].str.split('__').tolist())
+
+d["SMILES1"] = d.x1.apply(lambda x: resolve_cached(x, "smiles"))
+d["SMILES2"] = d.x2.apply(lambda x: resolve_cached(x, "smiles"))
+
+ind = np.logical_not(d.SMILES1.isin(S.SMILES) & d.SMILES2.isin(S.SMILES))
+
+d_int = d[ind]
+
 a.to_csv("/home/bmanubay/.thermoml/tables/Ken/purecomp_counts_all.csv")
 b.to_csv("/home/bmanubay/.thermoml/tables/Ken/bincomp_counts_all.csv")
+bb.to_csv("/home/bmanubay/.thermoml/tables/Ken/bincomp_counts_interesting.csv")
 c.to_csv("/home/bmanubay/.thermoml/tables/Ken/allcomp_counts_all.csv")
+cc.to_csv("/home/bmanubay/.thermoml/tables/Ken/allcomp_counts_interesting.csv")
 d.to_csv("/home/bmanubay/.thermoml/tables/Ken/mix_counts_all.csv")
+d_int.to_csv("/home/bmanubay/.thermoml/tables/Ken/mix_counts_interesting.csv")

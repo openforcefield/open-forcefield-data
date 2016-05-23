@@ -1,0 +1,1071 @@
+;filename;Pure_Dens_Molecules;Bin_Dens_Mixtures;Pure_Hmol_Molecules;Bin_EME_Mixtures;Pure_Cpmol_Molecules;Bin_EMCp_Mixtures;Property_Score;nan_Count;Pure_Dens_Counts;Bin_Dens_Counts;Pure_Hmol_Counts;Bin_EME_Counts;Pure_Cpmol_Counts;Bin_EMCp_Counts;Component_Score;Aggregate_Score
+963;je901020a;"[""'C1CCCC1'"", ""'C1CCCCC1'"", ""'CC1CCCCC1'"", ""'C1CCCCCCC1'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'"", ""'Cc1cc(C)cc(C)c1'""]";"[""'Cc1ccccc1C__C1CCCC1'"", ""'Cc1cccc(C)c1__C1CCCC1'"", ""'Cc1ccc(C)cc1__C1CCCC1'"", ""'Cc1cc(C)cc(C)c1__C1CCCC1'"", ""'Cc1ccccc1C__C1CCCCC1'"", ""'Cc1cccc(C)c1__C1CCCCC1'"", ""'Cc1ccc(C)cc1__C1CCCCC1'"", ""'Cc1cc(C)cc(C)c1__C1CCCCC1'"", ""'Cc1ccccc1C__CC1CCCCC1'"", ""'Cc1cccc(C)c1__CC1CCCCC1'"", ""'Cc1ccc(C)cc1__CC1CCCCC1'"", ""'Cc1cc(C)cc(C)c1__CC1CCCCC1'"", ""'Cc1ccccc1C__C1CCCCCCC1'"", ""'Cc1cccc(C)c1__C1CCCCCCC1'"", ""'Cc1ccc(C)cc1__C1CCCCCCC1'"", ""'Cc1cc(C)cc(C)c1__C1CCCCCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;8;16;1;1;1;1;24.0;26.0
+578;je050085p;"[""'COc1ccccc1'"", ""'CCOc1ccccc1'"", ""'OCc1ccccc1'"", ""'OCCc1ccccc1'"", ""'OCCCc1ccccc1'""]";"[""'OCc1ccccc1__COc1ccccc1'"", ""'OCCc1ccccc1__COc1ccccc1'"", ""'COc1ccccc1__OCCCc1ccccc1'"", ""'OCc1ccccc1__CCOc1ccccc1'"", ""'OCCc1ccccc1__CCOc1ccccc1'"", ""'CCOc1ccccc1__OCCCc1ccccc1'""]";['nan'];"[""'OCc1ccccc1__COc1ccccc1'"", ""'OCCc1ccccc1__COc1ccccc1'"", ""'COc1ccccc1__OCCCc1ccccc1'"", ""'OCc1ccccc1__CCOc1ccccc1'"", ""'OCCc1ccccc1__CCOc1ccccc1'"", ""'CCOc1ccccc1__OCCCc1ccccc1'""]";['nan'];['nan'];3.0;-3.0;5;6;1;6;1;1;17.0;20.0
+118;j.fluid.2013.06.041;"[""'OCCO'"", ""'OCCCO'"", ""'CC(O)CO'"", ""'OCCCCO'"", ""'CCCCC(O)CO'""]";['nan'];['nan'];['nan'];"[""'OCCO'"", ""'OCCCO'"", ""'CC(O)CO'"", ""'OCCCCO'"", ""'CCCCC(O)CO'""]";"[""'OCCO__O'"", ""'CC(O)CO__O'"", ""'OCCCO__O'"", ""'OCCCCO__O'"", ""'CCCCC(O)CO__O'""]";3.0;-3.0;5;1;1;1;5;5;15.0;18.0
+927;je900468u;"[""'C1CCCCC1'"", ""'CC1CCCCC1'"", ""'C1CCCCCCC1'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'""]";"[""'c1ccccc1__C1CCCCC1'"", ""'c1ccccc1__CC1CCCCC1'"", ""'Cc1ccccc1__C1CCCCC1'"", ""'CC1CCCCC1__Cc1ccccc1'"", ""'CCc1ccccc1__C1CCCCC1'"", ""'CCc1ccccc1__CC1CCCCC1'"", ""'c1ccccc1__C1CCCCCCC1'"", ""'Cc1ccccc1__C1CCCCCCC1'"", ""'CCc1ccccc1__C1CCCCCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;6;9;1;1;1;1;15.0;17.0
+983;s10765-009-0667-2;"[""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'"", ""'CCCCCCC'"", ""'C1CCCCCCC1'""]";"[""'c1ccccc1__Cc1ccccc1'"", ""'CCc1ccccc1__Cc1ccccc1'"", ""'Cc1ccccc1__CCCCCCC'"", ""'CCc1ccccc1__CCCCCCC'"", ""'c1ccccc1__CCc1ccccc1'"", ""'c1ccccc1__CCCCCCC'"", ""'c1ccccc1__C1CCCCCCC1'"", ""'Cc1ccccc1__C1CCCCCCC1'"", ""'CCc1ccccc1__C1CCCCCCC1'"", ""'CCCCCCC__C1CCCCCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;10;1;1;1;1;15.0;17.0
+900;je8009336;"[""'C1CCCC1'"", ""'C1CCCCC1'"", ""'CC1CCCCC1'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'""]";"[""'c1ccccc1__C1CCCC1'"", ""'Cc1ccccc1__C1CCCC1'"", ""'CCc1ccccc1__C1CCCC1'"", ""'c1ccccc1__C1CCCCC1'"", ""'Cc1ccccc1__C1CCCCC1'"", ""'CCc1ccccc1__C1CCCCC1'"", ""'c1ccccc1__CC1CCCCC1'"", ""'CC1CCCCC1__Cc1ccccc1'"", ""'CCc1ccccc1__CC1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;6;9;1;1;1;1;15.0;17.0
+649;je100095p;"[""'OCc1ccccc1'"", ""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CCCCCCO'""]";['nan'];['nan'];"[""'CO__OCc1ccccc1'"", ""'CCO__OCc1ccccc1'"", ""'CCCO__OCc1ccccc1'"", ""'CCCCO__OCc1ccccc1'"", ""'CCCCCO__OCc1ccccc1'"", ""'OCc1ccccc1__CCCCCCO'""]";['nan'];['nan'];2.0;-4.0;7;1;1;6;1;1;13.0;15.0
+612;je060086;"[""'CC(O)CO'"", ""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CCCCCCO'""]";['nan'];['nan'];"[""'CC(O)CO__CO'"", ""'CC(O)CO__CCO'"", ""'CC(O)CO__CCCO'"", ""'CC(O)CO__CCCCO'"", ""'CC(O)CO__CCCCCO'"", ""'CC(O)CO__CCCCCCO'""]";['nan'];['nan'];2.0;-4.0;7;1;1;6;1;1;13.0;15.0
+226;j.jct.2006.03.018;"[""'COc1ccccc1'"", ""'CCO'"", ""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CC(C)CCO'""]";"[""'CCO__COc1ccccc1'"", ""'CCCO__COc1ccccc1'"", ""'CC(C)O__COc1ccccc1'"", ""'CCCCO__COc1ccccc1'"", ""'CCCCCO__COc1ccccc1'"", ""'COc1ccccc1__CC(C)CCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;7;6;1;1;1;1;13.0;15.0
+212;j.jct.2005.06.011;"[""'CC1CCCCC1'"", ""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'"", ""'CC(C)CO'"", ""'CC(C)CCO'"", ""'CCO'""]";"[""'CCO__CC1CCCCC1'"", ""'CCCO__CC1CCCCC1'"", ""'CC(C)O__CC1CCCCC1'"", ""'CCCCO__CC1CCCCC1'"", ""'CC(C)CO__CC1CCCCC1'"", ""'CC1CCCCC1__CC(C)CCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;7;6;1;1;1;1;13.0;15.0
+598;je0504212;"[""'CCCCOCCCC'"", ""'CCOCCO'"", ""'OCCOCCO'"", ""'COCCOC'"", ""'CCOCCOCC'"", ""'CCOCCOCCO'"", ""'OCCOCCOCCO'"", ""'OCc1ccccc1'""]";['nan'];['nan'];"[""'OCc1ccccc1__CCCCOCCCC'"", ""'OCc1ccccc1__CCOCCO'"", ""'OCc1ccccc1__COCCOC'"", ""'OCc1ccccc1__CCOCCOCC'"", ""'OCc1ccccc1__CCOCCOCCO'""]";['nan'];['nan'];2.0;-4.0;8;1;1;5;1;1;13.0;15.0
+256;j.jct.2007.05.005;"[""'CCOC(C)(C)C'"", ""'CC(C)CC(C)(C)C'"", ""'CCc1ccccc1'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CC(C)(C)O'"", ""'CCO'""]";"[""'c1ccccc1__CCOC(C)(C)C'"", ""'Cc1ccccc1__CCOC(C)(C)C'"", ""'CCc1ccccc1__CCOC(C)(C)C'"", ""'CC(C)CC(C)(C)C__CCOC(C)(C)C'"", ""'CC(C)(C)O__CCOC(C)(C)C'"", ""'CCO__CCOC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;7;6;1;1;1;1;13.0;15.0
+368;j.jct.2012.02.037;"[""'OC1CCCCC1'"", ""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'"", ""'CCC(C)O'""]";['nan'];['nan'];"[""'CO__OC1CCCCC1'"", ""'CCCO__OC1CCCCC1'"", ""'CCCCO__OC1CCCCC1'"", ""'CCO__OC1CCCCC1'"", ""'CC(C)O__OC1CCCCC1'"", ""'CCC(C)O__OC1CCCCC1'""]";['nan'];['nan'];2.0;-4.0;7;1;1;6;1;1;13.0;15.0
+613;je0601098;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'"", ""'C1CCOC1'"", ""'C1COCCO1'""]";"[""'CO__O'"", ""'CCO__O'"", ""'CCCO__O'"", ""'CCCCO__O'"", ""'C1CCOC1__O'"", ""'C1COCCO1__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;6;6;1;1;1;1;12.0;14.0
+151;j.fluid.2014.06.005;"[""'CCCO'"", ""'CC(C)O'"", ""'OCCc1ccccc1'"", ""'OCCCO'"", ""'CC(C)(C)O'""]";"[""'CCCO__OCCCO'"", ""'OCCc1ccccc1__CCCO'"", ""'CCCO__CC(C)(C)O'"", ""'CC(C)O__OCCCO'"", ""'OCCc1ccccc1__CC(C)O'"", ""'CC(C)O__CC(C)(C)O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;6;1;1;1;1;11.0;13.0
+232;j.jct.2006.06.008;"[""'C1CCCCC1'"", ""'C1CCCC1'"", ""'CCCO'"", ""'CCCCO'"", ""'CCO'""]";"[""'CCO__C1CCCCC1'"", ""'CCCO__C1CCCCC1'"", ""'CCCCO__C1CCCCC1'"", ""'CCO__C1CCCC1'"", ""'CCCO__C1CCCC1'"", ""'CCCCO__C1CCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;6;1;1;1;1;11.0;13.0
+588;je0502546;"[""'COc1ccccc1'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'"", ""'CCCc1ccccc1'"", ""'CCCCc1ccccc1'""]";"[""'c1ccccc1__COc1ccccc1'"", ""'COc1ccccc1__Cc1ccccc1'"", ""'CCc1ccccc1__COc1ccccc1'"", ""'COc1ccccc1__CCCc1ccccc1'"", ""'COc1ccccc1__CCCCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;6;5;1;1;1;1;11.0;13.0
+781;je400529k;"[""'C1CC2C3CCC(C3)C2C1'"", ""'C1CCCCC1'"", ""'CC1CCCCC1'"", ""'CCC1CCCCC1'"", ""'CCCCC1CCCCC1'"", ""'CC1CCC(C)C(C)C1'""]";"[""'C1CCCCC1__C1CC2C3CCC(C3)C2C1'"", ""'CC1CCCCC1__C1CC2C3CCC(C3)C2C1'"", ""'CCC1CCCCC1__C1CC2C3CCC(C3)C2C1'"", ""'CCCCC1CCCCC1__C1CC2C3CCC(C3)C2C1'"", ""'CC1CCC(C)C(C)C1__C1CC2C3CCC(C3)C2C1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;6;5;1;1;1;1;11.0;13.0
+296;j.jct.2009.03.009;['nan'];"[""'c1ccccc1__CCCCCC'"", ""'Cc1ccccc1__CCCCCC'"", ""'CCc1ccccc1__CCCCCC'"", ""'c1ccccc1__CCCCCCC'"", ""'Cc1ccccc1__CCCCCCC'"", ""'CCc1ccccc1__CCCCCCC'"", ""'c1ccccc1__CCCCCCCC'"", ""'Cc1ccccc1__CCCCCCCC'"", ""'CCc1ccccc1__CCCCCCCC'"", ""'c1ccccc1__CCCCCCCCC'"", ""'Cc1ccccc1__CCCCCCCCC'"", ""'CCc1ccccc1__CCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;12;1;1;1;1;12.0;13.0
+221;j.jct.2005.12.005;"[""'CC1CCCCC1'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'Cc1ccc(C)cc1'"", ""'Cc1cc(C)cc(C)c1'"", ""'COc1ccccc1'""]";"[""'c1ccccc1__CC1CCCCC1'"", ""'CC1CCCCC1__Cc1ccccc1'"", ""'Cc1ccc(C)cc1__CC1CCCCC1'"", ""'Cc1cc(C)cc(C)c1__CC1CCCCC1'"", ""'COc1ccccc1__CC1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;6;5;1;1;1;1;11.0;13.0
+48;j.fluid.2008.03.004;"[""'COC(C)(C)C'"", ""'CCOC(C)(C)C'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'""]";"[""'Cc1ccccc1C__COC(C)(C)C'"", ""'Cc1cccc(C)c1__COC(C)(C)C'"", ""'Cc1ccc(C)cc1__COC(C)(C)C'"", ""'Cc1ccccc1C__CCOC(C)(C)C'"", ""'Cc1cccc(C)c1__CCOC(C)(C)C'"", ""'Cc1ccc(C)cc1__CCOC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;6;1;1;1;1;11.0;13.0
+407;j.jct.2012.12.003;"[""'CC(O)CO'"", ""'CO'"", ""'CCCO'"", ""'CCCCCCO'"", ""'CCCCCCCCO'"", ""'CCCCCCCCCO'""]";"[""'CC(O)CO__CO'"", ""'CC(O)CO__CCCO'"", ""'CC(O)CO__CCCCCCO'"", ""'CC(O)CO__CCCCCCCCO'"", ""'CC(O)CO__CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;6;5;1;1;1;1;11.0;13.0
+749;je300670n;"[""'CCOC(C)(C)CC'"", ""'CCCCO'"", ""'CCC(C)O'"", ""'CCC(C)(C)O'""]";"[""'CCCCO__CCOC(C)(C)CC'"", ""'CCC(C)(C)O__CCOC(C)(C)CC'"", ""'CCC(C)O__CCOC(C)(C)CC'""]";['nan'];"[""'CCCCO__CCOC(C)(C)CC'"", ""'CCC(C)(C)O__CCOC(C)(C)CC'"", ""'CCC(C)O__CCOC(C)(C)CC'""]";['nan'];['nan'];3.0;-3.0;4;3;1;3;1;1;10.0;13.0
+172;j.fluid.2015.03.040;"[""'CCCCO'"", ""'CCCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCO'"", ""'CCCCCCCCO'"", ""'C1CCOCC1'"", ""'COC(C)(C)C'"", ""'CCC(C)(C)OC'"", ""'CCOC(C)(C)C'"", ""'CC(C)OC(C)C'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;11;1;1;1;1;1;11.0;12.0
+885;je800497u;"[""'CCCO'"", ""'CCCCCO'"", ""'CCCCCCCO'"", ""'CCCCCCCCCO'""]";"[""'CCCO__CCCCCO'"", ""'CCCCCO__CCCCCCCCCO'"", ""'CCCO__CCCCCCCO'"", ""'CCCO__CCCCCCCCCO'"", ""'CCCCCCCO__CCCCCCCCCO'"", ""'CCCCCO__CCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;6;1;1;1;1;10.0;12.0
+776;je4004806;"[""'CCCCCCCC'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'""]";"[""'CCO__CCCCCCCC'"", ""'CCCO__CCCCCCCC'"", ""'CCCCO__CCCCCCCC'"", ""'CCCCCO__CCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;4;1;1;1;1;9.0;11.0
+644;je060496;"[""'OCC(O)CO'"", ""'CCCO'"", ""'CC(C)O'"", ""'CC(O)CO'"", ""'OCCCO'""]";"[""'OCC(O)CO__CCCO'"", ""'OCC(O)CO__CC(C)O'"", ""'OCC(O)CO__CC(O)CO'"", ""'OCC(O)CO__OCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;4;1;1;1;1;9.0;11.0
+117;j.fluid.2013.06.021;"[""'CCCCOCCO'"", ""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'"", ""'CCC(C)O'""]";"[""'CCCO__CCCCOCCO'"", ""'CC(C)O__CCCCOCCO'"", ""'CCCCO__CCCCOCCO'"", ""'CCC(C)O__CCCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;4;1;1;1;1;9.0;11.0
+609;je0600799;"[""'COC(C)(C)C'"", ""'CO'"", ""'c1ccccc1'"", ""'Cc1ccccc1'""]";"[""'CO__COC(C)(C)C'"", ""'CO__c1ccccc1'"", ""'c1ccccc1__COC(C)(C)C'"", ""'CO__Cc1ccccc1'"", ""'Cc1ccccc1__COC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;5;1;1;1;1;9.0;11.0
+267;j.jct.2007.10.010;"[""'CCCCCCCC'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'Cc1cccc(C)c1'"", ""'Cc1cc(C)cc(C)c1'""]";"[""'c1ccccc1__CCCCCCCC'"", ""'Cc1ccccc1__CCCCCCCC'"", ""'Cc1cccc(C)c1__CCCCCCCC'"", ""'Cc1cc(C)cc(C)c1__CCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;4;1;1;1;1;9.0;11.0
+819;je501041r;"[""'CC(C)CC(C)(C)C'"", ""'CCCO'"", ""'CCCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCO'""]";"[""'CCCO__CC(C)CC(C)(C)C'"", ""'CCCCCO__CC(C)CC(C)(C)C'"", ""'CCCCCCO__CC(C)CC(C)(C)C'"", ""'CCCCCCCO__CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;4;1;1;1;1;9.0;11.0
+815;je5009334;"[""'OCCc1ccccc1'"", ""'CCC(C)O'"", ""'CCC(O)CO'"", ""'CC(O)CCO'"", ""'OCc1ccccc1'""]";"[""'OCCc1ccccc1__CCC(O)CO'"", ""'CCC(C)O__CCC(O)CO'"", ""'CC(O)CCO__CCC(O)CO'"", ""'OCc1ccccc1__CCC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;4;1;1;1;1;9.0;11.0
+969;je9010882;"[""'OCCO'"", ""'CCCCCCCO'"", ""'CCCCCCCCCO'"", ""'CCO'"", ""'CCCCC(CC)CO'""]";"[""'CCCCC(CC)CO__OCCO'"", ""'OCCO__CCCCCCCO'"", ""'CCO__OCCO'"", ""'OCCO__CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;4;1;1;1;1;9.0;11.0
+674;je100734t;"[""'CCCCCCCCCO'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'"", ""'CCc1ccccc1'""]";"[""'Cc1ccccc1C__CCCCCCCCCO'"", ""'Cc1cccc(C)c1__CCCCCCCCCO'"", ""'Cc1ccc(C)cc1__CCCCCCCCCO'"", ""'CCc1ccccc1__CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;4;1;1;1;1;9.0;11.0
+155;j.fluid.2014.06.024;"[""'C1CCOCC1'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'Cc1ccccc1C'""]";['nan'];['nan'];['nan'];"[""'C1CCOCC1'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'Cc1ccccc1C'""]";['nan'];2.0;-4.0;4;1;1;1;4;1;8.0;10.0
+968;je901072c;"[""'CC(C)OCCO'"", ""'CCCCOCCO'"", ""'COCCOCCOC'"", ""'COC(C)COC(C)CO'""]";"[""'CC(C)OCCO__O'"", ""'CCCCOCCO__O'"", ""'COCCOCCOC__O'"", ""'O__COC(C)COC(C)CO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;4;1;1;1;1;8.0;10.0
+604;je050540h;"[""'C1CCCCC1'"", ""'C1CCCC1'"", ""'CC(C)O'"", ""'CCCC(C)O'""]";"[""'CC(C)O__C1CCCCC1'"", ""'C1CCCCC1__CCCC(C)O'"", ""'CC(C)O__C1CCCC1'"", ""'C1CCCC1__CCCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;4;1;1;1;1;8.0;10.0
+21;j.fluid.2006.02.023;"[""'C1COCO1'"", ""'O'"", ""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'"", ""'CC(C)(C)O'"", ""'CC(C)CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;9;1;1;1;1;1;9.0;10.0
+731;je2011314;"[""'CO'"", ""'CCCCCC(C)C'"", ""'CCCO'"", ""'COC(C)(C)C'"", ""'CCO'"", ""'CC(C)OC(C)C'""]";"[""'CC(C)OC(C)C__CCCCCC(C)C'"", ""'CCCCCC(C)C__COC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;6;2;1;1;1;1;8.0;10.0
+601;je050484k;"[""'COCCO'"", ""'Cc1ccc(C)c(C)c1'"", ""'Cc1cc(C)cc(C)c1'"", ""'COCCOC'""]";"[""'Cc1ccc(C)c(C)c1__COCCO'"", ""'Cc1ccc(C)c(C)c1__COCCOC'"", ""'Cc1cc(C)cc(C)c1__COCCO'"", ""'Cc1cc(C)cc(C)c1__COCCOC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;4;1;1;1;1;8.0;10.0
+336;j.jct.2011.04.006;"[""'CCCCOCCCC'"", ""'CCCOCCC'"", ""'CCC(C)(C)C'"", ""'CC(C)C(C)C'""]";['nan'];['nan'];"[""'CCC(C)(C)C__CCCCOCCCC'"", ""'CC(C)C(C)C__CCCCOCCCC'"", ""'CCC(C)(C)C__CCCOCCC'"", ""'CC(C)C(C)C__CCCOCCC'""]";['nan'];['nan'];2.0;-4.0;4;1;1;4;1;1;8.0;10.0
+1047;j.jct.2006.10.007;['nan'];['nan'];['nan'];['nan'];"[""'CCCCCC(C)O'"", ""'CCCC(O)CCC'"", ""'CCCCCCC(C)O'"", ""'CCCCCC(O)CC'"", ""'CCCCC(O)CCC'"", ""'CCCCCCCC(C)O'"", ""'CCCCCCC(O)CC'"", ""'CCCCCC(O)CCC'"", ""'CCCCC(O)CCCC'""]";['nan'];1.0;-5.0;1;1;1;1;9;1;9.0;10.0
+252;j.jct.2007.02.008;"[""'CCO'"", ""'CC(C)O'"", ""'CCCCCC'"", ""'C1CCCCC1'"", ""'CCCCCCC'""]";"[""'CCO__CCCCCC'"", ""'CCO__CCCCCCC'"", ""'CC(C)O__C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;3;1;1;1;1;8.0;10.0
+954;je900807v;"[""'CC1CCCCC1'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'""]";"[""'c1ccccc1__CC1CCCCC1'"", ""'CC1CCCCC1__Cc1ccccc1'"", ""'CCc1ccccc1__CC1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+931;je9004933;"[""'CCCCCO'"", ""'CCCCCCCO'"", ""'CCCCCCCCCO'"", ""'CCCCC(CC)CO'""]";"[""'CCCCCO__CCCCC(CC)CO'"", ""'CCCCC(CC)CO__CCCCCCCO'"", ""'CCCCC(CC)CO__CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+669;je100652b;"[""'CCCCO'"", ""'CCCCCO'"", ""'CCCCCCCO'"", ""'c1ccccc1'"", ""'C1CCCCC1'"", ""'Cc1ccccc1'"", ""'Cc1ccc(C)cc1'"", ""'CCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;8;1;1;1;1;1;8.0;9.0
+855;je700580g;"[""'OCCO'"", ""'CCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCCO'""]";"[""'CCCCO__OCCO'"", ""'OCCO__CCCCCCO'"", ""'OCCO__CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+853;je7005727;"[""'CCCCO'"", ""'CCCCCO'"", ""'CCCCCCO'"", ""'CCCCOCCCC'""]";"[""'CCCCO__CCCCOCCCC'"", ""'CCCCCO__CCCCOCCCC'"", ""'CCCCCCO__CCCCOCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+240;j.jct.2006.09.007;"[""'CCc1ccccc1'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'"", ""'CC(C)c1ccccc1'"", ""'Cc1ccc(C)c(C)c1'"", ""'Cc1cc(C)cc(C)c1'"", ""'COc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;8;1;1;1;1;1;8.0;9.0
+249;j.jct.2007.01.009;"[""'CCCCC(O)CO'"", ""'CC(O)CCC(C)O'"", ""'CC(O)CCCCO'""]";"[""'CCCCC(O)CO__O'"", ""'CC(O)CCCCO__O'"", ""'OCCCCCCO__O'"", ""'CC(O)CCC(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;4;1;1;1;1;7.0;9.0
+681;je100823t;"[""'CCCCCCO'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'""]";"[""'Cc1ccccc1C__CCCCCCO'"", ""'Cc1cccc(C)c1__CCCCCCO'"", ""'Cc1ccc(C)cc1__CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+108;j.fluid.2013.01.027;"[""'CCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCCO'"", ""'O'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'"", ""'CCCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;8;1;1;1;1;1;8.0;9.0
+620;je060179e;"[""'CCCCCCC'"", ""'CCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCCO'""]";"[""'CCCCO__CCCCCCC'"", ""'CCCCCCO__CCCCCCC'"", ""'CCCCCCCCO__CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+1008;j.fluid.2011.11.005;['nan'];['nan'];['nan'];"[""'CC1CCCCC1__CCCCOCCCC'"", ""'Cc1ccccc1__CCCCOCCCC'"", ""'CCCCO__CC1CCCCC1'"", ""'CCCCO__Cc1ccccc1'"", ""'C1CCCCC1__CCCCOCCCC'"", ""'CCCCOCCCC__CC(C)CC(C)(C)C'"", ""'CCCCO__C1CCCCC1'"", ""'CCCCO__CC(C)CC(C)(C)C'""]";['nan'];['nan'];1.0;-5.0;1;1;1;8;1;1;8.0;9.0
+919;je900274n;"[""'CCCO'"", ""'COC(C)(C)C'"", ""'CC(C)OC(C)C'"", ""'CCC(C)(C)OC'""]";"[""'CCCO__COC(C)(C)C'"", ""'CCCO__CC(C)OC(C)C'"", ""'CCCO__CCC(C)(C)OC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+168;j.fluid.2015.01.002;"[""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'Cc1ccc(C)cc1'"", ""'COCCO'""]";"[""'c1ccccc1__COCCO'"", ""'Cc1ccccc1__COCCO'"", ""'Cc1ccc(C)cc1__COCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+636;je060389r;"[""'CC(C)CO'"", ""'CCCCCC'"", ""'CCCCCCCC'"", ""'CCCCCCCCCC'""]";"[""'CC(C)CO__CCCCCC'"", ""'CC(C)CO__CCCCCCCC'"", ""'CC(C)CO__CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+209;j.jct.2005.05.004;"[""'Cc1ccccc1'"", ""'CO'"", ""'CCO'"", ""'CCCO'""]";"[""'CO__Cc1ccccc1'"", ""'CCO__Cc1ccccc1'"", ""'CCCO__Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+625;je060238o;"[""'CC(C)CO'"", ""'CCC(C)CO'"", ""'CC(C)CCO'"", ""'CCCCCO'""]";"[""'CC(C)CO__CCC(C)CO'"", ""'CC(C)CO__CC(C)CCO'"", ""'CCCCCO__CC(C)CO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+981;s10765-009-0622-2;"[""'CCCCCC'"", ""'CCc1ccccc1'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'""]";"[""'Cc1ccccc1C__CCCCCC'"", ""'Cc1ccc(C)cc1__CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;5;2;1;1;1;1;7.0;9.0
+897;je800831d;"[""'C1CCCC1'"", ""'CCCO'"", ""'CCCCCO'"", ""'CCCCCCCO'""]";"[""'CCCO__C1CCCC1'"", ""'CCCCCO__C1CCCC1'"", ""'CCCCCCCO__C1CCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+178;j.fluid.2015.05.016;"[""'CO'"", ""'CC(O)CO'"", ""'CCC(O)CO'"", ""'CCCC(O)CO'""]";['nan'];['nan'];['nan'];"[""'CO'"", ""'CC(O)CO'"", ""'CCCC(O)CO'""]";['nan'];2.0;-4.0;4;1;1;1;3;1;7.0;9.0
+90;j.fluid.2012.06.031;"[""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CC(C)CC(C)(C)C'""]";"[""'CCCO__CC(C)CC(C)(C)C'"", ""'CCCCO__CC(C)CC(C)(C)C'"", ""'CCCCCO__CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+258;j.jct.2007.05.016;"[""'CCCCO'"", ""'CCCCCC'"", ""'CCCCCCCC'"", ""'CCCCCCCCCC'""]";"[""'CCCCO__CCCCCC'"", ""'CCCCO__CCCCCCCC'"", ""'CCCCO__CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+1032;je060411g;['nan'];['nan'];"[""'CC(C)(C)CO'"", ""'CCC(O)CC'""]";['nan'];"[""'CC(C)(C)CO'"", ""'CCC(C)CO'"", ""'CC(C)C(C)O'"", ""'CCCC(C)O'"", ""'CCC(O)CC'""]";['nan'];2.0;-4.0;1;1;2;1;5;1;7.0;9.0
+30;j.fluid.2007.01.001;"[""'Cc1ccccc1'"", ""'CCCCC(C)O'"", ""'CCCCCC(C)O'"", ""'CCCCCCC(C)O'""]";"[""'Cc1ccccc1__CCCCC(C)O'"", ""'Cc1ccccc1__CCCCCC(C)O'"", ""'Cc1ccccc1__CCCCCCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+277;j.jct.2008.02.005;"[""'CCCCCCCCO'"", ""'CCCCCC'"", ""'CCCCCCCC'"", ""'CCCCCCCCCC'""]";"[""'CCCCCC__CCCCCCCCO'"", ""'CCCCCCCC__CCCCCCCCO'"", ""'CCCCCCCCO__CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+764;je301095j;"[""'COCCOC'"", ""'CCO'"", ""'CCCCCO'"", ""'CCCCCCCCO'""]";"[""'CCO__COCCOC'"", ""'CCCCCO__COCCOC'"", ""'COCCOC__CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+568;je049776w;"[""'Cc1ccc(C)cc1'"", ""'C1CCCCC1'"", ""'CCCCCCC'"", ""'CCCCCCCC'""]";"[""'Cc1ccc(C)cc1__C1CCCCC1'"", ""'Cc1ccc(C)cc1__CCCCCCC'"", ""'Cc1ccc(C)cc1__CCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+351;j.jct.2011.10.023;"[""'CCO'"", ""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCO'"", ""'CCCCCCCCO'"", ""'CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;8;1;1;1;1;1;8.0;9.0
+807;je5004719;"[""'C1CCOCC1'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'Cc1ccccc1C'""]";"[""'c1ccccc1__C1CCOCC1'"", ""'Cc1ccccc1__C1CCOCC1'"", ""'Cc1ccccc1C__C1CCOCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+597;je050416y;"[""'CCC(C)CO'"", ""'CCC(C)(C)O'"", ""'CC(C)CCO'"", ""'CCO'""]";"[""'CCO__CCC(C)CO'"", ""'CCO__CCC(C)(C)O'"", ""'CCO__CC(C)CCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;3;1;1;1;1;7.0;9.0
+339;j.jct.2011.06.013;"[""'OCCO'"", ""'OCCOCCO'"", ""'OCCOCCOCCO'""]";"[""'OCCO__OCCOCCO'"", ""'OCCO__OCCOCCOCCO'"", ""'OCCOCCO__OCCOCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;3;1;1;1;1;6.0;8.0
+419;j.jct.2013.05.009;"[""'CC(C)CC(C)(C)C'"", ""'Cc1ccccc1'"", ""'CCCCO'""]";"[""'CCCCO__CC(C)CC(C)(C)C'"", ""'CCCCO__Cc1ccccc1'"", ""'Cc1ccccc1__CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;3;1;1;1;1;6.0;8.0
+320;j.jct.2010.08.019;"[""'CC(C)O'"", ""'C1CCOCC1'"", ""'CC(C)CC(C)(C)C'""]";"[""'CC(C)O__C1CCOCC1'"", ""'CC(C)O__CC(C)CC(C)(C)C'"", ""'C1CCOCC1__CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;3;1;1;1;1;6.0;8.0
+1038;je700308j;['nan'];['nan'];['nan'];"[""'C1CCOC1__CCCCCCCCC'"", ""'CCCCO__C1CCCC1'"", ""'CCCCCO__C1CCCC1'"", ""'CCCCCCO__C1CCCC1'"", ""'CCCCCCCO__C1CCCC1'"", ""'CCCCCCCCO__C1CCCC1'"", ""'CCCCCCCCCO__C1CCCC1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;7;1;1;7.0;8.0
+335;j.jct.2011.02.018;['nan'];"[""'CO__COC(C)(C)C'"", ""'CCO__COC(C)(C)C'"", ""'CCCO__COC(C)(C)C'"", ""'CC(C)O__COC(C)(C)C'"", ""'CCCCO__COC(C)(C)C'"", ""'CCCCCO__COC(C)(C)C'"", ""'CCCCCCO__COC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;7;1;1;1;1;7.0;8.0
+581;je0501639;"[""'CCO'"", ""'CC(C)(C)O'"", ""'CC(C)CC(C)(C)C'""]";"[""'CCO__CC(C)(C)O'"", ""'CCO__CC(C)CC(C)(C)C'"", ""'CC(C)(C)O__CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;3;1;1;1;1;6.0;8.0
+344;j.jct.2011.08.012;"[""'CCCCCC(C)C'"", ""'CCCCO'""]";"[""'CCCCO__CCCCCC(C)C'""]";['nan'];['nan'];"[""'CCCCCC(C)C'"", ""'CCCCO'""]";['nan'];3.0;-3.0;2;1;1;1;2;1;5.0;8.0
+665;je100594u;"[""'C1COCO1'"", ""'CCCCCO'"", ""'CCOCC'""]";"[""'CCOCC__C1COCO1'"", ""'CCCCCO__C1COCO1'"", ""'CCOCC__CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;3;1;1;1;1;6.0;8.0
+1049;j.jct.2007.04.011;['nan'];['nan'];['nan'];['nan'];"[""'CCCCO'"", ""'OCCCCO'"", ""'CC(O)C(C)O'"", ""'CCC(O)CO'"", ""'OCCCCCCO'""]";"[""'CCCCO__OCCCCO'""]";2.0;-4.0;1;1;1;1;5;1;6.0;8.0
+959;je900954y;"[""'CC(O)CO'"", ""'OCCO'"", ""'CCCCCCCO'"", ""'CCCCCCO'""]";"[""'CC(O)CO__CCCCCCCO'"", ""'CC(O)CO__CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;2;1;1;1;1;6.0;8.0
+123;j.fluid.2013.08.007;"[""'CC(C)O'"", ""'O'""]";"[""'CC(C)O__O'""]";['nan'];['nan'];"[""'CC(C)O'"", ""'O'""]";['nan'];3.0;-3.0;2;1;1;1;2;1;5.0;8.0
+650;je100100n;"[""'CO'"", ""'CC(C)O'"", ""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CC(C)CO'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;7;1;1;1;1;1;7.0;8.0
+1067;je800356;['nan'];['nan'];['nan'];['nan'];"[""'OCCO'"", ""'OCCCO'"", ""'OCCCCO'"", ""'OCCCCCO'"", ""'OCCCCCCO'"", ""'OCCCCCCCO'"", ""'OCCCCCCCCO'""]";['nan'];1.0;-5.0;1;1;1;1;7;1;7.0;8.0
+298;j.jct.2009.06.001;"[""'C1CCCCC1'"", ""'CCCCCCC'""]";"[""'c1ccccc1__C1CCCCC1'"", ""'c1ccc2ccccc2c1__C1CCCCC1'"", ""'c1ccccc1__CCCCCCC'"", ""'c1ccc2ccccc2c1__CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;4;1;1;1;1;6.0;8.0
+0;cs.jced.5b00009;"[""'CC(C)CC(C)(C)C'"", ""'CCCCCCC'"", ""'CCCCCCCC'"", ""'c1ccccc1'""]";"[""'CCCCCCC__CC(C)CC(C)(C)C'"", ""'CCCCCCCC__CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;2;1;1;1;1;6.0;8.0
+83;j.fluid.2011.11.022;"[""'OCCO'"", ""'OCCOCCO'"", ""'OCCOCCOCCO'""]";"[""'OCCO__OCCOCCO'"", ""'OCCO__OCCOCCOCCO'"", ""'OCCOCCO__OCCOCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;3;1;1;1;1;6.0;8.0
+294;j.jct.2009.01.008;"[""'Cc1ccccc1'"", ""'CC(C)CC(C)(C)C'"", ""'COC(C)(C)C'""]";"[""'Cc1ccccc1__CC(C)CC(C)(C)C'"", ""'CC(C)CC(C)(C)C__COC(C)(C)C'"", ""'Cc1ccccc1__COC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;3;1;1;1;1;6.0;8.0
+210;j.jct.2005.05.020;"[""'CCCCC'"", ""'CCCCCC'"", ""'CCCCCCC'""]";"[""'CCCCC__CCCCCC'"", ""'CCCCC__CCCCCCC'"", ""'CCCCCC__CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;3;1;1;1;1;6.0;8.0
+543;j.tca.2013.03.010;"[""'OCCCO'"", ""'OCCO'"", ""'CC(O)CO'""]";"[""'CC(O)CO__OCCO'"", ""'OCCO__OCCCO'"", ""'CC(O)CO__OCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;3;1;1;1;1;6.0;8.0
+834;je700140j;"[""'CC(C)O'"", ""'OCc1ccccc1'"", ""'OCCc1ccccc1'""]";"[""'CC(C)O__OCc1ccccc1'"", ""'OCCc1ccccc1__CC(C)O'"", ""'OCCc1ccccc1__OCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;3;1;1;1;1;6.0;8.0
+56;j.fluid.2008.06.019;"[""'CC(C)OC(C)C'"", ""'CCCO'"", ""'Cc1ccccc1'""]";"[""'CCCO__CC(C)OC(C)C'"", ""'CC(C)OC(C)C__Cc1ccccc1'"", ""'CCCO__Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;3;1;1;1;1;6.0;8.0
+285;j.jct.2008.09.006;"[""'CCCCCCCCC'"", ""'COCCOC'"", ""'COCCOCCOC'""]";"[""'COCCOC__CCCCCCCCC'"", ""'CCCCCCCCC__COCCOCCOC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+858;je7006549;"[""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;6;1;1;1;1;1;6.0;7.0
+238;j.jct.2006.08.011;"[""'CCCCCC'"", ""'Cc1ccccc1'""]";"[""'Cc1ccccc1__CCCCCC'""]";['nan'];"[""'Cc1ccccc1__CCCCCC'""]";['nan'];['nan'];3.0;-3.0;2;1;1;1;1;1;4.0;7.0
+281;j.jct.2008.06.001;"[""'CCCCCCCO'"", ""'CCCCCCCCO'"", ""'CCCCOCCCC'""]";"[""'CCCCCCCO__CCCCOCCCC'"", ""'CCCCCCCCO__CCCCOCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+767;je3011979;"[""'CCCCC'"", ""'CCCCCC'"", ""'CCCCCCC'"", ""'CCCCCCCC'"", ""'CCCCCCCCC'"", ""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;6;1;1;1;1;1;6.0;7.0
+766;je3011634;"[""'CC(C)CO'"", ""'CCCO'"", ""'CC(C)O'""]";"[""'CCCO__CC(C)CO'"", ""'CC(C)O__CC(C)CO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+843;je700281z;"[""'CCCCO'"", ""'COCCOCCO'"", ""'CCOCCOCCO'""]";"[""'CCCCO__COCCOCCO'"", ""'CCCCO__CCOCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+297;j.jct.2009.04.001;"[""'Cc1ccc(C)cc1'"", ""'Cc1ccccc1C'"", ""'COCCOC'""]";"[""'Cc1ccc(C)cc1__COCCOC'"", ""'Cc1ccccc1C__COCCOC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+936;je9005344;"[""'COCCO'"", ""'CCCCCCO'"", ""'CCCCCCCCO'""]";"[""'COCCO__CCCCCCO'"", ""'COCCO__CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+860;je700700f;"[""'CCCO'"", ""'CC(C)O'"", ""'O'""]";"[""'CCCO__O'"", ""'CC(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+939;je900557u;"[""'CCCCCC'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'""]";"[""'Cc1ccccc1__CCCCCC'"", ""'CCc1ccccc1__CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+949;je900722;"[""'CCCCO'"", ""'CC(C)CO'"", ""'CC(C)(C)O'""]";"[""'CCCCO__CC(C)CO'"", ""'CCCCO__CC(C)(C)O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+846;je700300y;"[""'CO'"", ""'CCO'""]";"[""'CO__O'"", ""'CCO__O'"", ""'CCO__CO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;3;1;1;1;1;5.0;7.0
+499;j.jct.2015.06.004;"[""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;6;1;1;1;1;1;6.0;7.0
+385;j.jct.2012.07.018;"[""'CCO'"", ""'C1CCCCC1'""]";"[""'CCO__C1CCCCC1'""]";['nan'];['nan'];"[""'C1CCCCC1'""]";['nan'];3.0;-3.0;2;1;1;1;1;1;4.0;7.0
+263;j.jct.2007.09.004;"[""'CCCOCCO'"", ""'OCCOCCO'"", ""'OCCOCCOCCO'""]";"[""'OCCOCCO__CCCOCCO'"", ""'OCCOCCOCCO__CCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+451;j.jct.2013.10.025;"[""'C1CCOC1'"", ""'CCCCCCO'"", ""'CCCCCCCCO'""]";"[""'C1CCOC1__CCCCCCO'"", ""'C1CCOC1__CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+289;j.jct.2008.11.006;['nan'];"[""'OC1CCCC1__O'"", ""'OC1CCCCC1__O'"", ""'OC1CCCCCC1__O'"", ""'OC1CCCCCCC1__O'"", ""'OCC1CCCCC1__O'"", ""'OCCC1CCCCC1__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;6;1;1;1;1;6.0;7.0
+575;je0500330;"[""'CO'"", ""'CCO'"", ""'CCC(C)CO'""]";"[""'CO__CCC(C)CO'"", ""'CCO__CCC(C)CO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+884;je8004694;['nan'];"[""'OC1CCCC1__O'"", ""'OC1CCCCC1__O'"", ""'OC1CCCCCC1__O'"", ""'OC1CCCCCCC1__O'"", ""'OCC1CCCCC1__O'"", ""'OCCC1CCCCC1__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;6;1;1;1;1;6.0;7.0
+826;je600578u;"[""'CCCCOCCCC'"", ""'CCO'"", ""'c1ccccc1'""]";"[""'CCO__CCCCOCCCC'"", ""'c1ccccc1__CCCCOCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+308;j.jct.2009.11.018;['nan'];"[""'CC(O)CO__O'"", ""'OCCCO__O'"", ""'CCC(O)CO__O'"", ""'CC(O)CCO__O'"", ""'OCCCCO__O'"", ""'CC(O)C(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;6;1;1;1;1;6.0;7.0
+197;j.jct.2004.09.014;"[""'COCCO'"", ""'COCCOCCO'"", ""'CCOC(C)(C)C'""]";"[""'COCCO__CCOC(C)(C)C'"", ""'COCCOCCO__CCOC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+467;j.jct.2014.01.030;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CC(C)O'"", ""'CCC(C)O'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;6;1;1;1;1;1;6.0;7.0
+691;je101173w;"[""'CCO'""]";"[""'Oc1cccc(O)c1__O'"", ""'CCO__Oc1cccc(O)c1'"", ""'CCCO__Oc1cccc(O)c1'"", ""'CCCCO__Oc1cccc(O)c1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;4;1;1;1;1;5.0;7.0
+312;j.jct.2010.03.011;"[""'OCCCCO'"", ""'CC(O)C(C)O'"", ""'CCCCC(CC)CO'""]";"[""'CCCCC(CC)CO__CC(O)C(C)O'"", ""'CCCCC(CC)CO__OCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+850;je700428f;"[""'COC(C)(C)C'"", ""'CCCCCCCCC'"", ""'CCCCCCCCCC'""]";"[""'CCCCCCCCC__COC(C)(C)C'"", ""'CCCCCCCCCC__COC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+316;j.jct.2010.05.016;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;6;1;1;1;1;1;6.0;7.0
+417;j.jct.2013.04.021;"[""'CCCCOCCO'"", ""'CCCCCCO'"", ""'CCCCCCCCO'""]";"[""'CCCCCCO__CCCCOCCO'"", ""'CCCCOCCO__CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+712;je200373q;"[""'CCCCCCCC'"", ""'CCCCCCCCC'""]";"[""'CCCCC__CCCCCCCC'"", ""'CCCCC__CCCCCCCCC'"", ""'CCCCCCCC__CCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;3;1;1;1;1;5.0;7.0
+321;j.jct.2010.09.008;"[""'CCCCCCC'"", ""'COCCOC'"", ""'COCCOCCOC'""]";"[""'COCCOC__CCCCCCC'"", ""'COCCOCCOC__CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+914;je9001416;['nan'];"[""'CCO__CC(C)OC(C)C'"", ""'CC(C)OC(C)C__CC(C)CC(C)(C)C'"", ""'CCO__CC(C)CC(C)(C)C'""]";['nan'];"[""'CCO__CC(C)OC(C)C'"", ""'CC(C)OC(C)C__CC(C)CC(C)(C)C'""]";['nan'];['nan'];2.0;-4.0;1;3;1;2;1;1;5.0;7.0
+165;j.fluid.2014.12.003;"[""'CCCCCCO'"", ""'CCCCCCCCO'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'"", ""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;6;1;1;1;1;1;6.0;7.0
+671;je100671v;"[""'CCO'"", ""'CCCCCCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];"[""'CCO'"", ""'CCCCCCCCO'""]";['nan'];2.0;-4.0;3;1;1;1;2;1;5.0;7.0
+743;je300347z;"[""'CCO'"", ""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;6;1;1;1;1;1;6.0;7.0
+500;j.jct.2015.06.009;"[""'COC(C)(C)C'"", ""'Cc1ccccc1'"", ""'CCCCO'""]";"[""'CCCCO__COC(C)(C)C'"", ""'CCCCO__Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+892;je800664z;"[""'C1COCO1'"", ""'CC(C)O'"", ""'CC(C)CC(C)(C)C'""]";"[""'CC(C)O__C1COCO1'"", ""'CC(C)CC(C)(C)C__C1COCO1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+77;j.fluid.2011.01.018;"[""'c1ccccc1'"", ""'C1CCCCC1'"", ""'CC(C)CC(C)(C)C'""]";"[""'c1ccccc1__C1CCCCC1'"", ""'c1ccccc1__CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+1056;j.tca.2006.10.025;['nan'];['nan'];['nan'];['nan'];"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCCO'""]";['nan'];1.0;-5.0;1;1;1;1;6;1;6.0;7.0
+3;cs.jced.5b00122;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CC(C)O'"", ""'COCCO'"", ""'CCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;6;1;1;1;1;1;6.0;7.0
+596;je0504156;"[""'Cc1cccc(O)c1'"", ""'OCCO'"", ""'CO'""]";"[""'OCCO__Cc1cccc(O)c1'"", ""'CO__Cc1cccc(O)c1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+1016;j.jct.2009.07.001;['nan'];['nan'];['nan'];"[""'CO__CCCCOCCCC'"", ""'CCCO__CCCCOCCCC'"", ""'CCCCO__CCCCOCCCC'"", ""'CCCCCO__CCCCOCCCC'"", ""'CCCCCCO__CCCCOCCCC'"", ""'CCCCCCCCO__CCCCOCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;6;1;1;6.0;7.0
+1031;je060368;['nan'];['nan'];['nan'];"[""'C1CCOCC1__CCCCCCCCCC'"", ""'CCCCCO__C1CCOCC1'"", ""'C1CCOCC1__CCCCCCCCCO'"", ""'CCCCCO__C1CCCCC1'"", ""'C1CCCCC1__CCCCCCCO'"", ""'C1CCCCC1__CCCCCCCCCO'""]";['nan'];['nan'];1.0;-5.0;1;1;1;6;1;1;6.0;7.0
+114;j.fluid.2013.06.007;"[""'O'"", ""'CCCCO'"", ""'CCC(C)O'"", ""'CCCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;6;1;1;1;1;1;6.0;7.0
+591;je050376y;"[""'Cc1ccc(O)cc1'"", ""'OCCO'"", ""'CO'""]";"[""'Cc1ccc(O)cc1__OCCO'"", ""'CO__Cc1ccc(O)cc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+520;j.tca.2009.02.022;"[""'C1CCCCC1'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CCCCCCCCO'""]";"[""'C1CCCCC1__CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;4;1;1;1;1;1;5.0;7.0
+1;cs.jced.5b00031;"[""'CCCCOCC(C)O'"", ""'CCCCCCO'"", ""'CCCCCCCCO'""]";"[""'CCCCCCO__CCCCOCC(C)O'"", ""'CCCCCCCCO__CCCCOCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+584;je0502142;"[""'CCCO'"", ""'CCC(C)CO'"", ""'CC(C)CCO'""]";"[""'CCCO__CCC(C)CO'"", ""'CCCO__CC(C)CCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+606;je060017i;"[""'CC1CCCO1'"", ""'CCCCO'""]";"[""'CCCCO__CC1CCCO1'""]";['nan'];"[""'CCCCO__CC1CCCO1'""]";['nan'];['nan'];3.0;-3.0;2;1;1;1;1;1;4.0;7.0
+607;je060025z;"[""'O'"", ""'CC(C)CCO'"", ""'CCCCCCCCCO'"", ""'COC(C)(C)C'"", ""'CCCCCC'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;6;1;1;1;1;1;6.0;7.0
+626;je0602519;"[""'Cc1ccccc1'"", ""'CCCCCCCO'"", ""'CCCCCCCCO'""]";"[""'Cc1ccccc1__CCCCCCCO'"", ""'Cc1ccccc1__CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;2;1;1;1;1;5.0;7.0
+533;j.tca.2011.08.002;"[""'CCCO'"", ""'CCCCO'"", ""'CCC(C)O'"", ""'CC(C)(C)O'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+602;je050519g;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+901;je800940j;"[""'C1CCCCC1'"", ""'Cc1ccccc1'""]";"[""'Cc1ccccc1__C1CCCCC1'"", ""'C1CC[C@@H]2CCCC[C@@H]2C1__C1CC[C@@H]2CCCC[C@H]2C1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;2;1;1;1;1;4.0;6.0
+186;j.fluid.2015.07.016;"[""'CC1(C)OCC(CO)O1'"", ""'CCCCCCC'"", ""'Cc1ccccc1'"", ""'CCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+1018;j.jct.2010.07.016;['nan'];['nan'];['nan'];"[""'c1ccccc1__C1CCOCC1'"", ""'Cc1ccccc1__C1CCOCC1'"", ""'Cc1ccccc1C__C1CCOCC1'"", ""'Cc1ccc(C)cc1__C1CCOCC1'"", ""'Cc1cccc(C)c1__C1CCOCC1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;5;1;1;5.0;6.0
+428;j.jct.2013.06.020;"[""'OCc1occc1'"", ""'OCC1CCCO1'""]";"[""'OCc1occc1__O'"", ""'OCC1CCCO1__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;2;1;1;1;1;4.0;6.0
+1001;j.fluid.2006.04.016;['nan'];['nan'];['nan'];"[""'CCOCCO__C1CCCCC1'"", ""'CCOCCO__CCCCCCCC'"", ""'CCO__c1ccccc1'"", ""'CCCCCC__CCOCCO'"", ""'c1ccccc1__CCOCCO'""]";['nan'];['nan'];1.0;-5.0;1;1;1;5;1;1;5.0;6.0
+791;je400917j;"[""'CC(C)O'"", ""'CCC(C)O'"", ""'CCCC(C)O'"", ""'CCCCC(C)O'"", ""'CCCCCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+447;j.jct.2013.09.043;"[""'CC(C)O'"", ""'CCC(C)O'"", ""'CCCC(C)O'"", ""'CCCCC(C)O'"", ""'CCCCCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+893;je8006875;"[""'CCCCCC'"", ""'Cc1ccccc1'"", ""'CCCCCCCCC'"", ""'CCCCCCCCCC'"", ""'CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+1007;j.fluid.2010.08.024;['nan'];['nan'];['nan'];"[""'CCCCO__CC(C)OC(C)C'"", ""'CC(C)CO__CC(C)OC(C)C'"", ""'CCCCO__c1ccccc1'"", ""'c1ccccc1__CC(C)CO'"", ""'CC(C)OC(C)C__CCCCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;5;1;1;5.0;6.0
+327;j.jct.2010.12.009;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+326;j.jct.2010.11.013;"[""'CCCCCC'"", ""'CCCCCCC'"", ""'CCCCCCCC'"", ""'CCCCCCCCC'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+911;je900059e;"[""'O'"", ""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+523;j.tca.2010.03.012;"[""'C1CCOCC1'"", ""'CCCCCC'"", ""'CCCCCCC'"", ""'C1CCCCC1'"", ""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+466;j.jct.2014.01.022;"[""'CCCCCCCC'"", ""'CCCCCCCCC'"", ""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+808;je5005752;"[""'CCCO'"", ""'CC(C)CO'"", ""'CCCCO'"", ""'CC(C)CCO'"", ""'CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+714;je200468r;"[""'CC(C)CO'"", ""'OC1CCCCC1'""]";"[""'CC(C)CO__O'"", ""'OC1CCCCC1__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;2;1;1;1;1;4.0;6.0
+202;j.jct.2004.12.010;"[""'CCO'"", ""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];"[""'CCO'"", ""'CCCCCCCCCC'""]";['nan'];2.0;-4.0;2;1;1;1;2;1;4.0;6.0
+465;j.jct.2014.01.020;"[""'C1CCCCC1'""]";"[""'CCCCO__C1CCCCC1'""]";['nan'];['nan'];"[""'C1CCCCC1'""]";['nan'];3.0;-3.0;1;1;1;1;1;1;3.0;6.0
+205;j.jct.2005.03.006;"[""'CO'"", ""'CCc1ccccc1'""]";"[""'CO__c1ccccc1'"", ""'CO__CCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;2;1;1;1;1;4.0;6.0
+1036;je101031j;['nan'];['nan'];['nan'];"[""'CO__CCC(C)(C)O'"", ""'CCO__CCC(C)(C)O'"", ""'CCCO__CCC(C)(C)O'"", ""'CCCCO__CCC(C)(C)O'"", ""'CCCCCO__CCC(C)(C)O'""]";['nan'];['nan'];1.0;-5.0;1;1;1;5;1;1;5.0;6.0
+822;je600554h;"[""'COC(C)(C)C'"", ""'CCCCCCC'"", ""'CCCCCCCC'""]";"[""'CCCCCCC__COC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;1;1;1;1;1;4.0;6.0
+528;j.tca.2011.05.006;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+823;je600557n;"[""'C1CCOCC1'"", ""'CC1CCCO1'""]";['nan'];['nan'];['nan'];"[""'C1CCOCC1'"", ""'CC1CCCO1'""]";['nan'];2.0;-4.0;2;1;1;1;2;1;4.0;6.0
+483;j.jct.2014.09.001;"[""'CCO'"", ""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'"", ""'CCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+345;j.jct.2011.08.016;"[""'CCCCCCC'"", ""'CCCCCCCCCC'""]";"[""'CCCCCCCCCC__CCCCCCC'"", ""'CCCCCCCC__CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;2;1;1;1;1;4.0;6.0
+722;je200806n;"[""'CC(C)O'"", ""'CCC(C)O'"", ""'CCCC(C)O'"", ""'CCCCC(C)O'"", ""'CCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+541;j.tca.2012.12.008;"[""'CC(C)O'"", ""'CCC(C)O'"", ""'CCCC(C)O'"", ""'CCCCCCCO'"", ""'CCCCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+156;j.fluid.2014.07.004;"[""'COc1ccccc1'"", ""'CO'"", ""'Oc1ccccc1'""]";"[""'CO__COc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;3;1;1;1;1;1;4.0;6.0
+112;j.fluid.2013.05.016;"[""'CCCCCCCCC'"", ""'c1ccccc1'"", ""'CCCCCCC'"", ""'Cc1ccccc1'"", ""'Cc1ccccc1C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+113;j.fluid.2013.06.006;"[""'CCCCCCO'"", ""'CCCCCCCO'"", ""'CCCCCO'"", ""'CCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+489;j.jct.2015.01.013;"[""'CO'"", ""'CC(C)O'"", ""'C1CCCCC1'""]";['nan'];['nan'];"[""'CC(C)O__C1CCCCC1'""]";['nan'];['nan'];2.0;-4.0;3;1;1;1;1;1;4.0;6.0
+353;j.jct.2011.10.027;"[""'Cc1ccccc1'"", ""'CCc1ccccc1'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+491;j.jct.2015.02.004;"[""'CCO'"", ""'CC(C)O'"", ""'CO'"", ""'CCCCO'"", ""'COC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+725;je2009736;"[""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+360;j.jct.2012.01.013;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+255;j.jct.2007.05.004;"[""'CO'"", ""'CCO'""]";"[""'CO__O'"", ""'CCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;2;1;1;1;1;4.0;6.0
+257;j.jct.2007.05.010;"[""'OCCO'"", ""'CC(O)CO'""]";"[""'OCCO__O'"", ""'CC(O)CO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;2;1;1;1;1;4.0;6.0
+509;j.jct.2015.09.010;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+270;j.jct.2008.01.002;"[""'CC(C)OC(C)C'"", ""'CCCO'"", ""'CCCOCCC'"", ""'CC(C)O'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+759;je300827f;['nan'];"[""'CC(C)O__OCCOCCO'"", ""'CCC(C)O__OCCOCCO'"", ""'OCCOCCO__CCCC(C)O'"", ""'OCCOCCO__CCCCC(C)O'"", ""'OCCOCCO__CCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;5;1;1;1;1;5.0;6.0
+651;je1001544;"[""'CCCCCC'"", ""'CCCCCCCCC'"", ""'c1ccccc1'"", ""'CCCCCCC'"", ""'CCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+363;j.jct.2012.02.007;"[""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'"", ""'CCC(C)O'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+571;je0498053;"[""'CCCCC(C)O'"", ""'CCCC(O)CC'"", ""'CCCC(C)CO'"", ""'CCCC(C)(C)O'"", ""'CC(C)CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+915;je900194v;"[""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+160;j.fluid.2014.08.002;"[""'CC1(C)OCCO1'"", ""'CCCCCCC'"", ""'Cc1ccccc1'"", ""'CCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+250;j.jct.2007.01.015;['nan'];"[""'COCCOC__O'"", ""'CCOCOCC__O'"", ""'CCOCCOCC__O'"", ""'COCCOCCOC__O'"", ""'COCCOCCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;5;1;1;1;1;5.0;6.0
+358;j.jct.2012.01.003;"[""'CCC(C)O'"", ""'CCCCCCO'"", ""'CCCCCCCO'"", ""'CCCCCCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+758;je300826t;"[""'C1CCCCC1'"", ""'CC1CCCCC1'"", ""'C1CCCCCCC1'"", ""'c1ccccc1'"", ""'CCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+401;j.jct.2012.11.005;"[""'C1CCCCC1'"", ""'CO'"", ""'CCO'"", ""'CCCCO'"", ""'CC(C)OC(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+434;j.jct.2013.08.013;"[""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+136;j.fluid.2013.11.031;"[""'CCCO'""]";"[""'CCCO__CCCCOCCCC'"", ""'CCCCCCO__CCCCOCCCC'"", ""'CC(C)O__CCCCOCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;3;1;1;1;1;4.0;6.0
+752;je300696c;"[""'CCCCCCCO'"", ""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CC(C)(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+384;j.jct.2012.07.006;"[""'CCCCCCC'"", ""'CCCCCCCC'"", ""'CCCCCCCCCC'"", ""'C1CCCCC1'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;5;1;1;1;1;1;5.0;6.0
+46;j.fluid.2008.02.005;"[""'CCCCCCCO'"", ""'CO'"", ""'CCCO'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+39;j.fluid.2007.08.008;"[""'CCCOCCC'"", ""'CCCO'"", ""'O'"", ""'OCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+41;j.fluid.2007.09.028;"[""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CC(C)(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+59;j.fluid.2008.09.005;"[""'CCCO'"", ""'c1ccccc1'""]";"[""'CCCO__c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+830;je700094y;"[""'CCO'"", ""'CC(C)CC(C)(C)C'""]";"[""'CCO__CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+426;j.jct.2013.05.051;"[""'CCCCCCCO'"", ""'CCCCCCC'""]";"[""'CCCCCCCO__CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+44;j.fluid.2008.01.007;"[""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'Cc1cccc(C)c1'"", ""'CCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+1014;j.jct.2005.06.018;['nan'];['nan'];['nan'];"[""'CC(O)CO__O'"", ""'OCCCO__O'"", ""'OCCCCO__O'"", ""'CCO__O'""]";['nan'];['nan'];1.0;-5.0;1;1;1;4;1;1;4.0;5.0
+845;je700294p;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+269;j.jct.2007.11.009;"[""'CCCCCCCC'"", ""'c1ccccc1'""]";"[""'c1ccccc1__CCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+271;j.jct.2008.01.008;"[""'CO'"", ""'CCCO'"", ""'CCCCCO'"", ""'CCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+272;j.jct.2008.01.015;"[""'CO'"", ""'CCCO'"", ""'CCCCCO'"", ""'CCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+287;j.jct.2008.09.018;"[""'OCCO'"", ""'CCCCCCCCCO'""]";"[""'OCCO__CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+274;j.jct.2008.01.022;"[""'CC(O)CO'"", ""'CCC(O)CO'"", ""'CCCC(O)CO'"", ""'CCCCC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+730;je201130h;"[""'O'"", ""'Cc1ccccc1'"", ""'Cc1ccccc1C'"", ""'Cc1ccc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+729;je201116t;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+282;j.jct.2008.07.005;"[""'CCCO'"", ""'CC(O)CO'"", ""'OCCCO'"", ""'OCC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+732;je201140q;"[""'CCO'"", ""'C1CCOCC1'""]";"[""'CCO__C1CCOCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+546;j.tca.2013.07.012;"[""'OCC(O)CO'"", ""'O'""]";"[""'OCC(O)CO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+727;je201010s;"[""'CC(C)O'"", ""'O'""]";"[""'CC(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+299;j.jct.2009.06.006;"[""'CCC(O)CO'"", ""'CC(O)CCO'"", ""'OCCCCO'"", ""'CC(O)C(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+24;j.fluid.2006.06.017;"[""'CCCO'"", ""'CCCCO'"", ""'CCCOCCC'"", ""'CCCCOCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+301;j.jct.2009.06.016;"[""'CCCOCC(C)O'"", ""'O'""]";"[""'CCCOCC(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+1055;j.jct.2014.07.023;['nan'];['nan'];['nan'];['nan'];"[""'CO'"", ""'CCC(O)CO'"", ""'CC(O)CCO'"", ""'OCCCCO'""]";['nan'];1.0;-5.0;1;1;1;1;4;1;4.0;5.0
+346;j.jct.2011.08.028;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+17;cs.jced.5b00838;"[""'CCCCOCCCC'"", ""'CCCCOCC(C)C'"", ""'CCCCCCOCC'"", ""'CCCCCOCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+14;cs.jced.5b00662;"[""'OCCO'"", ""'OCCOCCO'"", ""'OCCOCCOCCO'"", ""'CCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+751;je300683r;"[""'CC(C)CO'"", ""'CC(C)CCO'"", ""'O'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+753;je300733a;"[""'CCCO'"", ""'CC(C)O'"", ""'CC(C)CO'"", ""'CCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+11;cs.jced.5b00527;"[""'CC(C)OC(C)C'"", ""'CO'"", ""'CCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+780;je400512u;"[""'CCCCCCCO'"", ""'C1COCCO1'""]";"[""'CCCCCCCO__C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+777;je400487e;"[""'CCCCCCCCCC'"", ""'CC1CCCCC1'"", ""'C1CCCCCCC1'"", ""'CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+399;j.jct.2012.10.008;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+424;j.jct.2013.05.040;"[""'CC(C)O'""]";"[""'CC(C)O__C'"", ""'CC(C)O__CC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;2;1;1;1;1;3.0;5.0
+397;j.jct.2012.09.027;"[""'CCCCCCO'"", ""'CCC(CC)CO'""]";['nan'];['nan'];['nan'];"[""'CCC(CC)CO'""]";['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+396;j.jct.2012.09.026;"[""'CC(C)(C)O'"", ""'O'""]";"[""'CC(C)(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+1057;j.tca.2009.01.008;['nan'];['nan'];['nan'];['nan'];"[""'OCCOCCO'"", ""'OCCOCCOCCO'"", ""'CC(O)CO'"", ""'OCCCOCCCO'""]";['nan'];1.0;-5.0;1;1;1;1;4;1;4.0;5.0
+372;j.jct.2012.04.011;"[""'C1CCCCC1'"", ""'CC1CCCCC1'"", ""'Cc1ccccc1'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+570;je049793;"[""'CC(C)c1ccccc1'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+393;j.jct.2012.08.030;"[""'CO'"", ""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+755;je300789a;"[""'COCC(C)O'"", ""'CCOCC(C)O'"", ""'CCCOCC(C)O'"", ""'CCCCOC(C)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+383;j.jct.2012.06.031;"[""'CCCO'"", ""'CC(O)CO'"", ""'OCCCO'"", ""'OCC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+583;je050200w;"[""'CCCCCCCCO'"", ""'CCCCCCCCCO'""]";"[""'CCCCCCCCO__CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+746;je300631s;"[""'CCCCCC'"", ""'Cc1oc(C)cc1'""]";"[""'CCCCCC__Cc1oc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+793;je400968v;"[""'CCO'"", ""'CCCO'"", ""'CCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+794;je401020e;"[""'OCCO'"", ""'OCCCCO'"", ""'OCCOCCO'"", ""'OCCOCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+304;j.jct.2009.08.016;"[""'CCO'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+1029;je060026r;['nan'];['nan'];['nan'];"[""'COCC(C)O__C1CCCCC1'"", ""'c1ccccc1__COCC(C)O'"", ""'c1ccccc1__CCCCOCCO'"", ""'C1CCCCC1__CCCCOCCO'""]";['nan'];['nan'];1.0;-5.0;1;1;1;4;1;1;4.0;5.0
+741;je300146k;"[""'CCCCCCC'"", ""'CCCCCCCC'"", ""'CCCCCCCCCC'"", ""'OCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+1030;je0603574;['nan'];['nan'];['nan'];"[""'CO__COC'"", ""'CCO__COC'"", ""'CCCO__COC'"", ""'CCCCO__COC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;4;1;1;4.0;5.0
+742;je3002283;"[""'CCCCCC'"", ""'CCCCCCCC'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+416;j.jct.2013.04.015;"[""'CO'"", ""'CCO'"", ""'CCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+323;j.jct.2010.10.025;['nan'];"[""'Cc1ccccc1O__CCCCCCCCCO'"", ""'Cc1cccc(O)c1__CCCCCCCCCO'"", ""'Cc1ccc(O)cc1__CCCCCCCCCO'"", ""'COc1ccccc1__CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;4;1;1;1;1;4.0;5.0
+264;j.jct.2007.09.007;"[""'C1COCCO1'"", ""'CC(C)OC(C)C'"", ""'CCCCOCCCC'"", ""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+328;j.jct.2010.12.012;"[""'C1CCCCC1'"", ""'CC1CCCCC1'"", ""'C1CCCCCCC1'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+329;j.jct.2010.12.014;"[""'CCc1ccccc1'"", ""'C1CCCCC1'"", ""'CC1CCCCC1'"", ""'C1CCCCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+23;j.fluid.2006.05.032;"[""'CCCO'"", ""'Cc1ccccc1'""]";"[""'CCCO__Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+800;je500153g;"[""'CCC(C)O'"", ""'CC(C)O'"", ""'OCCOCCO'"", ""'OCCOCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+799;je401124t;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+22;j.fluid.2006.04.010;"[""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'"", ""'CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+563;je049610v;"[""'COc1ccccc1'"", ""'C1COCCO1'""]";"[""'COc1ccccc1__C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+797;je401101u;"[""'CCCO'"", ""'CC(C)O'""]";"[""'CC(C)O__CCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+564;je049655w;"[""'CCO'"", ""'CC(C)CC(C)(C)C'""]";"[""'CCO__CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+848;je700344f;"[""'C1COCCO1'"", ""'CCCCCCO'""]";"[""'CCCCCCO__C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+129;j.fluid.2013.10.033;"[""'C1CCCCC1'"", ""'CC1CCCCC1'"", ""'C1CCCCCCC1'"", ""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+629;je060307z;"[""'CCO'"", ""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+458;j.jct.2013.11.028;"[""'CCCCO'"", ""'CCCCCO'"", ""'CC(C)CCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+984;s10765-010-0719-7;"[""'CC(C)CCO'"", ""'CCCCOCCO'""]";"[""'CCCCOCCO__CC(C)CCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+660;je100484n;"[""'CC(C)(C)O'"", ""'CCCCCCC'""]";"[""'CC(C)(C)O__CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+634;je060353z;"[""'CCCCCCO'"", ""'CCCCCCCO'"", ""'CCCCCCCCO'"", ""'CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+659;je100390b;"[""'CCCCCCO'"", ""'Cc1ccc(C)cc1'""]";"[""'Cc1ccc(C)cc1__CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+213;j.jct.2005.06.015;"[""'CCCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCO'"", ""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+879;je800325d;"[""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'"", ""'CCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+877;je8002964;"[""'CCCCCCC'"", ""'CO'"", ""'CC(C)O'"", ""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+661;je100508y;"[""'c1ccccc1'"", ""'C1CCCCC1'"", ""'CC1CCCCC1'"", ""'C1CCCCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+973;s10765-008-0390-4;"[""'CCCCO'"", ""'c1ccccc1'""]";"[""'CCCCO__c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+177;j.fluid.2015.05.002;"[""'Cc1occc1'"", ""'CC1CCCO1'"", ""'CCCCOCCCC'"", ""'CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+217;j.jct.2005.09.001;"[""'CCC(O)CO'"", ""'CC(O)CCO'"", ""'OCCCCO'"", ""'CC(O)C(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+709;je200334e;"[""'c1ccccc1'"", ""'CCCCCCC'"", ""'C1CCCCCCC1'"", ""'CC1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+166;j.fluid.2014.12.027;"[""'CCCCCCCCCC'"", ""'Cc1ccccc1'"", ""'OCCOCCO'"", ""'OCCOCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+100;j.fluid.2012.11.013;"[""'CCC(C)(C)C'"", ""'CC(C)C(C)C'"", ""'CCCC(C)C'"", ""'CCC(C)CC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+519;j.tca.2008.11.009;"[""'C1CCOC1'"", ""'C1COCO1'"", ""'C1CCOCC1'"", ""'C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+152;j.fluid.2014.06.015;"[""'OCC(O)CO'"", ""'CCC(C)O'"", ""'CCC(C)(C)O'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+96;j.fluid.2012.09.019;"[""'CCCCCCCCCC'"", ""'Cc1ccc(C)cc1'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+194;j.fluid.2015.09.052;"[""'CO'"", ""'CC(C)O'"", ""'O'"", ""'OCC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+899;je800930v;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+917;je900240s;['nan'];"[""'COCCO__C1COCO1'"", ""'CCOCCO__C1COCO1'"", ""'CCCCOCCO__C1COCO1'"", ""'CC(C)O__C1COCO1'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;4;1;1;1;1;4.0;5.0
+181;j.fluid.2015.06.003;"[""'COC(C)(C)C'"", ""'CO'"", ""'CCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+189;j.fluid.2015.07.032;"[""'CO'"", ""'CCO'"", ""'CC(C)O'"", ""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+521;j.tca.2009.03.014;"[""'CCO'"", ""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+387;j.jct.2012.08.010;"[""'CCc1ccccc1'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+111;j.fluid.2013.03.029;"[""'O'"", ""'CCO'"", ""'CC(C)CO'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+207;j.jct.2005.03.027;"[""'CCCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCO'"", ""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+437;j.jct.2013.08.023;"[""'CCCCCCC'"", ""'CCCCCC'"", ""'CO'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+979;s10765-008-0542-6;"[""'CCCCCCCCCC'"", ""'CCCCCCCC'"", ""'Cc1ccccc1'"", ""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+201;j.jct.2004.12.002;"[""'CCO'"", ""'CCCCCCC'""]";"[""'CCO__CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+517;j.tca.2008.09.006;"[""'C1CCCCC1'"", ""'CCCO'""]";"[""'CCCO__C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+697;je1013476;"[""'CCO'"", ""'CCCO'"", ""'CCCCCO'"", ""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+206;j.jct.2005.03.016;"[""'CCO'"", ""'CC1CCCCC1'""]";"[""'CCO__CC1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+871;je800150h;"[""'O'"", ""'CCO'""]";"[""'CCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+996;s10765-013-1526-8;"[""'CCCCC(CC)CO'"", ""'c1ccccc1'""]";"[""'c1ccccc1__CCCCC(CC)CO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+868;je8000975;['nan'];"[""'COCCO__CCOCCO'"", ""'COCCO__CCCCOCCO'"", ""'COCCO__COCCOCCO'"", ""'CCCCOCCCC__CCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;4;1;1;1;1;4.0;5.0
+66;j.fluid.2009.11.030;"[""'CCCCO'"", ""'CC(C)CO'"", ""'CCCCCO'"", ""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+854;je700577t;"[""'OCCO'"", ""'OCCOCCO'"", ""'OCCOCCOCCO'"", ""'CC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+719;je200707b;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+247;j.jct.2006.12.017;"[""'Cc1ccc(O)cc1'"", ""'Cc1ccc(C)cc1'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccccc1C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+947;je900689;"[""'c1ccccc1'"", ""'CC(C)c1ccccc1'"", ""'CC(C)Cc1ccccc1'"", ""'CCCCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+103;j.fluid.2012.12.022;"[""'CCO'"", ""'O'"", ""'OCC(O)CO'"", ""'OCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+506;j.jct.2015.08.021;"[""'OCCCCO'"", ""'CCCCCO'"", ""'CC(C)CCO'"", ""'C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+441;j.jct.2013.09.017;"[""'CCCCCCC'"", ""'CCCCCCCC'"", ""'CCCCCCCCC'"", ""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+223;j.jct.2006.01.012;"[""'CCCCCCCC'"", ""'CCCCCCC'""]";"[""'CCCCCCCC__CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+65;j.fluid.2009.09.019;"[""'Cc1ccccc1'"", ""'CCCCCCC'"", ""'CCCCCC'"", ""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+642;je060490w;"[""'Cc1ccc(C)c(C)c1'"", ""'Cc1cc(C)cc(C)c1'"", ""'CCOC(C)OCC'"", ""'COC(C)(C)OC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+726;je201009c;"[""'CCO'"", ""'OCc1ccccc1'""]";"[""'CCO__OCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+641;je060485s;"[""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'"", ""'CCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+133;j.fluid.2013.11.008;"[""'CO'"", ""'CCO'"", ""'CC(C)O'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+498;j.jct.2015.05.006;"[""'COCCOC'"", ""'C1CCCCC1'"", ""'CCCCCC'"", ""'CCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+945;je9006597;"[""'C1CCCCC1'"", ""'CCCCCC'"", ""'CCCCCCC'"", ""'CCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+446;j.jct.2013.09.039;"[""'Cc1ccc(C)cc1'""]";"[""'Cc1ccc(C)cc1__CCCCCCCC'"", ""'Cc1ccc(C)cc1__CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;2;1;1;1;1;3.0;5.0
+536;j.tca.2012.04.002;"[""'C1CCCCC1'"", ""'c1ccccc1'""]";"[""'c1ccccc1__C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+241;j.jct.2006.09.013;['nan'];"[""'OCCCCCCO__O'"", ""'CC(C)(CO)CO__O'"", ""'OCC(CO)(CO)CO__O'"", ""'OC[C@@H](O)[C@@H](O)[C@@H](O)CO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;4;1;1;1;1;4.0;5.0
+224;j.jct.2006.03.010;"[""'CO'"", ""'CCO'"", ""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+940;je9005823;"[""'CC(C)O'"", ""'CCCC(C)O'"", ""'CCCCC(C)O'"", ""'CCCCCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+943;je900643r;"[""'CCCCCC'"", ""'Cc1ccc(C)cc1'""]";"[""'Cc1ccc(C)cc1__CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+78;j.fluid.2011.03.030;"[""'C1CC2C3CCC(C3)C2C1'"", ""'CC1CCCCC1'""]";"[""'CC1CCCCC1__C1CC2C3CCC(C3)C2C1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+713;je200457q;"[""'CCCO'"", ""'CCCCO'"", ""'CC(C)O'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+862;je7007395;"[""'CCCCC'"", ""'CCCCCC'"", ""'CCCCCCC'"", ""'CCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+614;je060113j;"[""'C1CCOC1'"", ""'CO'""]";"[""'CO__C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+716;je200527t;['nan'];"[""'CC(C)(C)CO__O'"", ""'CC(CO)CO__O'"", ""'CC(CO)(CO)CO__O'"", ""'CCC(CO)(CO)CO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;4;1;1;1;1;4.0;5.0
+944;je900656c;"[""'CO'"", ""'COCCO'""]";"[""'CO__COCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+481;j.jct.2014.06.031;"[""'OCC(O)CO'"", ""'O'""]";"[""'OCC(O)CO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+235;j.jct.2006.07.015;"[""'CCCCCCCO'"", ""'CC1CCCCC1'""]";"[""'CC1CCCCC1__CCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+449;j.jct.2013.10.013;"[""'O'""]";"[""'CCCCOCCO__O'"", ""'CC(C)COCCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;2;1;1;1;1;3.0;5.0
+104;j.fluid.2013.01.015;"[""'CCCCCCCC'"", ""'Cc1ccc(C)cc1'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;4;1;1;1;1;1;4.0;5.0
+239;j.jct.2006.09.006;"[""'CC(C)OC(C)C'"", ""'CCO'""]";"[""'CCO__CC(C)OC(C)C'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+162;j.fluid.2014.10.013;"[""'C1CCCCC1'"", ""'CO'""]";"[""'CO__C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;2;1;1;1;1;1;3.0;5.0
+516;j.jct.2015.11.016;"[""'c1ccccc1'"", ""'CCCCCCCC'"", ""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+395;j.jct.2012.09.015;"[""'CCCCCC'"", ""'C1CCCCC1'"", ""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+630;je060311a;"[""'C1COCCO1'"", ""'C1CCOC1'"", ""'C1COCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+514;j.jct.2015.10.018;"[""'CCCCCCC'"", ""'C1CCCCC1'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+400;j.jct.2012.10.028;"[""'CCCCCCCCO'"", ""'CCCCC(CC)CO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+664;je100581;"[""'CCO'"", ""'CCCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+398;j.jct.2012.10.002;"[""'CO'"", ""'CCO'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+750;je300678r;"[""'CCC(C)(C)O'"", ""'CCCCC(CC)CO'"", ""'CCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+495;j.jct.2015.03.012;"[""'O'""]";"[""'OCC1CO1__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+637;je0604378;"[""'CCCCCCCO'"", ""'CCCCCCCCO'"", ""'CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+754;je300737t;"[""'CCCCOCCO'""]";"[""'CCCCOCCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+392;j.jct.2012.08.029;"[""'CCCCCCC'"", ""'Cc1ccccc1'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+391;j.jct.2012.08.026;"[""'CCC(O)CO'"", ""'CC(O)CCO'"", ""'OCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+389;j.jct.2012.08.023;"[""'O'""]";"[""'COCCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+579;je0501235;"[""'CCCCO'"", ""'CC(C)CO'"", ""'CC(C)(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+610;je0600808;"[""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+518;j.tca.2008.11.007;"[""'C1CCCCC1'"", ""'c1ccccc1'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+673;je100716c;"[""'CCCCCCCCC'"", ""'CCCCCCCC'"", ""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+735;je201211f;"[""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+734;je201184b;['nan'];"[""'CC(O)CO__O'"", ""'OCCCO__O'"", ""'OCC(O)CO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;3;1;1;1;1;3.0;4.0
+529;j.tca.2011.06.003;"[""'CC(C)CO'"", ""'CC(C)O'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+599;je0504459;"[""'CCCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+454;j.jct.2013.11.020;"[""'CCCCCC'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+534;j.tca.2012.01.007;"[""'CO'"", ""'CCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+429;j.jct.2013.07.003;"[""'CC(O)CCO'"", ""'CCCCCCCCO'"", ""'C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+448;j.jct.2013.09.046;"[""'O'"", ""'CCO'"", ""'OCC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+728;je201102;"[""'CCC(C)O'"", ""'CC(C)CO'"", ""'CCC(C)(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+539;j.tca.2012.06.014;"[""'CCO'"", ""'CCCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+435;j.jct.2013.08.020;"[""'CCO'"", ""'O'"", ""'OCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+611;je0600810;"[""'CO'""]";"[""'CO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+436;j.jct.2013.08.021;"[""'CO'"", ""'CCO'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+544;j.tca.2013.03.025;"[""'CCCO'"", ""'CC(O)CO'"", ""'OCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+438;j.jct.2013.09.005;"[""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+736;je201222n;"[""'CCO'"", ""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+698;je101358p;"[""'CCCCCCCCO'"", ""'CCCCCCCO'"", ""'CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+622;je060200b;"[""'CCCCCCC'""]";['nan'];['nan'];['nan'];"[""'CCCCCCC'""]";['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+412;j.jct.2013.01.015;"[""'CCCCCC'"", ""'CCCCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+747;je300632p;['nan'];"[""'CCO__CCCO'"", ""'CCO__CCCCO'"", ""'CCO__CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;3;1;1;1;1;3.0;4.0
+675;je100757w;"[""'COCCOCCOC'""]";"[""'COCCOCCOC__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+477;j.jct.2014.05.005;"[""'O'"", ""'CCO'"", ""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+410;j.jct.2012.12.017;"[""'CCO'"", ""'CCCCCCC'"", ""'CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+683;je100848r;"[""'CO'"", ""'CCO'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+474;j.jct.2014.03.008;"[""'CCCCCCC'"", ""'C1CCCCC1'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+688;je1009976;"[""'OCCOCCO'""]";"[""'OCCOCCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+595;je050414d;"[""'Cc1ccccc1'"", ""'CO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+744;je300384g;"[""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+695;je1012857;"[""'CC(C)CO'"", ""'CCCCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+415;j.jct.2013.03.023;"[""'CCc1ccccc1'"", ""'CC(O)c1ccccc1'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+559;j.tca.2015.08.023;"[""'CCc1ccccc1'"", ""'CCCCCCCC'"", ""'CCCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+558;j.tca.2015.08.013;"[""'o1cccc1'"", ""'Cc1occc1'"", ""'Cc1oc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+463;j.jct.2013.12.028;"[""'C1CCOC1'""]";"[""'C1CCOC1__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+388;j.jct.2012.08.014;"[""'OCCO'"", ""'CC(O)CO'"", ""'CCC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+576;je0500633;"[""'CO'"", ""'CCO'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+863;je700741;"[""'CCO'"", ""'C1CCCCC1'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+1024;j.tca.2010.03.028;['nan'];['nan'];['nan'];"[""'CCCCCC__C1CCOCC1'"", ""'C1CCOCC1__CCCCCCC'"", ""'C1CCCCC1__C1CCOCC1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;3;1;1;3.0;4.0
+902;je8009418;"[""'CCCCCO'"", ""'CCC(C)(C)O'"", ""'OC1CCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+182;j.fluid.2015.06.016;"[""'CCCCCCCCCC'"", ""'Cc1ccccc1'"", ""'OCC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+1005;j.fluid.2009.11.010;['nan'];['nan'];['nan'];"[""'CCCCOCCCC__CC(C)CC(C)(C)C'"", ""'CCCCO__CCCCOCCCC'"", ""'CCCCO__CC(C)CC(C)(C)C'""]";['nan'];['nan'];1.0;-5.0;1;1;1;3;1;1;3.0;4.0
+185;j.fluid.2015.07.012;['nan'];"[""'CO__O'"", ""'CCO__O'"", ""'CCCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;3;1;1;1;1;3.0;4.0
+188;j.fluid.2015.07.023;"[""'CO'"", ""'CC(C)OC(C)C'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+896;je8008254;"[""'CO'"", ""'CCO'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+67;j.fluid.2009.12.019;['nan'];"[""'c1ccccc1__C1CCCCCCC1'"", ""'Cc1ccccc1__C1CCCCCCC1'"", ""'CCc1ccccc1__C1CCCCCCC1'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;3;1;1;1;1;3.0;4.0
+58;j.fluid.2008.09.004;"[""'CCO'""]";['nan'];['nan'];['nan'];"[""'CCO'""]";['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+889;je800571y;"[""'CC(C)O'"", ""'CC(C)CO'"", ""'CCC(C)(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+883;je8004613;['nan'];"[""'CCCCCCCC__COC(C)(C)C'""]";['nan'];"[""'CCCCO__CCCCCCCC'""]";['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+1013;j.jct.2005.03.012;['nan'];['nan'];['nan'];"[""'CO__O'""]";"[""'CO'""]";['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+1017;j.jct.2009.07.014;['nan'];['nan'];['nan'];"[""'CCCCCCC__CCCCOCCCC'"", ""'CCCCO__CCCCOCCCC'"", ""'CCCCO__CCCCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;3;1;1;3.0;4.0
+211;j.jct.2005.06.010;['nan'];"[""'CCCCO__O'"", ""'CC(C)CO__O'"", ""'CC(C)(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;3;1;1;1;1;3.0;4.0
+51;j.fluid.2008.06.004;"[""'CCO'"", ""'CCCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+50;j.fluid.2008.06.003;"[""'CCCCCC'"", ""'CCCCCCC'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+878;je800298n;"[""'CC(C)OC(C)C'"", ""'CC(C)O'"", ""'CC(C)CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+1023;j.tca.2009.11.011;['nan'];['nan'];"[""'OC[C@@H](O)[C@@H](O)[C@@H](O)CO'""]";['nan'];"[""'OC[C@@H](O)[C@@H](O)[C@@H](O)CO'""]";['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+875;je800244q;"[""'OCCCCCCO'""]";['nan'];['nan'];['nan'];"[""'OCCCCCCO'""]";['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+864;je7007445;"[""'CC(C)O'"", ""'OCCc1ccccc1'"", ""'OCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+229;j.jct.2006.05.006;"[""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+231;j.jct.2006.06.005;"[""'C1CCCCC1'"", ""'c1ccccc1'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+859;je700672f;"[""'OCCOCCO'""]";"[""'OCCOCCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+236;j.jct.2006.07.017;"[""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+856;je700618y;"[""'CCO'""]";"[""'CCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+243;j.jct.2006.10.004;"[""'OCCO'"", ""'OCCCO'"", ""'OCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+179;j.fluid.2015.05.031;"[""'CCCCCCC'"", ""'CCCCCCCC'"", ""'CCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+1004;j.fluid.2009.06.015;['nan'];['nan'];['nan'];"[""'c1ccccc1__CCCCOCCCC'"", ""'CCCCO__CCCCOCCCC'"", ""'CCCCO__c1ccccc1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;3;1;1;3.0;4.0
+381;j.jct.2012.05.033;"[""'O'""]";"[""'OCC(CO)(CO)CO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+130;j.fluid.2013.10.034;"[""'CCCO'"", ""'CC(C)O'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+95;j.fluid.2012.09.007;['nan'];"[""'c1ccccc1__CCC(C)(C)OC'"", ""'c1ccccc1__CC(C)CC(C)(C)C'"", ""'CC(C)CC(C)(C)C__CCC(C)(C)OC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;3;1;1;1;1;3.0;4.0
+106;j.fluid.2013.01.024;"[""'CO'"", ""'CC(C)O'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+107;j.fluid.2013.01.025;"[""'OCCO'""]";"[""'OCCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+964;je901043q;"[""'CCCCCCCO'"", ""'CCCCCCCCO'"", ""'CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+94;j.fluid.2012.08.030;"[""'COCCO'"", ""'CCOCCO'"", ""'CCCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+116;j.fluid.2013.06.018;"[""'CCCCCCC'"", ""'CCCCCC'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+88;j.fluid.2012.06.013;"[""'CCCO'"", ""'CC(C)O'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+122;j.fluid.2013.08.005;"[""'O'""]";['nan'];['nan'];['nan'];"[""'O'""]";['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+125;j.fluid.2013.09.029;"[""'CCC(C)O'"", ""'CC(C)(C)O'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+127;j.fluid.2013.10.012;"[""'Cc1ccc(C)cc1'"", ""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+128;j.fluid.2013.10.022;"[""'CCCCCCCCO'"", ""'CCCCC(CC)CO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+132;j.fluid.2013.10.060;"[""'CCO'"", ""'CCCCCC'"", ""'C1CCOCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+908;je801006q;"[""'CCCCO'"", ""'CC(C)CO'"", ""'CC(C)(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+950;je900725w;"[""'CCOCCO'""]";"[""'CCOCCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+140;j.fluid.2014.01.022;"[""'COCC(C)O'"", ""'CO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+146;j.fluid.2014.04.002;"[""'CC(O)CO'"", ""'OCCCO'"", ""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+929;je900478c;"[""'CCCCOCCO'""]";"[""'CCCCOCCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+150;j.fluid.2014.05.033;"[""'COc1ccccc1'"", ""'CO'"", ""'Oc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+75;j.fluid.2011.01.007;"[""'CCO'"", ""'c1ccccc1'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+926;je9004646;"[""'CCCO'"", ""'CC(C)O'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+922;je900337a;"[""'CCCO'""]";"[""'CCCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+159;j.fluid.2014.07.041;"[""'COCCO'"", ""'CCOCCO'"", ""'CC1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+1000;j.fluid.2006.03.020;['nan'];['nan'];['nan'];"[""'CCCCCCCC__C1COCCO1'"", ""'C1CCCCC1__CCCCCCCC'"", ""'C1CCCCC1__C1COCCO1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;3;1;1;3.0;4.0
+70;j.fluid.2010.05.017;['nan'];"[""'Cc1ccccc1C__CCCCCC'"", ""'Cc1cccc(C)c1__CCCCCC'"", ""'Cc1ccc(C)cc1__CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;3;1;1;1;1;3.0;4.0
+244;j.jct.2006.10.005;"[""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'CCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+967;je901067c;"[""'CCCCCO'"", ""'CCCC(C)O'"", ""'CCC(O)CC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+803;je500380;"[""'CO'"", ""'CCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+302;j.jct.2009.06.023;"[""'CCO'"", ""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+1035;je100897y;['nan'];['nan'];['nan'];"[""'CCCOCCC__CCCCOCCCC'"", ""'C1CCOC1__CCCOCCC'"", ""'C1CCOC1__CCCCOCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;3;1;1;3.0;4.0
+309;j.jct.2009.11.020;"[""'OCC(O)CO'"", ""'CO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+311;j.jct.2010.01.008;['nan'];"[""'Cc1ccccc1__CCCCCCC'"", ""'Cc1ccccc1__CCCCCCCC'"", ""'Cc1ccccc1__CCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;3;1;1;1;1;3.0;4.0
+818;je5010214;"[""'CCCCO'"", ""'CC(C)CO'"", ""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+811;je5007604;"[""'CO'"", ""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+319;j.jct.2010.08.010;"[""'C1CCCCC1'"", ""'Cc1ccccc1'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+322;j.jct.2010.10.018;"[""'CC(C)(C)O'""]";"[""'CC(C)(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+330;j.jct.2010.12.016;"[""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+246;j.jct.2006.11.003;"[""'Cc1ccccc1C'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+333;j.jct.2011.01.014;"[""'O'"", ""'CO'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+770;je3013205;"[""'CC(C)O'"", ""'CO'"", ""'OCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+25;j.fluid.2006.07.003;"[""'CCCOCCC'"", ""'CCCO'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+789;je400722h;"[""'C1COCO1'"", ""'C1COCCO1'"", ""'C1CCOCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+1041;je900077g;['nan'];['nan'];['nan'];"[""'C1CCCCC1__C1COCCO1'"", ""'C1CCCCC1__C1CCOCC1'"", ""'C1COCCO1__C1CCOCC1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;3;1;1;3.0;4.0
+1043;je9003806;['nan'];['nan'];['nan'];"[""'CCO__CO'"", ""'CCO__CCCO'"", ""'CCO__CC(C)O'""]";['nan'];['nan'];1.0;-5.0;1;1;1;3;1;1;3.0;4.0
+1044;je900560j;['nan'];['nan'];['nan'];"[""'C1CCCCC1__CCCCOCCCC'"", ""'CCCCO__CCCCOCCCC'"", ""'CCCCO__C1CCCCC1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;3;1;1;3.0;4.0
+350;j.jct.2011.10.009;"[""'CCO'""]";"[""'CCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+772;je400134d;"[""'CCCCCCC'"", ""'C1CCCCC1'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+352;j.jct.2011.10.025;"[""'CC(C)O'"", ""'C1CCOCC1'"", ""'CCCCCC(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+783;je400581e;"[""'CC(C)O'"", ""'CC(C)CO'"", ""'CC(C)CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+782;je400539h;"[""'C1CCOC1'"", ""'C1COCCO1'"", ""'COc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+356;j.jct.2011.12.002;"[""'CCCCCO'"", ""'CCCCCCO'"", ""'CCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+779;je4004993;"[""'C1CCOC1'"", ""'C1CCCCC1'"", ""'CC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+29;j.fluid.2006.12.011;"[""'C1CC[C@@H]2CCCC[C@H]2C1'""]";"[""'C1CC[C@@H]2CCCC[C@@H]2C1__C1CC[C@@H]2CCCC[C@H]2C1'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+307;j.jct.2009.10.002;"[""'CCCCCCCCO'""]";"[""'Oc1ccccc1__CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+34;j.fluid.2007.03.030;"[""'CCCO'"", ""'CCCOCCC'"", ""'CCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+380;j.jct.2012.05.032;"[""'OCCCCO'"", ""'CCCCCCCCO'"", ""'C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+275;j.jct.2008.01.023;"[""'CCO'"", ""'OCCO'"", ""'CCOCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+849;je7003512;"[""'CCO'"", ""'CO'"", ""'CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+844;je7002836;"[""'CCO'""]";['nan'];['nan'];['nan'];"[""'CCO'""]";['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+261;j.jct.2007.06.014;"[""'CCCC'""]";"[""'CCC__CCCC'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+373;j.jct.2012.04.015;"[""'CCCCCCC'"", ""'C1CCCCC1'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+259;j.jct.2007.06.002;"[""'COCCO'"", ""'COCCOC'"", ""'COCCOCCOC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+38;j.fluid.2007.07.066;"[""'O'""]";"[""'CCCO__O'""]";['nan'];['nan'];['nan'];['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+839;je7002513;"[""'Cc1ccc(C)cc1'"", ""'Cc1cccc(C)c1'"", ""'Cc1ccccc1C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+836;je7001804;"[""'CO'"", ""'CCO'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+284;j.jct.2008.07.014;"[""'CCCCCCCCO'"", ""'CCCCCCCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+288;j.jct.2008.10.002;"[""'O'""]";['nan'];['nan'];['nan'];"[""'O'""]";['nan'];2.0;-4.0;1;1;1;1;1;1;2.0;4.0
+32;j.fluid.2007.01.038;"[""'CCCCOC(C)(C)C'"", ""'CO'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+31;j.fluid.2007.01.021;"[""'O'"", ""'CCCO'"", ""'OC1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+831;je700099w;"[""'CCCO'"", ""'CCCCO'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+829;je700029q;"[""'CO'"", ""'CCCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+40;j.fluid.2007.09.009;"[""'OCCO'"", ""'OCCOCCO'"", ""'OCCOCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+251;j.jct.2007.02.002;"[""'COC(C)(C)C'"", ""'CCCCO'"", ""'CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+268;j.jct.2007.11.002;"[""'c1ccccc1'"", ""'Cc1ccccc1'"", ""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;3;1;1;1;1;1;3.0;4.0
+987;s10765-010-0860-3;"[""'C1CCOC1'"", ""'C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+976;s10765-008-0485-y;"[""'COCOC'"", ""'COCCOC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+623;je060210c;"[""'CCCCCO'"", ""'CCCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+982;s10765-009-0665-4;['nan'];"[""'CCCCO__CCCCCC'"", ""'CCCCO__C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;2;1;1;1;1;2.0;3.0
+1065;je800047t;['nan'];['nan'];['nan'];['nan'];"[""'O[C@H]1CCCC[C@H]1O'"", ""'O[C@@H]1CC[C@@H](O)CC1'""]";['nan'];1.0;-5.0;1;1;1;1;2;1;2.0;3.0
+1062;je401098b;['nan'];['nan'];['nan'];['nan'];"[""'c1ccccc1'"", ""'C1CCCCC1'""]";['nan'];1.0;-5.0;1;1;1;1;2;1;2.0;3.0
+978;s10765-008-0503-0;"[""'COCOC'"", ""'COCCOC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+1052;j.jct.2011.06.019;['nan'];['nan'];['nan'];['nan'];"[""'CCO'"", ""'CCCCCCC'""]";['nan'];1.0;-5.0;1;1;1;1;2;1;2.0;3.0
+1054;j.jct.2013.08.033;['nan'];['nan'];['nan'];['nan'];"[""'CCCCO'"", ""'CCC(O)CO'""]";['nan'];1.0;-5.0;1;1;1;1;2;1;2.0;3.0
+1051;j.jct.2008.10.010;['nan'];['nan'];['nan'];['nan'];"[""'CCC(C)(C)O'"", ""'OC1CCCC1'""]";['nan'];1.0;-5.0;1;1;1;1;2;1;2.0;3.0
+992;s10765-011-1149-;"[""'CO'"", ""'OCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+1026;je049836y;['nan'];['nan'];['nan'];"[""'CCCCCCCCCC__COC(C)(C)C'"", ""'CCCCCO__CCCCCCCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;2;1;1;2.0;3.0
+1045;j.fluid.2005.03.026;['nan'];['nan'];['nan'];['nan'];"[""'CCCCCCCCCC'"", ""'Cc1ccc(C)cc1'""]";['nan'];1.0;-5.0;1;1;1;1;2;1;2.0;3.0
+995;s10765-013-1483-2;"[""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+997;cs.jced.5b00300;['nan'];['nan'];['nan'];"[""'CCC(C)(C)O__COC(C)(C)C'"", ""'CCC(C)O__COC(C)(C)C'""]";['nan'];['nan'];1.0;-5.0;1;1;1;2;1;1;2.0;3.0
+617;je060137q;"[""'Cc1ccc(C)c(C)c1'"", ""'Cc1cc(C)cc(C)c1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+998;j.fluid.2004.12.013;['nan'];['nan'];['nan'];"[""'CCCCCCCCC__COC(C)(C)C'"", ""'CCCCCO__CCCCCCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;2;1;1;2.0;3.0
+586;je050231r;"[""'c1ccccc1'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+999;j.fluid.2005.08.001;['nan'];['nan'];['nan'];"[""'CCO__CCCCCC'"", ""'CCCCO__CCCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;2;1;1;2.0;3.0
+1002;j.fluid.2007.03.017;['nan'];['nan'];['nan'];"[""'CC(C)OC(C)C__Cc1ccccc1'"", ""'CC(C)OC(C)C__Cc1cccc(C)c1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;2;1;1;2.0;3.0
+1009;j.fluid.2012.01.007;['nan'];['nan'];['nan'];"[""'CCCCCO__C1CCCCC1'"", ""'CCCCCO__Cc1ccccc1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;2;1;1;2.0;3.0
+1010;j.fluid.2012.11.005;['nan'];['nan'];['nan'];"[""'CCCCCO__CCCCCC(C)C'"", ""'CCCCCO__CCCCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;2;1;1;2.0;3.0
+1012;j.fluid.2014.10.016;['nan'];['nan'];['nan'];"[""'CC(C)CC(C)(C)C__CCCC(C)O'"", ""'CCCCCCC__CCCC(C)O'""]";['nan'];['nan'];1.0;-5.0;1;1;1;2;1;1;2.0;3.0
+1019;j.jct.2010.10.002;['nan'];['nan'];['nan'];"[""'CCC(C)(C)C__C1CCOC1'"", ""'CC(C)C(C)C__C1CCOC1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;2;1;1;2.0;3.0
+1021;j.jct.2014.01.002;['nan'];['nan'];['nan'];"[""'CCCCCC__C1CCCCC1'"", ""'CCCCCO__CCCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;2;1;1;2.0;3.0
+974;s10765-008-0399-8;"[""'OCCOCCO'"", ""'OCCOCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+756;je300799f;"[""'CCCCCCC'"", ""'CCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+905;je800981d;"[""'CCO'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+966;je901065e;"[""'Cc1ccccc1'"", ""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+699;je101361u;"[""'COCCOC'"", ""'COCCOCCOC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+702;je2000606;"[""'CO'"", ""'OCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+703;je200111a;"[""'CC(C)CCO'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+876;je8002699;"[""'CCc1ccccc1'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+717;je200600p;"[""'CO'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+718;je200609g;"[""'CC(C)O'"", ""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+852;je7004374;"[""'CC(O)CO'"", ""'OCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+851;je700430g;"[""'CO'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+842;je700266n;"[""'c1ccccc1'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+833;je700126z;"[""'CCCCCC'"", ""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+832;je700119;"[""'CCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+828;je700026d;"[""'COCCO'"", ""'COCCOC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+825;je6005778;"[""'CCC(O)CO'"", ""'CC(O)CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+745;je300557g;"[""'CO'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+795;je401036f;"[""'CCCCO'"", ""'CCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+788;je400683g;"[""'CCO'"", ""'Cc1oc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+786;je4006739;"[""'CCOCCO'"", ""'CCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+785;je400659p;"[""'C1COCCO1'"", ""'OCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+774;je4003515;['nan'];"[""'CCO__O'"", ""'CCCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;2;1;1;1;1;2.0;3.0
+773;je400214b;"[""'CCO'"", ""'CCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+768;je301238f;"[""'CCOC(C)(C)C'"", ""'CCOC(C)(C)CC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+765;je301122r;"[""'CCc1ccccc1C'"", ""'Cc1ccc(C)c(C)c1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+763;je301082y;['nan'];"[""'CC(O)CCO__O'"", ""'OCCCCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;2;1;1;1;1;2.0;3.0
+762;je300994y;"[""'CC(C)OC(C)C'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+701;je200030k;"[""'CCCCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+880;je800348s;"[""'CCCCCCCC'"", ""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+631;je060314n;"[""'CCCOCCC'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+881;je8003707;"[""'C1CCCCC1'"", ""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+961;je900969u;"[""'CC1CCCCC1'"", ""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+960;je900966r;['nan'];"[""'CCCO__O'"", ""'CC(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;2;1;1;1;1;2.0;3.0
+957;je900864n;"[""'OCCCO'"", ""'OCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+638;je060441j;"[""'CO'"", ""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+639;je0604479;"[""'CCCO'"", ""'CCCOCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+640;je060475r;"[""'c1ccccc1'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+955;je900812v;"[""'CC(C)CCO'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+952;je900733j;"[""'CO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+933;je9005129;"[""'CCCCO'"", ""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+930;je900481e;"[""'CO'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+662;je100526j;"[""'c1ccccc1'"", ""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+928;je900470r;"[""'CC(C)O'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+918;je900259b;"[""'C1CCCCC1'"", ""'COCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+672;je100704j;"[""'C1CCCCC1'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+910;je900048r;"[""'O'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+909;je900042q;"[""'CC(C)OC(C)C'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+903;je800972b;"[""'CCCO'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+687;je100967k;"[""'CCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+692;je1011828;"[""'CO'"", ""'CCCCOCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+693;je101197a;['nan'];"[""'C__CCCCC'"", ""'CC__CCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;2;1;1;1;1;2.0;3.0
+694;je101250d;"[""'CCCCCCC'"", ""'CCC(C)(C)OC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+891;je8006138;"[""'C1CCCCC1'"", ""'CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+890;je800594e;"[""'Cc1ccc(C)cc1'"", ""'CCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+835;je700145e;"[""'CCCCC(C)O'"", ""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+535;j.tca.2012.01.013;"[""'CCCCO'"", ""'CCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+148;j.fluid.2014.04.025;"[""'Cc1ccccc1'"", ""'COCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+57;j.fluid.2008.07.001;"[""'CC(C)CO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+71;j.fluid.2010.08.010;"[""'CCCCCCO'"", ""'Cc1ccccc1C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+192;j.fluid.2015.08.012;"[""'CCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+334;j.jct.2011.02.008;"[""'CCCCCCO'"", ""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+68;j.fluid.2010.01.002;"[""'CO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+332;j.jct.2011.01.005;"[""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+497;j.jct.2015.04.034;"[""'CCCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+457;j.jct.2013.11.027;"[""'C1COCCO1'"", ""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+63;j.fluid.2009.07.010;"[""'CCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+110;j.fluid.2013.02.005;"[""'Cc1oc(C)cc1'"", ""'CC(C)OC(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+196;j.fluid.2015.11.009;"[""'CCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+60;j.fluid.2008.11.014;"[""'CCCO'"", ""'CC(C)OC(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+167;j.fluid.2014.12.029;"[""'CCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+42;j.fluid.2007.10.010;"[""'CCCCCC'"", ""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+504;j.jct.2015.07.035;"[""'CC(O)c1ccccc1'"", ""'OC1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+376;j.jct.2012.04.026;"[""'CCCCCCC'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+54;j.fluid.2008.06.012;"[""'CCCCCC'"", ""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+120;j.fluid.2013.07.028;"[""'CCCCCC'"", ""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+52;j.fluid.2008.06.006;"[""'CC(C)OC(C)C'"", ""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+456;j.jct.2013.11.026;"[""'O'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+377;j.jct.2012.05.005;"[""'C1COCCO1'"", ""'CCCCCC(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+318;j.jct.2010.07.014;"[""'CO'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+45;j.fluid.2008.01.010;"[""'CC(C)CO'"", ""'OCC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+98;j.fluid.2012.10.004;"[""'CCCCCC'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+164;j.fluid.2014.11.005;"[""'O'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+109;j.fluid.2013.02.003;"[""'CC(C)CO'"", ""'CC(C)(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+460;j.jct.2013.12.008;"[""'COc1ccccc1'"", ""'CCOc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+494;j.jct.2015.03.004;"[""'C1CCCCC1'"", ""'CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+493;j.jct.2015.02.013;"[""'CCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+93;j.fluid.2012.08.005;['nan'];"[""'o1cccc1__CCCCCC'"", ""'Cc1ccccc1__o1cccc1'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;2;1;1;1;1;2.0;3.0
+367;j.jct.2012.02.036;"[""'CC(C)CO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+364;j.jct.2012.02.023;"[""'CO'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+476;j.jct.2014.04.025;"[""'CCCCCCC'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+91;j.fluid.2012.07.032;"[""'O'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+362;j.jct.2012.01.023;"[""'CCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+361;j.jct.2012.01.022;"[""'CCCCCCO'"", ""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+171;j.fluid.2015.03.027;"[""'CCCCCCC'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+99;j.fluid.2012.11.004;"[""'CCO'"", ""'CC(C)CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+354;j.jct.2011.10.028;"[""'CCCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+480;j.jct.2014.06.030;"[""'C1CCOCC1'"", ""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+84;j.fluid.2011.12.007;"[""'CCCCCC'"", ""'C1CCOCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+468;j.jct.2014.02.005;"[""'Cc1ccccc1'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+485;j.jct.2014.09.009;"[""'CCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+348;j.jct.2011.09.007;"[""'CC(C)O'"", ""'CCCCCC(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+464;j.jct.2013.12.029;"[""'CCCCCCC'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+187;j.fluid.2015.07.017;"[""'CO'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+343;j.jct.2011.07.021;"[""'CCCCC(CC)CO'"", ""'C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+462;j.jct.2013.12.025;"[""'COc1ccccc1'"", ""'CCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+342;j.jct.2011.07.018;"[""'CCCCCCO'"", ""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+105;j.fluid.2013.01.022;"[""'CCOC(C)(C)C'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+341;j.jct.2011.07.008;['nan'];"[""'CCOCCO__O'"", ""'CCOCCOCCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;2;1;1;1;1;2.0;3.0
+340;j.jct.2011.06.021;['nan'];"[""'CCO__CCCCCC(C)C'"", ""'CCO__Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;2;1;1;1;1;2.0;3.0
+204;j.jct.2005.02.006;['nan'];"[""'C1CCCCC1__CCCCCCC'"", ""'C1CCCCC1__CCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;2;1;1;1;1;2.0;3.0
+513;j.jct.2015.10.011;"[""'CCCCCC'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+365;j.jct.2012.02.027;"[""'O'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+291;j.jct.2008.12.010;"[""'Cc1ccc(C)cc1'"", ""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+266;j.jct.2007.09.011;"[""'COCCO'"", ""'COCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+549;j.tca.2013.12.016;"[""'CO'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+303;j.jct.2009.07.017;['nan'];"[""'c1ccccc1__CCCCCCCC'"", ""'c1ccccc1__CCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;2;1;1;1;1;2.0;3.0
+141;j.fluid.2014.01.033;"[""'CCCCCC'"", ""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+433;j.jct.2013.08.011;"[""'CCCO'"", ""'OCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+273;j.jct.2008.01.017;"[""'CCCCCCCO'"", ""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+293;j.jct.2008.12.022;"[""'OCCOCCOCCO'"", ""'CC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+292;j.jct.2008.12.020;"[""'Cc1ccccc1'"", ""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+13;cs.jced.5b00582;"[""'COCCO'"", ""'COCCOC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+403;j.jct.2012.11.011;"[""'CCCCCCCC'"", ""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+290;j.jct.2008.12.003;"[""'OCCOCCO'"", ""'OCCCOCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+556;j.tca.2014.10.018;"[""'CCCCCCCCO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+12;cs.jced.5b00537;"[""'CCC(C)(C)O'"", ""'CC(C)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+418;j.jct.2013.05.004;['nan'];"[""'OCCCCCO__O'"", ""'OCCCCCCCCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;2;1;1;1;1;2.0;3.0
+408;j.jct.2012.12.007;"[""'CO'"", ""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+154;j.fluid.2014.06.023;"[""'CCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+228;j.jct.2006.05.005;"[""'CCCOCCC'"", ""'CC(C)OC(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+143;j.fluid.2014.01.046;"[""'CCO'"", ""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+414;j.jct.2013.03.018;"[""'CO'"", ""'C1COCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+404;j.jct.2012.11.015;"[""'CCCCCCCCO'"", ""'CCCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+237;j.jct.2006.07.025;"[""'Cc1ccc(C)c(C)c1'"", ""'Cc1cc(C)cc(C)c1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+531;j.tca.2011.07.005;"[""'CC(C)OC(C)C'"", ""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+525;j.tca.2010.07.017;"[""'C1CCOC1'"", ""'C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+382;j.jct.2012.06.028;"[""'CCCCCC'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+526;j.tca.2011.01.019;"[""'CC(C)OC(C)C'"", ""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+145;j.fluid.2014.03.008;"[""'CCCCCCCCO'"", ""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+527;j.tca.2011.02.004;"[""'CC(C)OC(C)C'"", ""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+36;j.fluid.2007.06.005;"[""'CC(C)CC(C)(C)C'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+2;cs.jced.5b00064;"[""'CCO'"", ""'CC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+445;j.jct.2013.09.032;"[""'CCCCCCC'"", ""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+314;j.jct.2010.04.018;['nan'];"[""'Oc1ccccc1O__O'"", ""'Oc1cccc(O)c1__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;2;1;1;1;1;2.0;3.0
+569;je049777o;"[""'CCCCCC'"", ""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+28;j.fluid.2006.11.005;"[""'CCO'"", ""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+532;j.tca.2011.07.023;"[""'CCCCCC'"", ""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+390;j.jct.2012.08.024;"[""'OCCO'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+420;j.jct.2013.05.011;"[""'OCCOCCO'"", ""'OCCOCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+265;j.jct.2007.09.009;"[""'CO'"", ""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+540;j.tca.2012.08.011;"[""'C1CCCCC1'"", ""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+542;j.tca.2013.02.010;"[""'CCCO'"", ""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+278;j.jct.2008.02.020;"[""'CCCCCCC'"", ""'CCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;2;1;1;1;1;1;2.0;3.0
+173;j.fluid.2015.03.049;"[""'COCOC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+170;j.fluid.2015.03.023;"[""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+163;j.fluid.2014.10.043;"[""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+149;j.fluid.2014.05.032;['nan'];"[""'CCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+153;j.fluid.2014.06.019;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+912;je900064e;['nan'];"[""'CCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+157;j.fluid.2014.07.023;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+161;j.fluid.2014.09.024;['nan'];"[""'COc1ccccc1__Oc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+925;je900442b;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+924;je900414p;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+923;je9003959;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+158;j.fluid.2014.07.032;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+169;j.fluid.2015.01.026;"[""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+921;je900332;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+920;je900278v;"[""'CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+916;je900212d;"[""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+913;je9000697;['nan'];"[""'OCCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+574;je050020;"[""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+174;j.fluid.2015.04.001;"[""'OCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+867;je800077r;"[""'CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+216;j.jct.2005.08.018;"[""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+218;j.jct.2005.09.003;"[""'CCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+219;j.jct.2005.10.008;"[""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+874;je800164w;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+873;je800159w;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+872;je800157v;"[""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+220;j.jct.2005.10.009;"[""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+870;je8001305;['nan'];"[""'CC(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+869;je800110r;"[""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+222;j.jct.2006.01.007;['nan'];"[""'CC(C)(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+866;je800046k;"[""'Cc1cc(C)cc(C)c1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+907;je8009978;"[""'CC(C)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+865;je7007654;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+225;j.jct.2006.03.014;"[""'CC1OC(C)OC(C)O1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+227;j.jct.2006.05.003;"[""'C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+861;je700710d;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+230;j.jct.2006.05.012;"[""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+233;j.jct.2006.07.001;"[""'OCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+234;j.jct.2006.07.013;"[""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+857;je700648c;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+242;j.jct.2006.09.014;"[""'CCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+245;j.jct.2006.10.017;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+215;j.jct.2005.08.002;"[""'CC1CCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+214;j.jct.2005.08.001;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+208;j.jct.2005.05.003;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+882;je8004479;['nan'];"[""'OCC(O)CO__CCO'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+906;je800984q;"[""'C1CC2C3CCC(C3)C2C1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+175;j.fluid.2015.04.017;"[""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+904;je8009732;"[""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+176;j.fluid.2015.04.021;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+180;j.fluid.2015.05.032;"[""'Cc1ccc(C)cc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+183;j.fluid.2015.06.041;"[""'C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+184;j.fluid.2015.06.043;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+898;je800899w;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+190;j.fluid.2015.07.045;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+191;j.fluid.2015.08.005;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+895;je8008073;['nan'];"[""'C1CCc2ccccc2C1__CC(C)Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+147;j.fluid.2014.04.019;"[""'OCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+193;j.fluid.2015.08.014;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+195;j.fluid.2015.10.035;"[""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+198;j.jct.2004.09.022;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+888;je800535c;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+887;je800504n;['nan'];"[""'CC(C)(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+886;je800503d;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+199;j.jct.2004.10.011;"[""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+200;j.jct.2004.11.016;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+203;j.jct.2005.02.004;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+894;je8007217;"[""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+124;j.fluid.2013.08.029;"[""'OCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+932;je900503p;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+934;je900523k;"[""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1037;je200851a;['nan'];['nan'];['nan'];"[""'CCO__CCCCCCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+27;j.fluid.2006.07.016;"[""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1034;je100658y;['nan'];['nan'];"[""'CCCCCCC'""]";['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1033;je100019r;['nan'];['nan'];['nan'];"[""'Cc1ccccc1C__CCCCOCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+33;j.fluid.2007.03.021;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+35;j.fluid.2007.04.009;['nan'];"[""'CCCO__CCOC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+37;j.fluid.2007.07.002;['nan'];"[""'CCCO__CC(C)CC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1028;je049852v;['nan'];['nan'];['nan'];"[""'CCO__C1CCOCC1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1027;je0498457;['nan'];['nan'];['nan'];"[""'CCCCO__C1CCOCC1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1025;je034253u;['nan'];['nan'];['nan'];"[""'CC1CO1__CCCC(C)C'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+43;j.fluid.2007.12.003;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1022;j.tca.2005.08.034;['nan'];['nan'];['nan'];"[""'c1ccccc1__CC1CCCO1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+47;j.fluid.2008.03.002;"[""'CC(C)CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1020;j.jct.2013.06.018;['nan'];['nan'];['nan'];"[""'CCCO__CCCCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+49;j.fluid.2008.04.014;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+53;j.fluid.2008.06.007;"[""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1015;j.jct.2007.12.002;['nan'];['nan'];['nan'];"[""'CC(C)O__O'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+55;j.fluid.2008.06.014;"[""'CCOCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1011;j.fluid.2014.05.031;['nan'];['nan'];['nan'];"[""'CCO__O'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+61;j.fluid.2009.04.017;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+62;j.fluid.2009.06.018;"[""'CCCOCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+64;j.fluid.2009.09.015;"[""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1006;j.fluid.2010.02.012;['nan'];['nan'];['nan'];"[""'CCO__CCCCCCCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+69;j.fluid.2010.03.001;"[""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1003;j.fluid.2008.06.011;['nan'];['nan'];['nan'];"[""'CCCO__CCCCCCCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+26;j.fluid.2006.07.011;"[""'CC(C)c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1039;je7005743;['nan'];['nan'];['nan'];"[""'CCO__CC(C)CC(C)(C)C'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1040;je8007606;['nan'];['nan'];['nan'];"[""'CCCO__CCCCCCCCC'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+7;cs.jced.5b00317;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1068;je9006579;['nan'];['nan'];['nan'];['nan'];"[""'CCCCCCC'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1066;je800248w;['nan'];['nan'];['nan'];['nan'];"[""'O'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+4;cs.jced.5b00181;"[""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1064;je5008444;['nan'];['nan'];['nan'];['nan'];"[""'CCCCCCCC'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1063;je500512f;['nan'];['nan'];['nan'];['nan'];"[""'COC'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+5;cs.jced.5b00256;"[""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1061;je2013473;['nan'];['nan'];['nan'];['nan'];"[""'CCO'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1060;je0601513;['nan'];['nan'];['nan'];['nan'];"[""'CCCO'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1059;j.tca.2013.03.017;['nan'];['nan'];['nan'];['nan'];"[""'O'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1058;j.tca.2012.02.017;['nan'];['nan'];['nan'];['nan'];"[""'OCCCOCCCO'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+6;cs.jced.5b00301;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+8;cs.jced.5b00326;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+20;j.fluid.2006.01.017;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+9;cs.jced.5b00331;"[""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1053;j.jct.2012.02.022;['nan'];['nan'];['nan'];['nan'];"[""'OCCCOCCCO'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+10;cs.jced.5b00451;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1050;j.jct.2007.07.001;['nan'];['nan'];['nan'];['nan'];"[""'CO'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1048;j.jct.2006.11.001;['nan'];['nan'];['nan'];['nan'];"[""'CO'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+15;cs.jced.5b00724;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1046;j.fluid.2014.03.017;['nan'];['nan'];['nan'];['nan'];"[""'O'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+16;cs.jced.5b00789;"[""'CC1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+18;j.fluid.2005.03.032;['nan'];"[""'C__CCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+19;j.fluid.2005.05.023;['nan'];"[""'CCO__Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1042;je900347f;['nan'];['nan'];['nan'];"[""'C1CCCCC1__C1CCOCC1'""]";['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+72;j.fluid.2010.08.014;"[""'COCCOCCOC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+73;j.fluid.2010.10.003;"[""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+74;j.fluid.2010.12.012;['nan'];"[""'CO__CC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+135;j.fluid.2013.11.026;"[""'CCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+115;j.fluid.2013.06.013;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+119;j.fluid.2013.07.015;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+958;je900906j;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+121;j.fluid.2013.07.054;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+956;je9008624;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+253;j.jct.2007.04.005;['nan'];"[""'C1CCCCC1__CCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+126;j.fluid.2013.09.030;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+953;je900743e;['nan'];"[""'CCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+131;j.fluid.2013.10.057;"[""'C1CCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+951;je900732r;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+134;j.fluid.2013.11.025;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+948;je900715y;"[""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+965;je9010486;['nan'];"[""'OC[C@H](O)C(O)[C@H](O)CO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+137;j.fluid.2013.11.036;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+946;je900669t;"[""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+138;j.fluid.2014.01.013;"[""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+139;j.fluid.2014.01.019;"[""'OCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+942;je9006184;"[""'CCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+941;je900586f;"[""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+142;j.fluid.2014.01.044;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+938;je900542y;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+937;je900535d;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+144;j.fluid.2014.03.002;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+935;je900531b;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+962;je900998f;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+102;j.fluid.2012.12.021;"[""'C1CCOCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+76;j.fluid.2011.01.012;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+985;s10765-010-0737-5;"[""'CC(C)OC(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+79;j.fluid.2011.05.017;['nan'];"[""'CCC(C)O__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+80;j.fluid.2011.06.007;['nan'];"[""'CCCCCC__CCC(C)(C)OC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+81;j.fluid.2011.06.011;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+994;s10765-013-1469-0;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+993;s10765-012-1373-z;"[""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+82;j.fluid.2011.11.016;['nan'];"[""'C1CCCCC1__CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+991;s10765-011-1100-1;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+990;s10765-011-0989-8;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+989;s10765-010-0874-;"[""'CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+988;s10765-010-0862-1;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+986;s10765-010-0752-6;"[""'CCCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+85;j.fluid.2012.02.007;"[""'CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+101;j.fluid.2012.11.039;"[""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+86;j.fluid.2012.03.025;['nan'];"[""'CCCCCCCCO__CCCCCCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+87;j.fluid.2012.05.007;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+89;j.fluid.2012.06.020;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+980;s10765-009-0567-5;['nan'];"[""'Oc1cccc(O)c1__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+92;j.fluid.2012.08.002;"[""'COCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+977;s10765-008-0500-3;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+975;s10765-008-0444-7;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+97;j.fluid.2012.09.038;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+972;s10765-007-0259-y;"[""'CC(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+971;s10765-007-0220-0;['nan'];"[""'C1COCO1__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+970;s10765-006-0100-z;"[""'C1CCOCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+248;j.jct.2007.01.008;"[""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+313;j.jct.2010.03.022;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+254;j.jct.2007.04.010;"[""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+655;je100290a;"[""'OCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+668;je100614r;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+667;je100610v;"[""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+666;je100595s;"[""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+487;j.jct.2014.12.006;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+488;j.jct.2014.12.022;"[""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+663;je100577v;"[""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+490;j.jct.2015.01.016;"[""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+492;j.jct.2015.02.011;"[""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+658;je100353j;"[""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+657;je100341q;"[""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+656;je100315g;"[""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+654;je100259j;['nan'];"[""'CCCCOCCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+705;je200150r;"[""'OCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+653;je100170v;"[""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+652;je100159;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+496;j.jct.2015.03.023;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+501;j.jct.2015.06.029;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+648;je100089s;"[""'OCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+647;je100075;"[""'CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+646;je1000473;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+645;je060497d;"[""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+502;j.jct.2015.06.036;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+643;je060491o;"[""'CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+503;j.jct.2015.07.022;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+486;j.jct.2014.10.005;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+670;je100657n;"[""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+484;j.jct.2014.09.005;"[""'CCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+482;j.jct.2014.08.005;"[""'OCCOCCOCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+459;j.jct.2013.11.036;['nan'];"[""'CCCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+700;je2000099;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+461;j.jct.2013.12.009;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+696;je101286a;"[""'CCCCOCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+469;j.jct.2014.02.012;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+470;j.jct.2014.02.021;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+471;j.jct.2014.02.022;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+472;j.jct.2014.03.003;"[""'CCc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+690;je1011604;"[""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+689;je101035p;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+473;j.jct.2014.03.007;"[""'CCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+475;j.jct.2014.03.021;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+686;je100940w;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+685;je100927;"[""'CCCCC(CC)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+684;je100912t;"[""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+682;je1008262;"[""'CC(C)OC(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+478;j.jct.2014.05.019;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+680;je100821g;"[""'COC(C)(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+679;je100803e;"[""'CC(O)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+678;je100788g;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+677;je100776;"[""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+676;je100765j;"[""'CC(C)OC(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+479;j.jct.2014.06.023;"[""'CC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+505;j.jct.2015.08.011;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+507;j.jct.2015.08.027;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+508;j.jct.2015.08.036;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+550;j.tca.2014.03.042;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+600;je050463q;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+552;j.tca.2014.05.028;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+553;j.tca.2014.06.026;"[""'OC1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+554;j.tca.2014.06.028;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+555;j.tca.2014.06.031;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+594;je0504111;['nan'];"[""'Cc1cccc(C)c1__CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+593;je050402s;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+592;je050389b;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+557;j.tca.2014.11.028;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+590;je050294+;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+589;je050261u;['nan'];"[""'CCO__CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+560;je034182z;"[""'CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+587;je0502344;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+561;je040012q;"[""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+585;je050223a;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+562;je049580w;"[""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+565;je049661s;"[""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+582;je050165t;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+566;je049663c;"[""'OCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+580;je050156k;"[""'C1CCC2OC2C1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+567;je0497496;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+577;je0500734;"[""'CCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+572;je0498208;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+551;j.tca.2014.05.004;"[""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+603;je050538q;"[""'CCC(C)(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+510;j.jct.2015.09.012;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+605;je060003c;"[""'CC(C)(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+511;j.jct.2015.10.001;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+635;je060355j;"[""'CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+512;j.jct.2015.10.009;"[""'CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+633;je060335h;['nan'];"[""'CCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+632;je0603325;"[""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+515;j.jct.2015.10.026;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+522;j.tca.2009.12.008;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+628;je060288t;"[""'COCC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+627;je0602521;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+524;j.tca.2010.04.025;"[""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+624;je060228n;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+621;je060192z;"[""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+530;j.tca.2011.06.020;"[""'C1CCOCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+619;je060154f;"[""'CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+618;je060139a;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+616;je0601255;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+615;je0601208;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+537;j.tca.2012.05.025;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+538;j.tca.2012.06.011;"[""'C1CC2C3CCC(C3)C2C1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+545;j.tca.2013.05.015;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+608;je0600653;"[""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+547;j.tca.2013.08.002;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+548;j.tca.2013.09.006;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+704;je200145r;['nan'];"[""'CO__C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+706;je200226z;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+260;j.jct.2007.06.009;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+798;je401120a;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+812;je5008795;"[""'c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+810;je500672d;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+809;je500594z;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+324;j.jct.2010.11.007;"[""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+325;j.jct.2010.11.009;"[""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+806;je500455u;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+805;je500418f;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+804;je500389t;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+331;j.jct.2010.12.027;"[""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+802;je500332k;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+801;je500283s;"[""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+337;j.jct.2011.04.011;"[""'COC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+707;je2002495;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+796;je401095k;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+338;j.jct.2011.06.006;['nan'];"[""'CCCCO__CCCCOCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+792;je4009415;"[""'CCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+790;je400781b;"[""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+347;j.jct.2011.09.001;"[""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+787;je400679k;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+349;j.jct.2011.10.002;"[""'C1CCOCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+784;je400606c;"[""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+355;j.jct.2011.11.027;['nan'];"[""'C1CCCCC1__CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+357;j.jct.2011.12.008;"[""'CC(C)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+359;j.jct.2012.01.008;"[""'COc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+813;je500886a;['nan'];"[""'OC[C@@H](O)[C@@H](O)[C@@H](O)CO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+814;je5009119;"[""'OCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+317;j.jct.2010.06.011;"[""'CCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+816;je500982g;['nan'];"[""'CC__Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+262;j.jct.2007.06.016;"[""'C1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+847;je7003066;"[""'CC1CCCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+276;j.jct.2008.01.025;"[""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+279;j.jct.2008.04.003;"[""'CC(C)C'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+841;je700261b;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+840;je700254t;['nan'];"[""'CCCO__c1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+280;j.jct.2008.05.014;"[""'CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+838;je700210n;['nan'];"[""'C__CC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+837;je700188w;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+283;j.jct.2008.07.010;"[""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+286;j.jct.2008.09.008;['nan'];"[""'OCCCCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+295;j.jct.2009.02.002;"[""'CC(C)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+300;j.jct.2009.06.014;['nan'];"[""'C1CCOC1__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+827;je7000182;"[""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+305;j.jct.2009.09.001;['nan'];"[""'CCC(C)(C)O__CCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+306;j.jct.2009.09.013;['nan'];"[""'CCCCO__OCCCCO'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+824;je600565;['nan'];"[""'CCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+310;j.jct.2009.12.008;"[""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+573;je0499059;"[""'Cc1ccccc1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+821;je600519p;"[""'CCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+820;je5010643;"[""'C1COCCO1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+315;j.jct.2010.05.009;['nan'];"[""'CCC(C)(C)O__C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+817;je5009944;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+778;je400491p;"[""'OCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+775;je400361k;['nan'];"[""'CC(CCO)CCO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+366;j.jct.2012.02.033;"[""'C1CCOC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+422;j.jct.2013.05.021;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+733;je201152j;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+425;j.jct.2013.05.041;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+427;j.jct.2013.06.009;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+430;j.jct.2013.07.010;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+431;j.jct.2013.08.007;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+432;j.jct.2013.08.010;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+439;j.jct.2013.09.006;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+440;j.jct.2013.09.015;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+724;je200922s;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+723;je2009208;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+442;j.jct.2013.09.018;"[""'CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+721;je200757a;"[""'CCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+720;je2007204;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+443;j.jct.2013.09.024;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+444;j.jct.2013.09.026;"[""'CCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+450;j.jct.2013.10.018;"[""'CCCCCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+715;je200504u;"[""'C1CCc2ccccc2C1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+452;j.jct.2013.11.002;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+453;j.jct.2013.11.015;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+455;j.jct.2013.11.021;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+711;je2003622;['nan'];"[""'CO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+710;je200350a;"[""'CC1CCCCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+708;je200327s;"[""'CCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+423;j.jct.2013.05.037;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+421;j.jct.2013.05.019;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+771;je4000394;"[""'CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+737;je2012633;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+369;j.jct.2012.02.039;"[""'CCCCOCC'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+769;je3012925;"[""'CCC(C)CO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+370;j.jct.2012.03.013;"[""'OCCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+371;j.jct.2012.03.025;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+374;j.jct.2012.04.017;"[""'CCCCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+375;j.jct.2012.04.020;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+378;j.jct.2012.05.016;"[""'CC(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+761;je300974g;"[""'C1CCOCC1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+760;je300886k;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+379;j.jct.2012.05.023;"[""'C1CCc2ccccc2C1'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+757;je300810p;"[""'CCO'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+386;j.jct.2012.07.019;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+394;j.jct.2012.08.033;['nan'];"[""'C1CCOC1__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+402;j.jct.2012.11.007;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+405;j.jct.2012.11.017;['nan'];"[""'CCO__CCCCCCCCCC'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+406;j.jct.2012.11.032;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+748;je300633e;['nan'];"[""'OC[C@@H](O)[C@@H](O)[C@@H](O)CO__O'""]";['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+409;j.jct.2012.12.010;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+411;j.jct.2013.01.008;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+413;j.jct.2013.01.023;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+740;je300134c;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+739;je300076y;"[""'CC(C)(C)O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+738;je201334p;"[""'O'""]";['nan'];['nan'];['nan'];['nan'];['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0
+1069;s10765-009-0607-1;['nan'];['nan'];['nan'];['nan'];"[""'CCC(C)CO'""]";['nan'];1.0;-5.0;1;1;1;1;1;1;1.0;2.0

@@ -1,11 +1,11 @@
 # open-forcefield-data/Initial Molecule Choices
-Organized csv files showing data point count statistics of molecules and mixtures across all pure solvent and binary mixture properties
+Organized csv and pkl files showing data point count statistics of molecules and mixtures across all pure solvent and binary mixture properties
 
 All files with '_all' or lone '_interesting' title appendage were created using the thermomlcnts.py script in the 'Python' directory (https://github.com/open-forcefield-group/open-forcefield-data/tree/master/Python)
 
 Any files with the '_diverse' title appendage (or any combination of it) was created using the diversitychk.py script in the 'Python' directory (https://github.com/open-forcefield-group/open-forcefield-data/tree/master/Python)
 
-# MAIN csv contents ('_all' title appendage) 
+# MAIN csv/pkl contents ('_all' title appendage) 
 
 allcomp_counts_all.csv - counts of number of data points for all molecules appearing in the pure and binary mixture sets across all properties (no additional filters applied)
 
@@ -22,3 +22,9 @@ _diverse - These data point counts represent only molecules on Chris's diverse l
 _interesting - These data point counts contain only binary data for those mixtures which are not alkane-alkane
 
 **Both appendages would mean both filters were applied
+
+
+# Journal score files
+
+Journal_scores_for_Ken.csv or .pkl - Ranks journal articles for Ken to do red flag checks on and estimate uncertainties (if needed). Journal article are rewarded for larger numbers of unqiue components/mixtures and a wide distribution of data across properties studied. Created using Ken_test_score.py in 'Python' directory.
+

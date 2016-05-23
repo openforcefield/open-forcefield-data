@@ -3,13 +3,11 @@ Python scripts for organizing and parsing ThermoML data using ThermoPyL
 
 # Script contents and use
 
-Asetcounts.py - Script used to generate data point counts for initial A set (Now degenerate due to change of initial ideas for A set. Still useful for showing ThermoPyL functionality)
+Ken_test_score.py - Script used to rank journal articles to submit to Ken for red flagging and uncertainty estimation. Scoring rewards large number of components per journal and wide distribution of data across properties measured.
 
 binsrch.py - Script used to generate binary mixture property sets for all potential molecules/mixtures
 
 diversitychk.py - Script used to check which of our initial molecules (see 'allcomp_counts_all.csv' in 'Initial Molecule Choices' directory) are in Chris's diverse set and generate allcomp_counts_diverse.csv (also in 'Initial Molecule Choices' directory)
-
-mixchk.py - Script used to eliminate alkane-alkane mixtures from the 'mix_counts_all.csv' statistics. List is also prefiltered to eliminate any mixture containing a molecule not in Chris's diverse list. Output is 'mix_counts_interesting.csv' in 'Initial Molecule Choices' directory.
 
 puresrch.py - Script used to generate pure solvent property sets for all potential molecules
 

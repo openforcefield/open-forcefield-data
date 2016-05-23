@@ -1,0 +1,24 @@
+;Mixture;Count
+0;ethanol__water;712
+1;ethanol__heptane;708
+2;2-methyl-2-propanol__water;636
+3;tert-butanol__water;360
+4;tetrahydrofuran__water;220
+5;ethanol__2,2,4-trimethylpentane;150
+6;butan-1-ol__methyl tert-butyl ether;144
+7;ethanol__methyl tert-butyl ether;140
+8;heptane__methyl tert-butyl ether;99
+9;1-butanol__2,2,4-trimethylpentane;93
+10;oxacyclopentane__water;90
+11;ethyl alcohol__n-butyl alcohol;88
+12;n-heptane__2,2,4-trimethylpentane;77
+13;1-butanol__water;75
+14;1-butanol__2-methyl-2-propanol;72
+15;tert-butanol__heptane;70
+16;1-butanol__methyl tert-butyl ether;67
+17;2-methyl-2-propanol__2,2,4-trimethylpentane;63
+18;ethanol__2-methyl-2-propanol;63
+19;1-butanol__heptane;55
+20;2,2,4-trimethylpentane__methyl tert-butyl ether;55
+21;ethanol__isopropyl ether;24
+22;isopropyl ether__2,2,4-trimethylpentane;13

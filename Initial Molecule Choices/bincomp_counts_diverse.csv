@@ -1,66 +1,59 @@
-,Component,SMILES,Component Count dens binary,Component Count actcoeff binary,Component Count sos binary,Component Count dielec binary,Component Count eme binary,Component Count emcp binary,Component Count emv binary,Component Count all binary
-0,water,O,10916,122,964,34,376,390,578,13380
-1,ethanol,CCO,4585,11,408,105,507,0,23,5639
-2,1-butanol,CCCCO,2773,8,897,105,581,130,71,4565
-3,heptane,CCCCCCC,3328,8,560,64,202,0,14,4176
-6,cyclohexane,C1CCCCC1,2548,7,520,0,336,0,14,3425
-8,2-propanol,CC(C)O,2433,6,418,105,139,0,0,3101
-9,1-propanol,CCCO,2428,6,430,0,118,0,0,2982
-13,methylcyclohexane,CC1CCCCC1,1478,1,354,0,76,0,0,1909
-15,tert-butyl ethyl ether,CCOC(C)(C)C,1048,4,819,0,0,0,0,1871
-16,"2,2,4-trimethylpentane",CC(C)CC(C)(C)C,1370,0,261,0,156,0,0,1787
-17,methanol,CO,853,5,31,515,210,0,0,1614
-24,2-methyl-2-propanol,CC(C)(C)O,1168,0,45,0,0,0,0,1213
-25,1-pentanol,CCCCCO,670,0,89,90,299,0,0,1148
-26,hexane,CCCCCC,651,14,223,0,157,0,87,1132
-29,1-hexanol,CCCCCCO,729,0,204,0,31,0,0,964
-32,cyclopentane,C1CCCC1,412,6,398,0,63,0,0,879
-34,tetrahydropyran,C1CCOCC1,289,0,254,0,218,0,112,873
-35,2-methyl-2-butanol,CCC(C)(C)O,248,16,450,0,98,0,39,851
-37,2-methoxyethanol,COCCO,517,17,306,0,0,0,0,840
-40,tetrahydrofuran,C1CCOC1,457,0,116,0,98,0,39,710
-43,n-propyl alcohol,CCCO,357,0,66,105,84,0,0,612
-44,2-methyl-1-propanol,CC(C)CO,399,0,71,105,31,0,0,606
-48,"1,4-dioxane",C1COCCO1,241,0,243,0,47,0,0,531
-49,isooctane,CCCCCC(C)C,413,0,72,0,42,0,0,527
-50,tert-butanol,CC(C)(C)O,267,0,132,95,0,0,0,494
-51,pentane,CCCCC,483,6,0,0,0,0,0,489
-52,1-propoxy-2-propanol,CCCOCC(C)O,318,0,145,0,0,0,0,463
-54,amylcarbinol,CCCCCCO,344,0,96,0,19,0,0,459
-56,butan-2-ol,CCC(C)O,202,0,136,0,85,0,0,423
-57,cyclooctane,C1CCCCCCC1,271,7,144,0,0,0,0,422
-62,"1,3-dioxolane",C1COCO1,204,0,148,0,0,0,0,352
-64,methyl alcohol,CO,129,0,0,105,87,0,0,321
-66,3-methyl-1-butanol,CC(C)CCO,235,15,52,0,0,0,0,302
-67,"ethanol, 2-propoxy-",CCCOCCO,151,0,73,78,0,0,0,302
-71,isopropyl ether,CC(C)OC(C)C,88,0,97,0,101,0,0,286
-76,2-pentanol,CCCC(C)O,126,13,39,0,84,0,0,262
-79,2-methyl-1-butanol,CCC(C)CO,173,15,56,0,0,0,0,244
-82,neopentyl alcohol,CC(C)(C)CO,213,0,0,0,0,0,0,213
-84,"2-methyl-1,3-propanediol",CC(CO)CO,209,0,0,0,0,0,0,209
-89,2-ethoxyethanol,CCOCCO,44,0,44,0,104,0,0,192
-90,"ethanol, 2-ethoxy-",CCOCCO,47,0,27,0,117,0,0,191
-91,butane,CCCC,163,21,0,0,0,0,0,184
-92,propane,CCC,157,21,0,0,0,0,0,178
-96,"ether, methyl tert-pentyl",CCC(C)(C)OC,136,0,21,0,0,0,19,176
-100,"2,2-dimethyl-1,3-propanediol",CC(C)(CO)CO,156,0,0,0,0,0,0,156
-102,"3-methylpentane-1,5-diol",CC(CCO)CCO,138,0,0,0,0,0,0,138
-103,2-hexanol,CCCCC(C)O,90,0,42,0,0,0,0,132
-104,2-methyltetrahydrofuran,CC1CCCO1,27,0,45,0,44,0,0,116
-108,methoxymethane,COC,0,23,0,0,76,0,0,99
-110,2-(2-methylpropoxy)ethanol,CC(C)COCCO,45,0,45,0,0,0,0,90
-114,2-heptanol,CCCCCC(C)O,42,0,42,0,0,0,0,84
-123,diisopropyl,CC(C)C(C)C,0,0,0,0,63,0,0,63
-124,neohexane,CCC(C)(C)C,0,0,0,0,62,0,0,62
-127,"ether, dipropyl",CCCOCCC,0,0,0,0,59,0,0,59
-131,diethyl ether,CCOCC,22,0,23,0,0,0,0,45
-132,ethane,CC,44,0,0,0,0,0,0,44
-136,methane,C,37,0,0,0,0,0,0,37
-138,2-isopropoxyethanol,CC(C)OCCO,18,0,18,0,0,0,0,36
-143,2-methylpropane,CC(C)C,0,21,0,0,0,0,0,21
-144,dipropyl ether,CCCOCCC,0,0,0,0,20,0,0,20
-146,2-methylpentane,CCCC(C)C,0,0,0,0,19,0,0,19
-149,3-methyl-2-butanol,CC(C)C(C)O,0,10,0,0,0,0,0,10
-152,cycloheptane,C1CCCCCC1,0,6,0,0,0,0,0,6
-154,tert-amyl methyl ether,CCC(C)(C)OC,0,4,0,0,0,0,0,4
-157,methylcyclopentane,CC1CCCC1,0,1,0,0,0,0,0,1
+;Component;SMILES;Count dens binary;Count actcoeff binary;Count sos binary;Count dielec binary;Count eme binary;Count emcp binary;Count emv binary;Count all binary
+0;oxidane;O;10916.0;122.0;964.0;34.0;376.0;390.0;578.0;13380.0
+1;ethanol;CCO;4585.0;11.0;408.0;105.0;507.0;0.0;23.0;5639.0
+2;Butan-1-ol;CCCCO;2773.0;8.0;897.0;105.0;581.0;130.0;71.0;4565.0
+3;HEPTANE;CCCCCCC;3328.0;8.0;560.0;64.0;202.0;0.0;14.0;4176.0
+5;Propan-1-ol;CCCO;2785.0;6.0;496.0;105.0;202.0;0.0;0.0;3594.0
+7;Cyclohexane;C1CCCCC1;2548.0;7.0;520.0;0.0;336.0;0.0;14.0;3425.0
+9;Propan-2-ol;CC(C)O;2433.0;6.0;418.0;105.0;139.0;0.0;0.0;3101.0
+14;methanol;CO;982.0;5.0;31.0;620.0;297.0;0.0;0.0;1935.0
+15;Methylcyclohexane;CC1CCCCC1;1478.0;1.0;354.0;0.0;76.0;0.0;0.0;1909.0
+17;2-Ethoxy-2-methylpropane;CCOC(C)(C)C;1048.0;4.0;819.0;0.0;0.0;0.0;0.0;1871.0
+18;2,2,4-Trimethylpentane;CC(C)CC(C)(C)C;1370.0;0.0;261.0;0.0;156.0;0.0;0.0;1787.0
+19;2-Methylpropan-2-ol;CC(C)(C)O;1435.0;0.0;177.0;95.0;0.0;0.0;0.0;1707.0
+21;HEXAN-1-OL;CCCCCCO;1073.0;0.0;300.0;0.0;50.0;0.0;0.0;1423.0
+26;Pentan-1-ol;CCCCCO;670.0;0.0;89.0;90.0;299.0;0.0;0.0;1148.0
+27;Hexane;CCCCCC;651.0;14.0;223.0;0.0;157.0;0.0;87.0;1132.0
+31;Cyclopentane;C1CCCC1;412.0;6.0;398.0;0.0;63.0;0.0;0.0;879.0
+33;['Oxane', '2,3,4,5-tetrahydropyran'];C1CCOCC1;289.0;0.0;254.0;0.0;218.0;0.0;112.0;873.0
+34;2-Methylbutan-2-ol;CCC(C)(C)O;248.0;16.0;450.0;0.0;98.0;0.0;39.0;851.0
+36;2-Methoxyethanol;COCCO;517.0;17.0;306.0;0.0;0.0;0.0;0.0;840.0
+39;Oxolane;C1CCOC1;457.0;0.0;116.0;0.0;98.0;0.0;39.0;710.0
+43;2-Methylpropan-1-ol;CC(C)CO;399.0;0.0;71.0;105.0;31.0;0.0;0.0;606.0
+47;1,4-Dioxane;C1COCCO1;241.0;0.0;243.0;0.0;47.0;0.0;0.0;531.0
+48;2-Methylheptane;CCCCCC(C)C;413.0;0.0;72.0;0.0;42.0;0.0;0.0;527.0
+49;Pentane;CCCCC;483.0;6.0;0.0;0.0;0.0;0.0;0.0;489.0
+50;1-Propoxypropan-2-ol;CCCOCC(C)O;318.0;0.0;145.0;0.0;0.0;0.0;0.0;463.0
+53;Butan-2-ol;CCC(C)O;202.0;0.0;136.0;0.0;85.0;0.0;0.0;423.0
+54;;C1CCCCCCC1;271.0;7.0;144.0;0.0;0.0;0.0;0.0;422.0
+56;2-Ethoxyethanol;CCOCCO;91.0;0.0;71.0;0.0;221.0;0.0;0.0;383.0
+59;1,3-DIOXOLANE;C1COCO1;204.0;0.0;148.0;0.0;0.0;0.0;0.0;352.0
+63;2-Propoxyethanol;CCCOCCO;151.0;0.0;73.0;78.0;0.0;0.0;0.0;302.0
+64;3-Methylbutan-1-ol;CC(C)CCO;235.0;15.0;52.0;0.0;0.0;0.0;0.0;302.0
+66;2-propan-2-yloxypropane;CC(C)OC(C)C;88.0;0.0;97.0;0.0;101.0;0.0;0.0;286.0
+72;pentan-2-ol;CCCC(C)O;126.0;13.0;39.0;0.0;84.0;0.0;0.0;262.0
+74;2-Methylbutan-1-ol;CCC(C)CO;173.0;15.0;56.0;0.0;0.0;0.0;0.0;244.0
+78;2,2-dimethylpropan-1-ol;CC(C)(C)CO;213.0;0.0;0.0;0.0;0.0;0.0;0.0;213.0
+79;2-Methylpropane-1,3-diol;CC(CO)CO;209.0;0.0;0.0;0.0;0.0;0.0;0.0;209.0
+83;BUTANE;CCCC;163.0;21.0;0.0;0.0;0.0;0.0;0.0;184.0
+84;2-Methoxy-2-methylbutane;CCC(C)(C)OC;136.0;4.0;21.0;0.0;0.0;0.0;19.0;180.0
+85;PROPANE;CCC;157.0;21.0;0.0;0.0;0.0;0.0;0.0;178.0
+92;2,2-Dimethylpropane-1,3-diol;CC(C)(CO)CO;156.0;0.0;0.0;0.0;0.0;0.0;0.0;156.0
+96;3-METHYLPENTANE-1,5-DIOL;CC(CCO)CCO;138.0;0.0;0.0;0.0;0.0;0.0;0.0;138.0
+97;hexan-2-ol;CCCCC(C)O;90.0;0.0;42.0;0.0;0.0;0.0;0.0;132.0
+98;2-Methyloxolane;CC1CCCO1;27.0;0.0;45.0;0.0;44.0;0.0;0.0;116.0
+102;Methoxymethane;COC;0.0;23.0;0.0;0.0;76.0;0.0;0.0;99.0
+104;2-(2-Methylpropoxy)ethanol;CC(C)COCCO;45.0;0.0;45.0;0.0;0.0;0.0;0.0;90.0
+107;heptan-2-ol;CCCCCC(C)O;42.0;0.0;42.0;0.0;0.0;0.0;0.0;84.0
+109;1-propoxypropane;CCCOCCC;0.0;0.0;0.0;0.0;79.0;0.0;0.0;79.0
+116;2,3-Dimethylbutane;CC(C)C(C)C;0.0;0.0;0.0;0.0;63.0;0.0;0.0;63.0
+117;2,2-Dimethylbutane;CCC(C)(C)C;0.0;0.0;0.0;0.0;62.0;0.0;0.0;62.0
+122;Ethoxyethane;CCOCC;22.0;0.0;23.0;0.0;0.0;0.0;0.0;45.0
+123;ETHANE;CC;44.0;0.0;0.0;0.0;0.0;0.0;0.0;44.0
+127;methane;C;37.0;0.0;0.0;0.0;0.0;0.0;0.0;37.0
+129;2-propan-2-yloxyethanol;CC(C)OCCO;18.0;0.0;18.0;0.0;0.0;0.0;0.0;36.0
+136;2-Methylpropane;CC(C)C;0.0;21.0;0.0;0.0;0.0;0.0;0.0;21.0
+137;2-Methylpentane;CCCC(C)C;0.0;0.0;0.0;0.0;19.0;0.0;0.0;19.0
+141;3-Methylbutan-2-ol;CC(C)C(C)O;0.0;10.0;0.0;0.0;0.0;0.0;0.0;10.0
+143;Cycloheptane;C1CCCCCC1;0.0;6.0;0.0;0.0;0.0;0.0;0.0;6.0
+145;Methylcyclopentane;CC1CCCC1;0.0;1.0;0.0;0.0;0.0;0.0;0.0;1.0

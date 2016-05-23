@@ -1,0 +1,20 @@
+;Mixture;Count
+0;methanol__2-propanol;105
+1;ethanol__methanol;105
+2;methanol__2-methyl-1-propanol;105
+3;methanol__1-butanol;105
+4;methanol__1-propanol;105
+5;methanol__2-methyl-2-propanol;95
+6;nonane__2,5,8-trioxanonane;66
+7;1,2-dimethoxyethane__nonane;66
+8;pentan-1-ol__n-octane;45
+9;n-octane__butyl oxide;45
+10;pentan-1-ol__butyl oxide;45
+11;triethylene glycol__ethanol, 2-propoxy-;39
+12;bis(2-hydroxyethyl) ether__ethanol, 2-propoxy-;39
+13;2,5,8-trioxanonane__heptane;33
+14;dimethylglycol__heptane;31
+15;1,2-ethanediol__water;10
+16;glycerol__water;8
+17;1,2-propanediol__water;8
+18;1,3-propanediol__water;8

@@ -1,0 +1,2555 @@
+log started: Tue Jun 21 11:26:28 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Could not open file frcmod.Frosst_AlkEthOH: not found
+> #
+ 
+Sourcing: ./AlkEthOH_r49.leap_in
+> lig = loadMol2 AlkEthOH_r49.mol2
+Loading Mol2 file: ./AlkEthOH_r49.mol2
+Reading MOLECULE named AlkEthOH_r49
+> saveAmberParm lig AlkEthOH_r49.top AlkEthOH_r49.crd
+saveAmberParm: There are no parameter sets loaded
+> quit
+	Quit
+log started: Tue Jun 21 11:27:09 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r49.leap_in
+> lig = loadMol2 AlkEthOH_r49.mol2
+Loading Mol2 file: ./AlkEthOH_r49.mol2
+Reading MOLECULE named AlkEthOH_r49
+> saveAmberParm lig AlkEthOH_r49.top AlkEthOH_r49.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r0.leap_in
+> lig = loadMol2 AlkEthOH_r0.mol2
+Loading Mol2 file: ./AlkEthOH_r0.mol2
+Reading MOLECULE named AlkEthOH_r0
+> saveAmberParm lig AlkEthOH_r0.top AlkEthOH_r0.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+1-4: angle 1 3 duplicates bond ('triangular' bond) or angle ('square' bond)
+
+1-4: angle 2 4 duplicates bond ('triangular' bond) or angle ('square' bond)
+
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r2.leap_in
+> lig = loadMol2 AlkEthOH_r2.mol2
+Loading Mol2 file: ./AlkEthOH_r2.mol2
+Reading MOLECULE named AlkEthOH_r2
+> saveAmberParm lig AlkEthOH_r2.top AlkEthOH_r2.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+1-4: angle 1 2 duplicates bond ('triangular' bond) or angle ('square' bond)
+
+1-4: angle 3 4 duplicates bond ('triangular' bond) or angle ('square' bond)
+
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r3.leap_in
+> lig = loadMol2 AlkEthOH_r3.mol2
+Loading Mol2 file: ./AlkEthOH_r3.mol2
+Reading MOLECULE named AlkEthOH_r3
+> saveAmberParm lig AlkEthOH_r3.top AlkEthOH_r3.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+1-4: angle 1 2 duplicates bond ('triangular' bond) or angle ('square' bond)
+
+1-4: angle 3 4 duplicates bond ('triangular' bond) or angle ('square' bond)
+
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r4.leap_in
+> lig = loadMol2 AlkEthOH_r4.mol2
+Loading Mol2 file: ./AlkEthOH_r4.mol2
+Reading MOLECULE named AlkEthOH_r4
+> saveAmberParm lig AlkEthOH_r4.top AlkEthOH_r4.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r6.leap_in
+> lig = loadMol2 AlkEthOH_r6.mol2
+Loading Mol2 file: ./AlkEthOH_r6.mol2
+Reading MOLECULE named AlkEthOH_r6
+> saveAmberParm lig AlkEthOH_r6.top AlkEthOH_r6.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r7.leap_in
+> lig = loadMol2 AlkEthOH_r7.mol2
+Loading Mol2 file: ./AlkEthOH_r7.mol2
+Reading MOLECULE named AlkEthOH_r7
+> saveAmberParm lig AlkEthOH_r7.top AlkEthOH_r7.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+1-4: angle 1 4 duplicates bond ('triangular' bond) or angle ('square' bond)
+
+1-4: angle 2 3 duplicates bond ('triangular' bond) or angle ('square' bond)
+
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r8.leap_in
+> lig = loadMol2 AlkEthOH_r8.mol2
+Loading Mol2 file: ./AlkEthOH_r8.mol2
+Reading MOLECULE named AlkEthOH_r8
+> saveAmberParm lig AlkEthOH_r8.top AlkEthOH_r8.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r10.leap_in
+> lig = loadMol2 AlkEthOH_r10.mol2
+Loading Mol2 file: ./AlkEthOH_r10.mol2
+Reading MOLECULE named AlkEthOH_r10
+> saveAmberParm lig AlkEthOH_r10.top AlkEthOH_r10.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r11.leap_in
+> lig = loadMol2 AlkEthOH_r11.mol2
+Loading Mol2 file: ./AlkEthOH_r11.mol2
+Reading MOLECULE named AlkEthOH_r11
+> saveAmberParm lig AlkEthOH_r11.top AlkEthOH_r11.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r12.leap_in
+> lig = loadMol2 AlkEthOH_r12.mol2
+Loading Mol2 file: ./AlkEthOH_r12.mol2
+Reading MOLECULE named AlkEthOH_r12
+> saveAmberParm lig AlkEthOH_r12.top AlkEthOH_r12.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r13.leap_in
+> lig = loadMol2 AlkEthOH_r13.mol2
+Loading Mol2 file: ./AlkEthOH_r13.mol2
+Reading MOLECULE named AlkEthOH_r13
+> saveAmberParm lig AlkEthOH_r13.top AlkEthOH_r13.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+1-4: angle 1 4 duplicates bond ('triangular' bond) or angle ('square' bond)
+
+1-4: angle 2 3 duplicates bond ('triangular' bond) or angle ('square' bond)
+
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r14.leap_in
+> lig = loadMol2 AlkEthOH_r14.mol2
+Loading Mol2 file: ./AlkEthOH_r14.mol2
+Reading MOLECULE named AlkEthOH_r14
+> saveAmberParm lig AlkEthOH_r14.top AlkEthOH_r14.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+1-4: angle 1 4 duplicates bond ('triangular' bond) or angle ('square' bond)
+
+1-4: angle 2 3 duplicates bond ('triangular' bond) or angle ('square' bond)
+
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r15.leap_in
+> lig = loadMol2 AlkEthOH_r15.mol2
+Loading Mol2 file: ./AlkEthOH_r15.mol2
+Reading MOLECULE named AlkEthOH_r15
+> saveAmberParm lig AlkEthOH_r15.top AlkEthOH_r15.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r16.leap_in
+> lig = loadMol2 AlkEthOH_r16.mol2
+Loading Mol2 file: ./AlkEthOH_r16.mol2
+Reading MOLECULE named AlkEthOH_r16
+> saveAmberParm lig AlkEthOH_r16.top AlkEthOH_r16.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r17.leap_in
+> lig = loadMol2 AlkEthOH_r17.mol2
+Loading Mol2 file: ./AlkEthOH_r17.mol2
+Reading MOLECULE named AlkEthOH_r17
+> saveAmberParm lig AlkEthOH_r17.top AlkEthOH_r17.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r18.leap_in
+> lig = loadMol2 AlkEthOH_r18.mol2
+Loading Mol2 file: ./AlkEthOH_r18.mol2
+Reading MOLECULE named AlkEthOH_r18
+> saveAmberParm lig AlkEthOH_r18.top AlkEthOH_r18.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r19.leap_in
+> lig = loadMol2 AlkEthOH_r19.mol2
+Loading Mol2 file: ./AlkEthOH_r19.mol2
+Reading MOLECULE named AlkEthOH_r19
+> saveAmberParm lig AlkEthOH_r19.top AlkEthOH_r19.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r20.leap_in
+> lig = loadMol2 AlkEthOH_r20.mol2
+Loading Mol2 file: ./AlkEthOH_r20.mol2
+Reading MOLECULE named AlkEthOH_r20
+> saveAmberParm lig AlkEthOH_r20.top AlkEthOH_r20.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r21.leap_in
+> lig = loadMol2 AlkEthOH_r21.mol2
+Loading Mol2 file: ./AlkEthOH_r21.mol2
+Reading MOLECULE named AlkEthOH_r21
+> saveAmberParm lig AlkEthOH_r21.top AlkEthOH_r21.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r22.leap_in
+> lig = loadMol2 AlkEthOH_r22.mol2
+Loading Mol2 file: ./AlkEthOH_r22.mol2
+Reading MOLECULE named AlkEthOH_r22
+> saveAmberParm lig AlkEthOH_r22.top AlkEthOH_r22.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r24.leap_in
+> lig = loadMol2 AlkEthOH_r24.mol2
+Loading Mol2 file: ./AlkEthOH_r24.mol2
+Reading MOLECULE named AlkEthOH_r24
+> saveAmberParm lig AlkEthOH_r24.top AlkEthOH_r24.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r25.leap_in
+> lig = loadMol2 AlkEthOH_r25.mol2
+Loading Mol2 file: ./AlkEthOH_r25.mol2
+Reading MOLECULE named AlkEthOH_r25
+> saveAmberParm lig AlkEthOH_r25.top AlkEthOH_r25.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r26.leap_in
+> lig = loadMol2 AlkEthOH_r26.mol2
+Loading Mol2 file: ./AlkEthOH_r26.mol2
+Reading MOLECULE named AlkEthOH_r26
+> saveAmberParm lig AlkEthOH_r26.top AlkEthOH_r26.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r27.leap_in
+> lig = loadMol2 AlkEthOH_r27.mol2
+Loading Mol2 file: ./AlkEthOH_r27.mol2
+Reading MOLECULE named AlkEthOH_r27
+> saveAmberParm lig AlkEthOH_r27.top AlkEthOH_r27.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r28.leap_in
+> lig = loadMol2 AlkEthOH_r28.mol2
+Loading Mol2 file: ./AlkEthOH_r28.mol2
+Reading MOLECULE named AlkEthOH_r28
+> saveAmberParm lig AlkEthOH_r28.top AlkEthOH_r28.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:54 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r29.leap_in
+> lig = loadMol2 AlkEthOH_r29.mol2
+Loading Mol2 file: ./AlkEthOH_r29.mol2
+Reading MOLECULE named AlkEthOH_r29
+> saveAmberParm lig AlkEthOH_r29.top AlkEthOH_r29.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r30.leap_in
+> lig = loadMol2 AlkEthOH_r30.mol2
+Loading Mol2 file: ./AlkEthOH_r30.mol2
+Reading MOLECULE named AlkEthOH_r30
+> saveAmberParm lig AlkEthOH_r30.top AlkEthOH_r30.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r31.leap_in
+> lig = loadMol2 AlkEthOH_r31.mol2
+Loading Mol2 file: ./AlkEthOH_r31.mol2
+Reading MOLECULE named AlkEthOH_r31
+> saveAmberParm lig AlkEthOH_r31.top AlkEthOH_r31.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r35.leap_in
+> lig = loadMol2 AlkEthOH_r35.mol2
+Loading Mol2 file: ./AlkEthOH_r35.mol2
+Reading MOLECULE named AlkEthOH_r35
+> saveAmberParm lig AlkEthOH_r35.top AlkEthOH_r35.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r36.leap_in
+> lig = loadMol2 AlkEthOH_r36.mol2
+Loading Mol2 file: ./AlkEthOH_r36.mol2
+Reading MOLECULE named AlkEthOH_r36
+> saveAmberParm lig AlkEthOH_r36.top AlkEthOH_r36.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r37.leap_in
+> lig = loadMol2 AlkEthOH_r37.mol2
+Loading Mol2 file: ./AlkEthOH_r37.mol2
+Reading MOLECULE named AlkEthOH_r37
+> saveAmberParm lig AlkEthOH_r37.top AlkEthOH_r37.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r38.leap_in
+> lig = loadMol2 AlkEthOH_r38.mol2
+Loading Mol2 file: ./AlkEthOH_r38.mol2
+Reading MOLECULE named AlkEthOH_r38
+> saveAmberParm lig AlkEthOH_r38.top AlkEthOH_r38.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r39.leap_in
+> lig = loadMol2 AlkEthOH_r39.mol2
+Loading Mol2 file: ./AlkEthOH_r39.mol2
+Reading MOLECULE named AlkEthOH_r39
+> saveAmberParm lig AlkEthOH_r39.top AlkEthOH_r39.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r40.leap_in
+> lig = loadMol2 AlkEthOH_r40.mol2
+Loading Mol2 file: ./AlkEthOH_r40.mol2
+Reading MOLECULE named AlkEthOH_r40
+> saveAmberParm lig AlkEthOH_r40.top AlkEthOH_r40.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r41.leap_in
+> lig = loadMol2 AlkEthOH_r41.mol2
+Loading Mol2 file: ./AlkEthOH_r41.mol2
+Reading MOLECULE named AlkEthOH_r41
+> saveAmberParm lig AlkEthOH_r41.top AlkEthOH_r41.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r42.leap_in
+> lig = loadMol2 AlkEthOH_r42.mol2
+Loading Mol2 file: ./AlkEthOH_r42.mol2
+Reading MOLECULE named AlkEthOH_r42
+> saveAmberParm lig AlkEthOH_r42.top AlkEthOH_r42.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r43.leap_in
+> lig = loadMol2 AlkEthOH_r43.mol2
+Loading Mol2 file: ./AlkEthOH_r43.mol2
+Reading MOLECULE named AlkEthOH_r43
+> saveAmberParm lig AlkEthOH_r43.top AlkEthOH_r43.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r44.leap_in
+> lig = loadMol2 AlkEthOH_r44.mol2
+Loading Mol2 file: ./AlkEthOH_r44.mol2
+Reading MOLECULE named AlkEthOH_r44
+> saveAmberParm lig AlkEthOH_r44.top AlkEthOH_r44.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r46.leap_in
+> lig = loadMol2 AlkEthOH_r46.mol2
+Loading Mol2 file: ./AlkEthOH_r46.mol2
+Reading MOLECULE named AlkEthOH_r46
+> saveAmberParm lig AlkEthOH_r46.top AlkEthOH_r46.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r47.leap_in
+> lig = loadMol2 AlkEthOH_r47.mol2
+Loading Mol2 file: ./AlkEthOH_r47.mol2
+Reading MOLECULE named AlkEthOH_r47
+> saveAmberParm lig AlkEthOH_r47.top AlkEthOH_r47.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r48.leap_in
+> lig = loadMol2 AlkEthOH_r48.mol2
+Loading Mol2 file: ./AlkEthOH_r48.mol2
+Reading MOLECULE named AlkEthOH_r48
+> saveAmberParm lig AlkEthOH_r48.top AlkEthOH_r48.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit
+log started: Tue Jun 21 11:27:55 2016
+
+Log file: ./leap_lig.log
+> #
+> # load atom type hybridizations
+> #
+> addAtomTypes {
+>   { "HO"  "H" "sp3" }
+>   { "H1"  "H" "sp3" }
+>   { "H2"  "H" "sp3" }
+>   { "H3"  "H" "sp3" }
+>   { "H4"  "H" "sp3" }
+>   { "H5"  "H" "sp3" }
+>   { "HC"  "H" "sp3" }
+>   { "OH"  "O" "sp3" }
+>   { "OS"  "O" "sp3" }
+>   { "CT"  "C" "sp3" }
+> }
+> #
+> #	Load the parm@Frosst-ish parameter set used for only alkanes
+> # note that with parm@Frosst coming on top of parm99.dat, for this
+> # limited functionality the actual parameters applied are entirely
+> # parm99.dat except for the bond length for CT-OS.
+> #
+> #parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH_orig
+> parm_AlkEthOH = loadamberparams frcmod.Frosst_AlkEthOH
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+> #
+ 
+Sourcing: ./AlkEthOH_r49.leap_in
+> lig = loadMol2 AlkEthOH_r49.mol2
+Loading Mol2 file: ./AlkEthOH_r49.mol2
+Reading MOLECULE named AlkEthOH_r49
+> saveAmberParm lig AlkEthOH_r49.top AlkEthOH_r49.crd
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+> quit
+	Quit

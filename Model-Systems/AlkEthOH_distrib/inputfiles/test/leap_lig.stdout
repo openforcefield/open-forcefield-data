@@ -1,0 +1,38 @@
+-I: Adding /home/victoria/anaconda3/envs/py27/bin/../dat/leap/prep to search path.
+-I: Adding /home/victoria/anaconda3/envs/py27/bin/../dat/leap/lib to search path.
+-I: Adding /home/victoria/anaconda3/envs/py27/bin/../dat/leap/parm to search path.
+-I: Adding /home/victoria/anaconda3/envs/py27/bin/../dat/leap/cmd to search path.
+-f: Source leaprc.Frosst_AlkEthOH.
+-f: Source AlkEthOH_r49.leap_in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./leaprc.Frosst_AlkEthOH
+Log file: ./leap_lig.log
+Loading parameters: ./frcmod.Frosst_AlkEthOH
+Reading title:
+PARM99+parm@Frosst subset for alkanes, alcohols, and ethers
+Sourcing: ./AlkEthOH_r49.leap_in
+Loading Mol2 file: ./AlkEthOH_r49.mol2
+Reading MOLECULE named AlkEthOH_r49
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	<0>	1
+  )
+ (no restraints)
+	Quit

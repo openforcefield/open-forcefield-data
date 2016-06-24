@@ -1,0 +1,3 @@
+lig = loadMol2 AlkEthOH_r957.mol2
+saveAmberParm lig AlkEthOH_r957.top AlkEthOH_r957.crd
+quit

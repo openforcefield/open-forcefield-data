@@ -62,6 +62,15 @@ Finally, there are several intermediate files generated along the way:
 -rw-r--r--  1 bayly  staff    1128 Apr 30 17:50 test_filt1.smi
 
 
+Additional files added by Victoria T. Lim on 24 June 2016
+The directory files_for_c1302/ contains 2 files particular to 
+generating AMBER input files for AlkEthOH_c1302 (water).
+(1) AlkEthOH_c1302_edited.leap_in
+    tleap input file with extra line to read in frcmod.tip3p
+(2) frcmod.tip3p
+    parameters for tip3p water, not included in frcmod.Frosst_AlkEthOH
+
+
 Workflow
 --------
 To demonstrate the workflow I will start with the small test set
@@ -116,6 +125,10 @@ molecule (.mol2, .leap_in, .top, and .crd).
 NOTE WELL that this could generate a large number of files (~4000)
 in the directory for AlkEthOH_chain_filt1.oeb or AlkEthOH_rings_filt1.oeb.
 
+* The oebToAmberMol2TopCrd.py was modified by VTL to run on all AlkEthOH
+sets (chain, rings, test). The files are placed in a new dir (inputfiles/)
+with subdirectories for each set. The number of files generated are:
+chain (913*4 = 3652), ring (1036*4 = 4144), test (42*4 = 168).
 
 This workflow was run on AlkEthOH_chain.smi and AlkEthOH_rings.smi
 to produce amber-ready files:

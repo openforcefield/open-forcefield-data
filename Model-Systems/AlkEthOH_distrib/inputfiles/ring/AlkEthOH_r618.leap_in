@@ -1,3 +1,0 @@
-lig = loadMol2 AlkEthOH_r618.mol2
-saveAmberParm lig AlkEthOH_r618.top AlkEthOH_r618.crd
-quit

@@ -1,0 +1,4 @@
+lig = loadMol2 AlkEthOH_c1302.mol2
+parmTip3p = loadamberparams frcmod.tip3p
+saveAmberParm lig AlkEthOH_c1302.top AlkEthOH_c1302.crd
+quit

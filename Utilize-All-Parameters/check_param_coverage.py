@@ -10,24 +10,17 @@ import argparse
 import json
 import logging
 import random
-import sys
 from collections import defaultdict
-
-import matplotlib
-import numpy as np
-import pylab as pl
-import matplotlib.pyplot as plt
 
 from openeye import oechem
 from openforcefield.topology import Molecule, Topology
 from openforcefield.typing.engines.smirnoff import ForceField
-from openforcefield.utils.structure import get_molecule_parameterIDs
 
 #
 # Constants
 #
 
-EMOLCULES_TOTAL_COUNT = 22327838
+EMOLECULES_TOTAL_COUNT = 22327838
 FORCEFIELD = ForceField("smirnoff99Frosst.offxml")
 
 #
@@ -126,7 +119,7 @@ def order_param_id(pid: str) -> (str, int):
     return (pid[0], int(pid[1:]))
 
 
-def pretty_param_string(param_ids: "collection"):
+def pretty_param_string(param_ids: "collection") -> str:
     """Creates a nice string showing the parameters in the given collection"""
     return ' '.join(sorted(param_ids, key=order_param_id))
 
@@ -143,7 +136,6 @@ def find_smirnoff_params() -> set:
         'n': 35,
         'i': 4,
     }
-
     for (param_type, param_count) in num_params.items():
         for i in range(1, param_count + 1):
             smirnoff_ids.add(f"{param_type}{i}")

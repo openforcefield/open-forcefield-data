@@ -37,4 +37,8 @@ FILTER PROCEDURE:
 ## Toy dataset for alkanes, alcohols, and ethers
 
 Christopher I. Bayly developed a toy dataset of potential molecules of interest which is deposited in the "Model Systems" directory in the "AlkEthOH_distrib" subdirectory. Construction of this set is described in the README.txt there, which should be converted to md.
-  
+
+# Utilize All Parameters
+
+This is an attempt to create a set of molecules that use all the parameters in
+the smirnoff99Frosst force field.

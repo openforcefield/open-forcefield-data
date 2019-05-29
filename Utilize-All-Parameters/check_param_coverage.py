@@ -21,7 +21,7 @@ from openforcefield.typing.engines.smirnoff import ForceField
 #
 
 EMOLECULES_TOTAL_COUNT = 22327838
-FORCEFIELD = ForceField("smirnoff99Frosst.offxml")
+FORCEFIELD = ForceField("test_forcefields/smirnoff99Frosst.offxml")
 
 #
 # Command line flags

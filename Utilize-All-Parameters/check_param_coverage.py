@@ -3,7 +3,7 @@
 # given molecule file.
 # Usage:
 #   python check_emolecule_coverage -f [MOLECULE FILE] -t [TOTAL MOLECULES]
-#       -n [NUMBER] -s [RANDOM SEED] -d [DIRECTORY]
+#       -n [NUMBER] -s [RANDOM SEED] --start [IDX] --end [IDX] -d [DIRECTORY]
 # (run check_emolcule_coverage -h for more info)
 
 import argparse
@@ -38,7 +38,8 @@ def parse_commandline_flags() -> {str: "argument value"}:
             "molecules from a given molecule file. Generates two data files: "
             "params_by_molecule.json tells the paramaters associated with each "
             "molecule, and param_ids.json lists all the parameters used by the "
-            "given molecules"),
+            "given molecules. Use the --start and --end index flags to split "
+            "the random sample across multiple jobs"),
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument(
         "-f",
@@ -62,6 +63,18 @@ def parse_commandline_flags() -> {str: "argument value"}:
         metavar="INT",
         type=int,
         help="Seed for making the random sample")
+    parser.add_argument(
+        "--start",
+        default=0,
+        metavar="IDX",
+        type=int,
+        help="Start index to use in the random sample (inclusive, 0-based)")
+    parser.add_argument(
+        "--end",
+        default=1000000,
+        metavar="IDX",
+        type=int,
+        help="End index to use in the random sample (inclusive, 0-based)")
     parser.add_argument(
         "-d",
         default=".",
@@ -107,6 +120,20 @@ def save_data_to_json(directory, params_by_molecule, param_ids):
         json.dump(params_by_molecule, pm_file)
     with open(f"{directory}/param_ids.json", "w") as pid_file:
         json.dump(list(param_ids), pid_file)
+
+
+#
+# Other utilities
+#
+
+
+def verifyIndices(start: int, end: int, n: int):
+    """Verifies that the indices for the random sample are correct.
+    Raises an AssertionError if they are not.
+    """
+    assert start >= 0 and end >= 0, "Indices must be at least 0"
+    assert start < n and end < n, "Indices must be less than n"
+    assert end >= start, "End must be after start"
 
 
 #
@@ -206,7 +233,10 @@ def main():
     total_molecules = count_total_molecules(args["f"]) \
                         if args["t"] < 0 else args["t"]
     random.seed(args["s"])
-    indices = set(random.sample(range(total_molecules), args["n"]))
+    verifyIndices(args["start"], args["end"], args["n"])
+    indices_list = random.sample(range(total_molecules),
+                                 args["n"])[args["start"]:args["end"] + 1]
+    indices = set(indices_list)
 
     # Grab molecules and find parameters
     params_by_molecule, param_ids = find_parameter_ids(args["f"], indices)

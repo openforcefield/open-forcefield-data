@@ -12,11 +12,11 @@ import logging
 import random
 from collections import defaultdict
 
-import utilize_params_util
-
 from openeye import oechem
 from openforcefield.topology import Molecule, Topology
 from openforcefield.typing.engines.smirnoff import ForceField
+
+import utilize_params_util
 
 #
 # Constants
@@ -99,7 +99,8 @@ def count_total_molecules(filename: str) -> int:
     mol = oechem.OEMol()
     while oechem.OEReadMolecule(ifs, mol):
         total += 1
-        if total % 10000 == 0: logging.info("Counting molecule %d", total)
+        if total % 10000 == 0:
+            logging.info("Counting molecule %d", total)
     logging.info("Counted %d molecules in %s", total, filename)
     return total
 
@@ -129,7 +130,7 @@ def save_data_to_json(directory, params_by_molecule, param_ids):
 #
 
 
-def verifyIndices(start: int, end: int, n: int):
+def verify_indices(start: int, end: int, n: int):
     """Verifies that the indices for the random sample are correct.
     Raises an AssertionError if they are not.
     """
@@ -155,8 +156,8 @@ def pretty_param_string(param_ids: "collection") -> str:
 
 def get_smirnoff_params(mol: oechem.OEMol) -> {"id": ["atom_indices"]}:
     """For the given molecule, finds the SMIRNOFF params and their atom indices"""
-    OFFmol = Molecule.from_openeye(mol, allow_undefined_stereo=True)
-    topology = Topology.from_molecules(OFFmol)
+    off_mol = Molecule.from_openeye(mol, allow_undefined_stereo=True)
+    topology = Topology.from_molecules(off_mol)
     molecule_force_list = FORCEFIELD.label_molecules(topology)
 
     params = defaultdict(list)
@@ -216,7 +217,7 @@ def main():
     total_molecules = count_total_molecules(args["f"]) \
                         if args["t"] < 0 else args["t"]
     random.seed(args["s"])
-    verifyIndices(args["start"], args["end"], args["n"])
+    verify_indices(args["start"], args["end"], args["n"])
     indices_list = random.sample(range(total_molecules),
                                  args["n"])[args["start"]:args["end"] + 1]
     indices = set(indices_list)

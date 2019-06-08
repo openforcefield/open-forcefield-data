@@ -12,6 +12,8 @@ import logging
 import random
 from collections import defaultdict
 
+import utilize_params_util
+
 from openeye import oechem
 from openforcefield.topology import Molecule, Topology
 from openforcefield.typing.engines.smirnoff import ForceField
@@ -151,25 +153,6 @@ def pretty_param_string(param_ids: "collection") -> str:
     return ' '.join(sorted(param_ids, key=order_param_id))
 
 
-def find_smirnoff_params() -> set:
-    """Creates a set of all the smirnoff params"""
-    smirnoff_ids = set()
-
-    # number of parameters of each type
-    num_params = {
-        'b': 87,
-        'a': 38,
-        't': 158,
-        'n': 35,
-        'i': 4,
-    }
-    for (param_type, param_count) in num_params.items():
-        for i in range(1, param_count + 1):
-            smirnoff_ids.add(f"{param_type}{i}")
-
-    return smirnoff_ids
-
-
 def get_smirnoff_params(mol: oechem.OEMol) -> {"id": ["atom_indices"]}:
     """For the given molecule, finds the SMIRNOFF params and their atom indices"""
     OFFmol = Molecule.from_openeye(mol, allow_undefined_stereo=True)
@@ -214,7 +197,7 @@ def find_parameter_ids(filename: str, indices: set) -> \
 
 def find_non_covered_params(param_ids):
     """Finds the set of parameters in SMIRNOFF not covered by the given set"""
-    smirnoff_ids = find_smirnoff_params()
+    smirnoff_ids = utilize_params_util.find_smirnoff_params()
     non_covered = smirnoff_ids - param_ids
     return non_covered
 

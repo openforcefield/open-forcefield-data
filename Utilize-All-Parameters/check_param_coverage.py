@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # Checks the SMIRNOFF parameter coverage of a "random" subset of molecules from a
-# given molecule file.
-# Usage:
-#   python check_emolecule_coverage -f [MOLECULE FILE] -t [TOTAL MOLECULES]
-#       -n [NUMBER] -s [RANDOM SEED] --start [IDX] --end [IDX] -d [DIRECTORY]
-# (run check_emolcule_coverage -h for more info)
+# given molecule file. Run with -h flag for usage.
 
 import argparse
 import json
@@ -144,20 +140,18 @@ def verify_indices(start: int, end: int, n: int):
 #
 
 
-def order_param_id(pid: str) -> (str, int):
-    """Orders parameters by type then number"""
-    return (pid[0], int(pid[1:]))
-
-
 def pretty_param_string(param_ids: "collection") -> str:
     """Creates a nice string showing the parameters in the given collection"""
-    return ' '.join(sorted(param_ids, key=order_param_id))
+    return ' '.join(sorted(param_ids, key=utilize_params_util.order_param_id))
 
 
 def get_smirnoff_params(mol: oechem.OEMol) -> {"id": ["atom_indices"]}:
     """For the given molecule, finds the SMIRNOFF params and their atom indices"""
     off_mol = Molecule.from_openeye(mol, allow_undefined_stereo=True)
-    topology = Topology.from_molecules(off_mol)
+    try:
+        topology = Topology.from_molecules(off_mol)
+    except Exception as e:
+        pass
     molecule_force_list = FORCEFIELD.label_molecules(topology)
 
     params = defaultdict(list)
@@ -186,6 +180,8 @@ def find_parameter_ids(filename: str, indices: set) -> \
         logging.info("Looking at molecule %d => %s", index, smiles)
 
         params = get_smirnoff_params(mol)
+        logging.info("Parameter IDs: %s", list(params.keys()))
+
         param_ids |= params.keys()
 
         params_by_molecule[index] = {

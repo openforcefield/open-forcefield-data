@@ -18,3 +18,8 @@ def find_smirnoff_params() -> set:
             smirnoff_ids.add(f"{param_type}{i}")
 
     return smirnoff_ids
+
+
+def order_param_id(pid: str) -> (str, int):
+    """Orders parameters by type then number"""
+    return (pid[0], int(pid[1:]))

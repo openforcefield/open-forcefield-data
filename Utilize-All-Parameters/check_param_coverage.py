@@ -151,7 +151,7 @@ def get_smirnoff_params(mol: oechem.OEMol) -> {"id": ["atom_indices"]}:
     try:
         topology = Topology.from_molecules(off_mol)
     except Exception as e:
-        pass
+        return {}
     molecule_force_list = FORCEFIELD.label_molecules(topology)
 
     params = defaultdict(list)

@@ -176,6 +176,8 @@ def find_parameter_ids(filename: str, indices: set) -> \
     param_ids = set()
 
     for mol, index in read_index_mols_from_file(filename, indices):
+        oechem.OEAddExplicitHydrogens(mol)
+
         smiles = oechem.OECreateIsoSmiString(mol)
         logging.info("Looking at molecule %d => %s", index, smiles)
 

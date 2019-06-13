@@ -24,3 +24,15 @@ possible.
 We are still missing parameters, so we plan to use substructure searches on the
 eMolecules database to find molecules which match the parameters we are missing.
 We will also finish gathering parameters from more molecules in eMolecules.
+
+## Running
+
+Before running any scripts here, set up the conda environment with
+```
+conda env create -f environment.yml
+```
+The scripts have the following dependencies:
+- openeye-toolkits 2019.4.2
+- openforcefield 0.4.0
+
+

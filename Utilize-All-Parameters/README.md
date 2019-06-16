@@ -19,11 +19,18 @@ Next, we created `select_molecules.py` to apply a greedy weighted set cover (see
 more details) to find molecules that are small but cover as many parameters as
 possible.
 
-## Next Steps
-
-We are still missing parameters, so we plan to use substructure searches on the
-eMolecules database to find molecules which match the parameters we are missing.
-We will also finish gathering parameters from more molecules in eMolecules.
+Finally, we calculated parameters for 1 million molecules in eMolecules and
+selected a set of molecules from it. We ended up with a set of 68 molecules
+which cover 305 parameters in smirnoff. The results are stored in the `selected`
+folder, which contains the following files:
+- `chosen.smi` - the SMILES strings of the chosen molecules
+- `param_ids.json` - the list of parameter IDs of the chosen molecules
+- `remaining_ids.json` - the list of remaining parameter IDs
+- `params_by_molecule.json` - a mapping from the index of each molecule in
+  `chosen.smi` to the molecule's SMILES string and the parameter IDs in that
+  molecule.  Each ID is annotated with the list of atom indices where the
+  parameter appeared in the molecule (there are multiple lists if the parameter
+  appeared multiple times).
 
 ## Running
 
@@ -34,5 +41,3 @@ conda env create -f environment.yml
 The scripts have the following dependencies:
 - openeye-toolkits 2019.4.2
 - openforcefield 0.4.0
-
-

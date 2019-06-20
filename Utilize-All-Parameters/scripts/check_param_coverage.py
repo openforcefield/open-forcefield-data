@@ -104,13 +104,15 @@ def count_total_molecules(filename: str) -> int:
 def read_index_mols_from_file(filename: str, indices: set) -> \
         (oechem.OEMol, int):
     """Generates the molecules at the given indices in the given file"""
-    ifs = oechem.oemolistream(filename)
-    mol = oechem.OEMol()
-    index = 0
-    while oechem.OEReadMolecule(ifs, mol):
-        if index in indices:
-            yield (oechem.OEMol(mol), index)
-        index += 1
+    with open(filename, "r") as ifs:
+        index = 0
+        for line in ifs:
+            if index in indices:
+                smiles = line.split(".")[0]
+                mol = oechem.OEMol()
+                oechem.OESmilesToMol(mol, smiles)
+                yield mol, index
+            index += 1
 
 
 def save_data_to_json(directory, params_by_molecule, param_ids):

@@ -26,7 +26,10 @@ def parse_commandline_flags() -> {str: "argument value"}:
             "smirnoff force field. Generates two data files: chosen.smi "
             "lists the molecules selected and remaining.json lists "
             "remaining parameter ids. All input files should be the "
-            "params_by_molecule.json file output by check_param_coverage"),
+            "params_by_molecule.json file output by check_param_coverage. "
+            "One can choose to ignore certain parameters by listing them "
+            "in a JSON file. These parameters will be excluded when trying "
+            "to find a covering set, and when listing remaining ids."),
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument(
         "--required",
@@ -40,6 +43,11 @@ def parse_commandline_flags() -> {str: "argument value"}:
         default="",
         help=("A comma-separated list of files with molecules "
               "which do not have to be included"))
+    parser.add_argument(
+        "--ignore",
+        metavar="JSON FILE",
+        default=None,
+        help=("A JSON file containing a list of parameter ids to ignore"))
     parser.add_argument(
         "-d",
         default=".",
@@ -160,8 +168,14 @@ def main():
                            optional_params_by_molecule.values(), set()) | \
                     reduce(operator.or_,
                            required_params_by_molecule.values(), set())
+    ignore_params = set()
+    if args["ignore"] != None:
+        with open(args["ignore"], "r") as ignore_file:
+            ignore_params = set(json.load(ignore_file))
+    target_params -= ignore_params
 
-    logging.info("%d target_params: %s", len(target_params), target_params)
+    logging.info("%d target_params (after removing ignored params): %s",
+                 len(target_params), target_params)
 
     final_molecules = greedy_weighted_set_cover(
         optional_params_by_molecule, optional_costs,
@@ -174,7 +188,7 @@ def main():
     with open(f"{args['d']}/remaining.json", "w") as jsonfile:
         json.dump(
             sorted(
-                smirnoff_ids - target_params,
+                smirnoff_ids - target_params - ignore_params,
                 key=utilize_params_util.order_param_id), jsonfile)
 
 

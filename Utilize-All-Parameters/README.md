@@ -25,7 +25,7 @@ which cover 305 parameters in smirnoff. The results are stored in the `selected`
 folder, which contains the following files:
 - `chosen.smi` - the SMILES strings of the chosen molecules
 - `param_ids.json` - the list of parameter IDs of the chosen molecules
-- `remaining_ids.json` - the list of remaining parameter IDs
+- `remaining.json` - the list of remaining parameter IDs
 - `params_by_molecule.json` - a mapping from the index of each molecule in
   `chosen.smi` to the molecule's SMILES string and the parameter IDs in that
   molecule.  Each ID is annotated with the list of atom indices where the

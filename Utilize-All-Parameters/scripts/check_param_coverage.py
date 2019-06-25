@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # Checks the SMIRNOFF parameter coverage of a "random" subset of molecules from a
-# given molecule file.
-# Usage:
-#   python check_emolecule_coverage -f [MOLECULE FILE] -t [TOTAL MOLECULES]
-#       -n [NUMBER] -s [RANDOM SEED] -d [DIRECTORY]
-# (run check_emolcule_coverage -h for more info)
+# given molecule file. Run with -h flag for usage.
 
 import argparse
 import json
@@ -16,12 +12,14 @@ from openeye import oechem
 from openforcefield.topology import Molecule, Topology
 from openforcefield.typing.engines.smirnoff import ForceField
 
+import utilize_params_util
+
 #
 # Constants
 #
 
 EMOLECULES_TOTAL_COUNT = 22327838
-FORCEFIELD = ForceField("smirnoff99Frosst.offxml")
+FORCEFIELD = ForceField("test_forcefields/smirnoff99Frosst.offxml")
 
 #
 # Command line flags
@@ -38,7 +36,8 @@ def parse_commandline_flags() -> {str: "argument value"}:
             "molecules from a given molecule file. Generates two data files: "
             "params_by_molecule.json tells the paramaters associated with each "
             "molecule, and param_ids.json lists all the parameters used by the "
-            "given molecules"),
+            "given molecules. Use the --start and --end index flags to split "
+            "the random sample across multiple jobs"),
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument(
         "-f",
@@ -63,6 +62,18 @@ def parse_commandline_flags() -> {str: "argument value"}:
         type=int,
         help="Seed for making the random sample")
     parser.add_argument(
+        "--start",
+        default=0,
+        metavar="IDX",
+        type=int,
+        help="Start index to use in the random sample (inclusive, 0-based)")
+    parser.add_argument(
+        "--end",
+        default=1000000,
+        metavar="IDX",
+        type=int,
+        help="End index to use in the random sample (inclusive, 0-based)")
+    parser.add_argument(
         "-d",
         default=".",
         metavar="DIRECTORY",
@@ -84,7 +95,8 @@ def count_total_molecules(filename: str) -> int:
     mol = oechem.OEMol()
     while oechem.OEReadMolecule(ifs, mol):
         total += 1
-        if total % 10000 == 0: logging.info("Counting molecule %d", total)
+        if total % 10000 == 0:
+            logging.info("Counting molecule %d", total)
     logging.info("Counted %d molecules in %s", total, filename)
     return total
 
@@ -92,13 +104,15 @@ def count_total_molecules(filename: str) -> int:
 def read_index_mols_from_file(filename: str, indices: set) -> \
         (oechem.OEMol, int):
     """Generates the molecules at the given indices in the given file"""
-    ifs = oechem.oemolistream(filename)
-    mol = oechem.OEMol()
-    index = 0
-    while oechem.OEReadMolecule(ifs, mol):
-        if index in indices:
-            yield (oechem.OEMol(mol), index)
-        index += 1
+    with open(filename, "r") as ifs:
+        index = 0
+        for line in ifs:
+            if index in indices:
+                smiles = line.split(".")[0]
+                mol = oechem.OEMol()
+                oechem.OESmilesToMol(mol, smiles)
+                yield mol, index
+            index += 1
 
 
 def save_data_to_json(directory, params_by_molecule, param_ids):
@@ -110,43 +124,36 @@ def save_data_to_json(directory, params_by_molecule, param_ids):
 
 
 #
+# Other utilities
+#
+
+
+def verify_indices(start: int, end: int, n: int):
+    """Verifies that the indices for the random sample are correct.
+    Raises an AssertionError if they are not.
+    """
+    assert start >= 0 and end >= 0, "Indices must be at least 0"
+    assert start < n and end < n, "Indices must be less than n"
+    assert end >= start, "End must be after start"
+
+
+#
 # Parameter functions
 #
 
 
-def order_param_id(pid: str) -> (str, int):
-    """Orders parameters by type then number"""
-    return (pid[0], int(pid[1:]))
-
-
 def pretty_param_string(param_ids: "collection") -> str:
     """Creates a nice string showing the parameters in the given collection"""
-    return ' '.join(sorted(param_ids, key=order_param_id))
-
-
-def find_smirnoff_params() -> set:
-    """Creates a set of all the smirnoff params"""
-    smirnoff_ids = set()
-
-    # number of parameters of each type
-    num_params = {
-        'b': 87,
-        'a': 38,
-        't': 158,
-        'n': 35,
-        'i': 4,
-    }
-    for (param_type, param_count) in num_params.items():
-        for i in range(1, param_count + 1):
-            smirnoff_ids.add(f"{param_type}{i}")
-
-    return smirnoff_ids
+    return ' '.join(sorted(param_ids, key=utilize_params_util.order_param_id))
 
 
 def get_smirnoff_params(mol: oechem.OEMol) -> {"id": ["atom_indices"]}:
     """For the given molecule, finds the SMIRNOFF params and their atom indices"""
-    OFFmol = Molecule.from_openeye(mol, allow_undefined_stereo=True)
-    topology = Topology.from_molecules(OFFmol)
+    off_mol = Molecule.from_openeye(mol, allow_undefined_stereo=True)
+    try:
+        topology = Topology.from_molecules(off_mol)
+    except Exception as e:
+        return {}
     molecule_force_list = FORCEFIELD.label_molecules(topology)
 
     params = defaultdict(list)
@@ -171,10 +178,14 @@ def find_parameter_ids(filename: str, indices: set) -> \
     param_ids = set()
 
     for mol, index in read_index_mols_from_file(filename, indices):
+        oechem.OEAddExplicitHydrogens(mol)
+
         smiles = oechem.OECreateIsoSmiString(mol)
         logging.info("Looking at molecule %d => %s", index, smiles)
 
         params = get_smirnoff_params(mol)
+        logging.info("Parameter IDs: %s", list(params.keys()))
+
         param_ids |= params.keys()
 
         params_by_molecule[index] = {
@@ -187,7 +198,7 @@ def find_parameter_ids(filename: str, indices: set) -> \
 
 def find_non_covered_params(param_ids):
     """Finds the set of parameters in SMIRNOFF not covered by the given set"""
-    smirnoff_ids = find_smirnoff_params()
+    smirnoff_ids = utilize_params_util.find_smirnoff_params()
     non_covered = smirnoff_ids - param_ids
     return non_covered
 
@@ -206,7 +217,10 @@ def main():
     total_molecules = count_total_molecules(args["f"]) \
                         if args["t"] < 0 else args["t"]
     random.seed(args["s"])
-    indices = set(random.sample(range(total_molecules), args["n"]))
+    verify_indices(args["start"], args["end"], args["n"])
+    indices_list = random.sample(range(total_molecules),
+                                 args["n"])[args["start"]:args["end"] + 1]
+    indices = set(indices_list)
 
     # Grab molecules and find parameters
     params_by_molecule, param_ids = find_parameter_ids(args["f"], indices)

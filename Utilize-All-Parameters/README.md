@@ -20,12 +20,15 @@ more details) to find molecules that are small but cover as many parameters as
 possible.
 
 Finally, we calculated parameters for 1 million molecules in eMolecules and
-selected a set of molecules from it. We ended up with a set of 68 molecules
-which cover 305 parameters in smirnoff. The results are stored in the `selected`
+selected a set of molecules from it. We ended up with a set of 71 molecules
+which cover 299 parameters in smirnoff. The results are stored in the `selected`
 folder, which contains the following files:
 - `chosen.smi` - the SMILES strings of the chosen molecules
 - `param_ids.json` - the list of parameter IDs of the chosen molecules
-- `remaining.json` - the list of remaining parameter IDs
+- `ignore.json` - the list of parameter IDs which were ignored when selecting
+  molecules. These parameters were manually deemed irrelevant.
+- `remaining.json` - the list of parameter IDs which still do not have molecules
+  for them. This list does not include the ones in `ignore.json`.
 - `params_by_molecule.json` - a mapping from the index of each molecule in
   `chosen.smi` to the molecule's SMILES string and the parameter IDs in that
   molecule.  Each ID is annotated with the list of atom indices where the

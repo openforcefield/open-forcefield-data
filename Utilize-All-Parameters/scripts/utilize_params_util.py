@@ -1,21 +1,15 @@
 # Utility functions for use in all scripts here
 
 
-def find_smirnoff_params() -> set:
-    """Creates a set of all the smirnoff params"""
+def find_smirnoff_params(ff) -> set:
+    """Creates a set of all the smirnoff params, given a forcefield object. Loops over Bonds, Angles, ProperTorsions, ImproperTorsions, vdW only."""
     smirnoff_ids = set()
 
-    # number of parameters of each type
-    num_params = {
-        'b': 87,
-        'a': 38,
-        't': 158,
-        'n': 35,
-        'i': 4,
-    }
-    for (param_type, param_count) in num_params.items():
-        for i in range(1, param_count + 1):
-            smirnoff_ids.add(f"{param_type}{i}")
+    handlers = ["Bonds", "Angles", "ProperTorsions", "ImproperTorsions", "vdW"]
+    for handler in handlers:
+        phandler = ff.get_parameter_handler(handler)
+        for p in phandler.parameters:
+            smirnoff_ids.add(p.id)
 
     return smirnoff_ids
 

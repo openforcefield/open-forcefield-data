@@ -196,9 +196,9 @@ def find_parameter_ids(filename: str, indices: set) -> \
     return params_by_molecule, param_ids
 
 
-def find_non_covered_params(param_ids):
+def find_non_covered_params(param_ids, ff):
     """Finds the set of parameters in SMIRNOFF not covered by the given set"""
-    smirnoff_ids = utilize_params_util.find_smirnoff_params()
+    smirnoff_ids = utilize_params_util.find_smirnoff_params(ff)
     non_covered = smirnoff_ids - param_ids
     return non_covered
 
@@ -224,7 +224,7 @@ def main():
 
     # Grab molecules and find parameters
     params_by_molecule, param_ids = find_parameter_ids(args["f"], indices)
-    non_covered_params = find_non_covered_params(param_ids)
+    non_covered_params = find_non_covered_params(param_ids, FORCEFIELD)
 
     # Save data
     save_data_to_json(args["d"], params_by_molecule, param_ids)

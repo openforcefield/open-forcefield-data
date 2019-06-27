@@ -18,8 +18,9 @@ software and filtered by multiple criteria:
 
 - Computed pKa: most basic > 8, most acidic < 6 using [MoKa](http://www.moldiscovery.com/software/moka/)
 - Ligands were also computationally protonated to their assumed state at pH 7.0 using [tauter](http://www.moldiscovery.com/software/moka/). 
-  Note: the computational method used is known to generate wrong protonation states and tautomers with
-low population.
+
+  Note: the computational method used is known to generate wrong protonation states and tautomers with low population.
+  
 - Some cleanup of the connectivity was performed but there might still be issues.
 
 
@@ -27,6 +28,7 @@ low population.
 ### Tools used:
 
 - [Chemalot](https://github.com/chemalot/chemalot)
+    
     Lee, Man-Ling, Ignacio Aliagas, Jianwen A. Feng, Thomas Gabriel, T. J. O’Donnell, Benjamin D. Sellers, Bernd Wiswedel, and Alberto Gobbi. 
     “Chemalot and Chemalot_knime: Command Line Programs as Workflow Tools for Drug Discovery.” 
     Journal of Cheminformatics 9 (June 12, 2017): 38. https://doi.org/10.1186/s13321-017-0228-9.
@@ -34,6 +36,7 @@ low population.
 - [Proasis](http://www.desertsci.com/)
 
 - [MoKa](http://www.moldiscovery.com/software/moka/)
+
 	New and Original pKa Prediction Method Using Grid Molecular Interaction Fields
 	Francesca Milletti, Loriano Storchi, Gianluca Sforna, and Gabriele Cruciani
 	J. Chem. Inf. Model., 2007, 47 (6), pp 2172-2181

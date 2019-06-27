@@ -20,4 +20,4 @@ I am adding supplemental molecules noted below to the `chosen.smi` from ../selec
 - b81: `[#15:1]-[#35:2]`. Not very common. Add tribromophosphane (P(Br)(Br)Br)
 - t155: `[#6X3:1]-[#7:2]-[#15:3]=[*:4]`. Add orthene, CC(=O)NP(=O)(OC)SC, eMolecules 502047
 
-That's 84 lines, and these additions do remove those instances as missing parameters. 
+That's 82 lines, and these additions do remove those instances as missing parameters. 

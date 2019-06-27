@@ -14,5 +14,12 @@ I am adding supplemental molecules noted below to the `chosen.smi` from ../selec
 - `b82`, a phorphorus-iodine bond, was not utilized so we added `c1ccc(cc1)P(c2ccccc2)(c3ccccc3)(I)I`, eMolecules 506528, Diiodotriphenylphosphorane.
 - `t82`, an azide torsion, was not utilized so we added `c1ccc(cc1)CN=[N+]=[N-]`, azidomethylbenzene .
 - `t182a`, a tetrazole torsion added, was not utilized so added the tetrazole in question, `Cc1ccccc1c2[n-]nnn2`, 5-(o-tolyl)-1H-tetrazole.
+- `t153`, a torsion for a bond between a tetravalent nitrogen and a phosphorus, was not utilized so thiotepa (`C1CN1P(=S)(N2CC2)N3CC3`) was added.
+- Removed CSSCCN=C=S because of OpenEye toolkit failures for QM calculation prep, so adding molecules C1=C=S=C2C1=S=C=C2 (eMolecules 316771889), c1ccc(cc1)C(=C=Nc2ccccc2)c3ccccc3 (eMolecules 8211691) and CSSC to cover the parameters which would have been utilized in taht case.
+- `b37`, N#N bond, added C1=NC(C(=N1)C(=O)N)[N+]#N (emolecules 45917281)
+- `b51`: `[#16X2:1]-[#8X2:2]`. Somewhat unusual but adding methylsulfanol, CSO.
+- b61: `[#15:1]=[#7:2]`. Not very common. Adding c1ccc(cc1)P(=N)(c2ccccc2)c3ccccc3, eMolecules 32261273
+- b81: `[#15:1]-[#35:2]`. Not very common. Add tribromophosphane (P(Br)(Br)Br)
+- t155: `[#6X3:1]-[#7:2]-[#15:3]=[*:4]`. Add orthene, CC(=O)NP(=O)(OC)SC, eMolecules 502047
 
-That's 75 lines, and these additions do remove those instances as missing parameters. 
+That's 84 lines, and these additions do remove those instances as missing parameters. 

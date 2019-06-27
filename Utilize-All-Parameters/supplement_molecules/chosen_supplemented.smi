@@ -24,7 +24,6 @@ C1C(O1)CCCF
 c1c(snn1)CNN
 COC(=O)C[N+]#[C-]
 c1cnc(cc1Cl)S(=O)O
-CSSCCN=C=S
 CNCC(Cl)Cl
 Cc1c(cc(s1)Br)C2CC2
 C1CS(=O)(=O)CCC12CN=C(O2)N
@@ -75,3 +74,12 @@ C1CC(=O)N(C1=O)I
 c1ccc(cc1)P(c2ccccc2)(c3ccccc3)(I)I
 c1ccc(cc1)CN=[N+]=[N-]
 Cc1ccccc1c2[n-]nnn2
+C2CN1P(=S)(N2CC2)N3CC3
+CSSC
+C1=NC(C(=N1)C(=O)N)[N+]#N
+CSO
+c1ccc(cc1)P(=N)(c2ccccc2)c3ccccc3
+(P(Br)(Br)Br)
+C1=C=S=C2C1=S=C=C2
+c1ccc(cc1)C(=C=Nc2ccccc2)c3ccccc3
+CC(=O)NP(=O)(OC)SC

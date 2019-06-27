@@ -10,7 +10,6 @@ from collections import defaultdict
 
 from openeye import oechem
 from openforcefield.topology import Molecule, Topology
-from openforcefield.typing.engines.smirnoff import ForceField
 
 import utilize_params_util
 
@@ -19,7 +18,6 @@ import utilize_params_util
 #
 
 EMOLECULES_TOTAL_COUNT = 22327838
-FORCEFIELD = ForceField("test_forcefields/smirnoff99Frosst.offxml")
 
 #
 # Command line flags
@@ -154,7 +152,7 @@ def get_smirnoff_params(mol: oechem.OEMol) -> {"id": ["atom_indices"]}:
         topology = Topology.from_molecules(off_mol)
     except Exception as e:
         return {}
-    molecule_force_list = FORCEFIELD.label_molecules(topology)
+    molecule_force_list = utilize_params_util.SMIRNOFF.label_molecules(topology)
 
     params = defaultdict(list)
     for force_tag, force_dict in molecule_force_list[0].items():
@@ -224,7 +222,8 @@ def main():
 
     # Grab molecules and find parameters
     params_by_molecule, param_ids = find_parameter_ids(args["f"], indices)
-    non_covered_params = find_non_covered_params(param_ids, FORCEFIELD)
+    non_covered_params = find_non_covered_params(param_ids,
+                                                 utilize_params_util.SMIRNOFF)
 
     # Save data
     save_data_to_json(args["d"], params_by_molecule, param_ids)

@@ -159,7 +159,8 @@ def main():
     logging.getLogger().setLevel(logging.INFO)
 
     args = parse_commandline_flags()
-    smirnoff_ids = utilize_params_util.find_smirnoff_params()
+    smirnoff_ids = utilize_params_util.find_smirnoff_params(
+        utilize_params_util.SMIRNOFF)
 
     required_params_by_molecule = load_molecule_set(args["required"])
     optional_params_by_molecule = load_molecule_set(args["optional"])

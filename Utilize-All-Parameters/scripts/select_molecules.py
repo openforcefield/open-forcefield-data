@@ -81,6 +81,16 @@ def load_molecule_set(files: [str]) -> {"SMILES": {"param ids"}}:
     return params_by_molecule
 
 
+def remove_ignored_params(ignore_params: set(), *molecule_param_sets):
+    """
+    Modifies the given sets of molecule parameters in-place by removing the
+    ignored parameters from them
+    """
+    for param_set in molecule_param_sets:
+        for smile in param_set:
+            param_set[smile] -= ignore_params
+
+
 def calculate_molecule_costs(
         molecules: "iterable of SMILES strings") -> {"SMILES"}:
     """Calculates the cost associated with each molecule"""
@@ -159,23 +169,26 @@ def main():
     logging.getLogger().setLevel(logging.INFO)
 
     args = parse_commandline_flags()
-    smirnoff_ids = utilize_params_util.find_smirnoff_params()
+    smirnoff_ids = utilize_params_util.find_smirnoff_params(
+        utilize_params_util.SMIRNOFF)
 
-    required_params_by_molecule = load_molecule_set(args["required"])
-    optional_params_by_molecule = load_molecule_set(args["optional"])
-    optional_costs = calculate_molecule_costs(optional_params_by_molecule)
-    target_params = reduce(operator.or_,
-                           optional_params_by_molecule.values(), set()) | \
-                    reduce(operator.or_,
-                           required_params_by_molecule.values(), set())
     ignore_params = set()
     if args["ignore"] != None:
         with open(args["ignore"], "r") as ignore_file:
             ignore_params = set(json.load(ignore_file))
-    target_params -= ignore_params
 
-    logging.info("%d target_params (after removing ignored params): %s",
-                 len(target_params), target_params)
+    required_params_by_molecule = load_molecule_set(args["required"])
+    optional_params_by_molecule = load_molecule_set(args["optional"])
+    optional_costs = calculate_molecule_costs(optional_params_by_molecule)
+    remove_ignored_params(ignore_params, required_params_by_molecule,
+                          optional_params_by_molecule)
+    target_params = reduce(operator.or_,
+                           optional_params_by_molecule.values(), set()) | \
+                    reduce(operator.or_,
+                           required_params_by_molecule.values(), set())
+
+    logging.info("%d target_params (excludes ignored): %s", len(target_params),
+                 target_params)
 
     final_molecules = greedy_weighted_set_cover(
         optional_params_by_molecule, optional_costs,

@@ -1,5 +1,9 @@
 # Utility functions for use in all scripts here
 
+from openforcefield.typing.engines.smirnoff import ForceField
+
+SMIRNOFF = ForceField("test_forcefields/smirnoff99Frosst.offxml")
+
 
 def find_smirnoff_params(ff) -> set:
     """Creates a set of all the smirnoff params, given a forcefield object. Loops over Bonds, Angles, ProperTorsions, ImproperTorsions, vdW only."""

@@ -118,7 +118,8 @@ def save_data_to_json(directory, params_by_molecule, param_ids):
     with open(f"{directory}/params_by_molecule.json", "w") as pm_file:
         json.dump(params_by_molecule, pm_file)
     with open(f"{directory}/param_ids.json", "w") as pid_file:
-        json.dump(list(param_ids), pid_file)
+        json.dump(
+            sorted(param_ids, key=utilize_params_util.order_param_id), pid_file)
 
 
 #

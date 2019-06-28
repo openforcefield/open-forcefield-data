@@ -19,5 +19,8 @@ def find_smirnoff_params(ff) -> set:
 
 
 def order_param_id(pid: str) -> (str, int):
-    """Orders parameters by type then number"""
-    return (pid[0], int(pid[1:]))
+    """Orders parameter ids by type then number. IDs match [a-z][0-9]+[a-z]? """
+    if pid[-1].isdigit():
+        return (pid[0], int(pid[1:]))
+    else:
+        return (pid[0], int(pid[1:-1]), pid[-1])

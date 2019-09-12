@@ -42,3 +42,7 @@ Christopher I. Bayly developed a toy dataset of potential molecules of interest 
 
 This is an attempt to create a set of molecules that use all the parameters in
 the smirnoff99Frosst force field.
+
+# Construction of benchmarks
+
+In the `construct_benchmarks` directory we are experimenting with filtering strategies to construct benchmark/test sets that are suitable given the chemistry we have fitted on.

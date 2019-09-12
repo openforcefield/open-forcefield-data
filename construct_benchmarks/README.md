@@ -15,3 +15,8 @@ Our initial draft procedure is as follows:
 - Retain those molecules with sufficient similarity for use in primary test/benchmark sets
 - Those molecules with low similarity will be served for `stretch` test/benchmark sets which will be more challenging
 - Potentially, an additional assessment of parameter usage will be applied: Molecules in the primary test/benchmark sets should only utilize parameters which are well represented in the training set.
+
+
+## Manifest
+
+- `openff_unconstrained-1.0.0-RC1.offxml` from https://github.com/openforcefield/openforcefields; OpenFF 1.0 release candidate 1.

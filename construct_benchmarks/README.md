@@ -29,3 +29,4 @@ Currently checking with Yudong Qiu on how to obtain this exact set from one of h
 
 - `openff_unconstrained-1.0.0-RC1.offxml` from https://github.com/openforcefield/openforcefields; OpenFF 1.0 release candidate 1.
 - `divide_sets.ipynb`, initial Jupyter notebook to attempt dividing up into primary and stretch sets.
+- `target_smiles.txt`, SMILES strings of unique molecules used in OpenFF 1.0 RC1 fitting (from Yudong Qiu, Sept. 13, 2019)

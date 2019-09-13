@@ -7,6 +7,8 @@ We plan to construct test and benchmark sets; test sets will be potentially revi
 
 Here, we will be drawing on available data (several QM data sets) and training sets to assist in selection of test/benchmark data.
 
+Author: David L. Mobley (UCI)
+
 ## Draft procedure
 
 Our initial draft procedure is as follows:
@@ -16,7 +18,14 @@ Our initial draft procedure is as follows:
 - Those molecules with low similarity will be served for `stretch` test/benchmark sets which will be more challenging
 - Potentially, an additional assessment of parameter usage will be applied: Molecules in the primary test/benchmark sets should only utilize parameters which are well represented in the training set.
 
+## Detailed plans/steps:
+
+### 1. Pull initial set of molecules used for refitting
+
+Currently checking with Yudong Qiu on how to obtain this exact set from one of his releases. In the interim, pulling molecules from QCA datasets utilized in fitting as a starting point.
+
 
 ## Manifest
 
 - `openff_unconstrained-1.0.0-RC1.offxml` from https://github.com/openforcefield/openforcefields; OpenFF 1.0 release candidate 1.
+- `divide_sets.ipynb`, initial Jupyter notebook to attempt dividing up into primary and stretch sets.
